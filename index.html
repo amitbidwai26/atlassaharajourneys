@@ -42,51 +42,7 @@
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
     <link rel='shortlink' href='index.html' />
     <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
-    <script type="text/javascript">
-    //<![CDATA[
-    function alo_em_pubblic_form() {
 
-        var alo_cf_array = new Array();
-        document.alo_easymail_widget_form.submit.value = "sending...";
-        document.alo_easymail_widget_form.submit.disabled = true;
-        document.getElementById('alo_em_widget_loading').style.display = "inline";
-        document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
-
-        var alo_em_sack = new sack("wp-admin/admin-ajax.php");
-
-        alo_em_sack.execute = 1;
-        alo_em_sack.method = 'POST';
-        alo_em_sack.setVar("action", "alo_em_pubblic_form_check");
-        alo_em_sack.setVar("alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value);
-        alo_em_sack.setVar("alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value);
-        alo_em_sack.setVar("alo_easymail_txt_generic_error", 'Error during operation.');
-        alo_em_sack.setVar("alo_em_error_email_incorrect", "The e-mail address is not correct");
-        alo_em_sack.setVar("alo_em_error_name_empty", "The name field is empty");
-        alo_em_sack.setVar("alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
-        alo_em_sack.setVar("alo_em_error_email_activated", "Warning: this email address has already been subscribed");
-        alo_em_sack.setVar("alo_em_error_on_sending", "Error during sending: please try again");
-        alo_em_sack.setVar("alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
-        alo_em_sack.setVar("alo_em_txt_subscribe", "Subscribe");
-        alo_em_sack.setVar("alo_em_lang_code", "en");
-
-        var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
-        var length = cbs.length;
-        var lists = "";
-        for (var i = 0; i < length; i++) {
-            if (cbs[i].name == 'alo_em_form_lists' + '[]' && cbs[i].type == 'checkbox') {
-                if (cbs[i].checked) lists += cbs[i].value + ",";
-            }
-        }
-        alo_em_sack.setVar("alo_em_form_lists", lists);
-        alo_em_sack.setVar("alo_em_nonce", '080b59a59c');
-        //alo_em_sack.onError = function() { alert('Ajax error' )};
-        alo_em_sack.runAJAX();
-
-        return true;
-
-    }
-    //]]>
-    </script>
     <!-- <meta name="NextGEN" version="2.2.10" /> -->
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
@@ -727,20 +683,6 @@ ul.tabset a,
                     </div>
                     <!-- END footer-callout-content -->
                 </div>
-                <div id="footer-callout">
-                    <div id="footer-callout-content">
-                        <p class="footer-callout-heading">
-                            <div id="google_translate_element">Please Select language</div>
-                            <script type="text/javascript">
-                            function googleTranslateElementInit() {
-                                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
-                            }
-                            </script>
-                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                        </p>
-                    </div>
-                    <!-- END footer-callout-content -->
-                </div>
                 <!-- END footer-callout -->
                 <div class="footer-overlay">
                     <div class="karma-footer-shadow"></div>
@@ -749,8 +691,16 @@ ul.tabset a,
                 <!-- END footer-overlay -->
                 <div id="footer_bottom">
                     <div class="info">
-                        <div id="foot_left">&nbsp;
-                            <div class="textwidget">
+                        <div id="foot_left">                           
+                            <div id="google_translate_element"></div>
+                            <br>
+                            <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                            }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                         <div class="textwidget">
                                 <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
                             </div>
                         </div>
