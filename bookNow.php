@@ -379,10 +379,59 @@ $callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 <p>Contact number: (required)<br>
     <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" 
 
-class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" 
+class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" ></span> </p>
 
-placeholder="00971529372201"></span> </p>
-<p>Chose Tour:<br>
+
+<p>Select Tour:
+<?php
+if(isset ( $_GET["tour"])){
+	$tour = ($_GET["tour"]);
+	
+	if($tour == 'southernMorocco') { ?>
+  	<b> Southern Morocco</b> 
+<?php 	} 
+	elseif($tour == 'Ait-Ben-Haddou-Day-Trip'){ ?>
+	<b> Ait Ben Haddou Day Trip</b> 
+<?php	}
+	elseif($tour == 'Berber-Villages-Of-Telouet'){ ?>
+	<b> Berber Villages Of Telouet</b> 
+<?php	}
+	elseif($tour == 'Essaouira-Day-Trip'){ ?>
+	<b> Essaouira Day Trip</b> 
+<?php	}
+	elseif($tour == 'Follow-The-Nomads-Tracks'){ ?>
+	<b> Follow The Nomads Tracks</b> 
+<?php	}
+	elseif($tour == 'From-Telouet-To-Tassaout'){ ?>
+	<b> From Telouet To Tassaout</b> 
+<?php	}
+	elseif($tour == 'Imlil-Day-Trip'){ ?>
+	<b> Imlil Day Trip</b> 
+<?php	}
+	elseif($tour == 'Imperial-Cities-Of-Morocco'){ ?>
+	<b> Imperial Cities Of Morocco</b> 
+<?php	}
+	elseif($tour == 'Kasbah-And-Sahara-3-Days'){ ?>
+	<b> Kasbah And Sahara 3 Days</b> 
+<?php	}
+	elseif($tour == 'Kasbahs-Sahara-And-Fes'){ ?>
+	<b> Kasbahs Sahara And Fes</b> 
+<?php	}
+	elseif($tour == 'Northen-Morocco-And-Marrakech'){ ?>
+	<b> Northen Morocco And Marrakech</b> 
+<?php	}
+	elseif($tour == 'Ourika-Valley-Day-Trip'){ ?>
+	<b> Ourika Valley Day Trip</b> 
+<?php	}
+	elseif($tour == 'Ouzoud-Water-Falls'){ ?>
+	<b> Ouzoud Water Falls</b> 
+<?php	}
+	elseif($tour == 'Toubkal-2–3-Or-4-Days'){ ?>
+	<b> Toubkal-2–3 Or 4 Days</b> 
+<?php	}
+	elseif($tour == 'Zagora-Experience-2-Days'){ ?>
+	<b> Zagora Experience 2 Days</b> 
+<?php	}} if(!isset ( $_GET["tour"])){?>
 
 <span class="wpcf7-form-control-wrap tour">
 
@@ -404,6 +453,8 @@ placeholder="00971529372201"></span> </p>
 <option value="Toubkal 2 – 3 Or 4 Days">Toubkal 2 – 3 Or 4 Days</option>
 </select>
 </span>
+<?php	}  ?>
+
  </p>
 <p>Pickup Location:<br>
     <span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="PickupLocation:" value="" size="40" 
@@ -412,7 +463,7 @@ class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
 <p>Date of Tour:<br>
   <span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
 
-wpcf7-text" aria-invalid="false" placeholder="31/12/2013"></span></p>
+wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
 <p>Adults (Age 8+): <br>
     <span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="AdultsAge8:" value="" size="40" 
 

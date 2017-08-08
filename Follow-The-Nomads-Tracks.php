@@ -358,10 +358,12 @@
             <!-- END header -->
             <div id="main" class="tt-slider-">
                 <div class="tools full-width-page-title-bar">
-                    <div class="karma-header-shadow"></div>
+                   
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Follow The Nomads Tracks</h1>
+                        
+                        <div align="right"><a href="bookNow.php?tour=Follow-The-Nomads-Tracks"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> </div>
                     </div>
                     <!-- END tt-container -->
                 </div>

@@ -417,7 +417,7 @@ ul.tabset a,
                                     <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.php"><span><strong>Tours</strong></span></a></li>
                                     <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
                                     <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.php"><span><strong>Book Now</strong></span></a></li>
+                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
                                 </ul>
                             </nav>
                             <div class="jquery2-slider-wrap flexslider">
@@ -590,7 +590,7 @@ ul.tabset a,
                                     <h5><a title="Imperial Cities Of Morocco Cont" href="Imperial-Cities-Of-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third tt-column">
-                                    <h3><a title="Northen Morocco And Marrakech" href="Northen-Morocco-And-Marrakech.php">Northen Morocco And Marrakech</a></h3>
+                                    <h3><a title="Northen Morocco And Marrakech" href="Northen-Morocco-And-Marrakech.php">Northen Morocco & Marrakech</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/11.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>

@@ -429,7 +429,7 @@ ul.tabset a,
 		<div class="karma-header-shadow"></div><!-- END karma-header-shadow --> 
 		<div class="tt-container">
 
-		<h1>Booking Form</h1>
+		<h1>Contact Us</h1>
 	</div><!-- END tt-container -->
 </div><!-- END full-width-page-title-bar -->
 <div class="main-area">
@@ -440,7 +440,7 @@ ul.tabset a,
 		    			
 					
     
-<select><option selected="selected" value="">More in this section...</option></select></nav><!-- END sub_nav -->
+</nav><!-- END sub_nav -->
 
 
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
@@ -456,11 +456,11 @@ ul.tabset a,
 <input type="hidden" name="_wpcf7_nonce" value="d61dc53030">
 </div>
 <p>Your Name (required)<br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer"></span>   </p>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name"></span>   </p>
 <p>Your Email (required) <br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email"></span>  </p>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email"></span>  </p>
 <p>Contact number: (required)<br>
-    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="00971529372201"></span> </p>
+    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="+countrycode-phone"></span> </p>
 <p>Your Message<br>
     <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
