@@ -314,7 +314,20 @@
     .footer-overlay {
         background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
     }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    position: absolute; right: 0;
+    text-decoration: none;
+    padding: 8px 25px;
+    color: initial;
+
+}
+
     </style>
+    
     <noscript>
         <style type="text/css">
         .wpb_animate_when_almost_visible {
@@ -337,19 +350,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
                             <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-        
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+	                <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -361,11 +371,15 @@
             <!-- END header -->
             <div id="main" class="tt-slider-">
                 <div class="tools full-width-page-title-bar">
-                    <div class="karma-header-shadow"></div>
+                    <!-- <div class="karma-header-shadow"></div> -->
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Toubkal 2 – 3 Or 4 Days</h1>
+                        
+                        <h1>Southern Morocco</h1>
+                        <div align="right"><a href="bookNow.php?tour=SM"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> 
+                       </div>
                     </div>
+                    <!-- <a href="/"><img src="images/book-now-button.png" width="150px" height="75px"></a> -->
                     <!-- END tt-container -->
                 </div>
                 <!-- END full-width-page-title-bar -->
@@ -379,7 +393,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/33.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/21.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -389,68 +403,52 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p><strong><b>&nbsp;</b></strong></p>
-                          <p class="font_0">The Atlas Mountains of Morocco are the perfect choice for dedicated hikers and trekkers. Our trek takes you through several pretty Berber villages of the Atlas mountains, to the Neltner Refuge and to Toubkal, the highest point in North Africa.A variety of treks to suit nearly every age and fitness level.</p>
-                          <p><span id="more-51"></span></p>
-                          <h1 class="font_0">welcome</h1>
-                          <h3 class="font_0">The shortest way to climb the highest peak in North Africa.&nbsp;3 or 4&nbsp;and&nbsp;<a href="http://www.morocco4trekking.com/trek_toubkal-8.shtml" target="_blank" rel="noopener noreferrer" data-content="http://www.morocco4trekking.com/trek_toubkal-8.shtml" data-type="external">8 day</a>&nbsp;treks of Toubkal are also available.</h3>
-                          <p>&nbsp;</p>
-                          <h1 class="font_0">Toubkal in 2 days</h1>
-                          <div class="cushycms" title="Trek itinerary">
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="10%">Day 1:</td>
-<td width="90%">A scenic drive to Imlil in the High Atlas then you begin your trek up to the Neltner Refuge (3207m) via the shrine of Sidi Chamharouch. Stop for lunch where you’ll be accompanied by muleteers. (1.5 hour drive, 5 hour trek)</td>
-</tr>
-<tr>
-<td>Day 2:</td>
-<td>The long ascent of Jebel Toubkal (4167m). Following an early start your route zigzags upwards towards the summit. Enjoy the panoramic views and then return to the refuge to have lunch. You then return to Imlil to meet transport and drive back to Marrakech. (8-9 hour trek)</td>
-</tr>
-</tbody>
-</table>
-<h1 class="font_0">Toubkal in 3&nbsp;days</h1>
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="10%">Day 1:</td>
-<td width="90%">&nbsp;After a transfer to the little village of Imlil you begin your trek. Heading along the Mizane Valley, you pass the village of Aremd and then onto the shrine of Sidi Chamarouch. From here the trail continues to climb steadily, snaking and zigzagging its way up to the snowline and the Toukbal Refuge (3206m), your stop for the night. (4-5 hour trek)</td>
-</tr>
-<tr>
-<td>Day 2:</td>
-<td>Starting early you begin your attempt on the summit of Jebel Toukbal, the highest peak in Northern Africa. The route takes you up the south cirque, crossing the stream above the refuge. The walking is relatively straightforward, but the scree and the altitude can make it very challenging in parts. The views along the way make the journey more than worthwhile. When you reach the summit you will see that the vistas across the surrounding landscape are quite breath-taking. There are unrestricted views in every direction, from the Marrakesh Plain to the High Atlas in the north and as far south as the Anti-Atlas and the Sahara. You then return to the Refuge where you spend the night. (5-6 hour trek)</td>
-</tr>
-<tr>
-<td>Day 3:</td>
-<td>Today you retrace your steps down the mountain back to Imlil. Transfer back to Marrakech. (4 hour trek)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 class="font_0">Toubkal in 4&nbsp;days</h1>
-<div class="cushycms" title="Trek itinerary">
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="10%">Day 1:</td>
-<td width="90%">After arrival in Marrakech you transfer to the little village of Imlil. Here you will be able to explore the area and you will spend the night in a local Gite.</td>
-</tr>
-<tr>
-<td>Day 2:</td>
-<td>Today you begin your trek. Heading along the Mizane Valley, you first pass the village of Aremd then continue east. By crossing the flood plains your route follows mule tracks then takes you up into the high rocky cliffs above the valley. Crossing the river you come to the pastoral shrine of Sidi Chamarouch. From here the trail continues to climb steadily, snaking and zigzagging its way up to the snowline and the Toukbal refuge (3206m), your stop for the night. (4-5 hour trek)</td>
-</tr>
-<tr>
-<td>Day 3:</td>
-<td>Starting early you begin your attempt on the summit of Jebel Toukbal, the highest peak in Northern Africa. The route takes you up the south cirque, crossing the stream above the refuge. The walking is relatively straightforward, but the scree and the altitude can make it very challenging in parts. The views along the way make the journey more than worthwhile. When you reach the summit you will see that the vistas across the surrounding landscape are quite breath-taking. There are unrestricted views in every direction, from the Marrakesh Plain to the High Atlas in the north and as far south as the Anti-Atlas and the Sahara. You then retrace your steps and return down the mountain back to Imlil. Transfer back to Marrakech. (9 hour trek)</td>
-</tr>
-<tr>
-<td>Day 4:</td>
-<td>Spend your last few hours in Marrakech, before departure back home.</td>
-</tr>
-</tbody>
-</table>
-</div>
-      
+                          <h5>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour dunes of Chagaga without forgetting the relaxed town of Essaouira.</h5>  
+                        </div>
+                        <p><span id="more-365"></span></p>
+                        <h2>Itinerary</h2>
+                        <table border="1" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                                <tr>
+                                    <td width="10%">Day 1:</td>
+                                    <td width="90%">the drive today will take us out of the city of Marrakech crossing the Atlas Mountains in one of the highest passes of Morocco Tichka “2260m” with a few picture stops on the way before getting to Telouat where we stop to visit the famous Glaoui Kasbah which played a major role on the Moroccan history.
+After Telouat we carry on driving till we reach the village of Ait Ben Haddou where we check in to our hotel first before heading for the tour of the site which remains one of the finest examples of the clay architecture of Morocco as well as the famous movie setting such as Gladiator; Lawrence of Arabia and Game of thrones.</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 2:</td>
+                                    <td>&nbsp;the journey starts by leaving to village of Ait Ben Hadddou and drive to Ouarzazate where the major cinema studios are located “tour of the studios is optional” then drive out south west to Draa valley which is know a big mass production of dates in Morocco.
+The scenery deserve a few picture stops to enjoy the views before getting to Zagora which is our destinations for tonight. Enjoying a swim is definitely and option to freshen up before exploring to oasis of Zagora by feet in 2h walk.
+</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 3:</td>
+                                    <td> after Zagora our next stop will be Tamagrout which hold the oldest library in the south of Morocco with over 4000 books and volumes collected from different countries.
+After the visit we drive till the end of the tarmac road where we take a 4/4 vehicles to get us very deep in the Sahara where will have a camel ride amongst the golden colour dunes of Chegaga and stay for a night in a Bedouin camp under the stars.</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 4:</td>
+                                    <td>&nbsp; a long day is waiting for us today which will start with an early wake up to see the sunrise before heading out of the Sahara 3h approximately before we get back to the road and continue our journey towards Taznakht which is known to be the genuine place where the Berber Carpets comes from; a short visit for one of those cooperatives is worthwhile.
+After lunch the drive goes on trough the Argan trees forest where most of the time we get lucky to see the goats climbing the trees. Our accommodation for tonight will be in a 17c palace that has been converted to hotel.</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 5:</td>
+                                    <td>after breakfast in our hotel our next stop will be Taroudant an old city often called the grandmother of Marrakech for a brief visit before getting to Agadir the big and the modern city touching the Atlantic where we stop in a supermarket to get some snacks before finishing our drive to Essaouira often called Mogador.
+A stop to visit the women cooperative for making Argan oil is recommended before our destination.
+Our stay for the next couple of night will be in a Riad.</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 6:</td>
+                                    <td> this morning will be conserved for a tour of the town of Essaouirato explore the major attractions of the city such as the Jewish quarter; the Skala; the port and the grain and fish Market.
+The afternoon will free for you to do whatever you wish but a Hamam and massage is highly recommended to distress you and take the tiredness of your body after all the traveling distances you had.</td>
+                                </tr>
+                                <tr>
+                                    <td>Day 7:</td>
+                                    <td> an early start driving towards Marrakech 3h approximately.after check in into our hotel we are going for the city tour of Marrakech which include the MajorelleGardens;the Bahia Palace and Dar si said meusum.
+The rest of the day is yours to explore more this city before meeting in the square at night for a street food meal to finish our adventure with.</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </main>

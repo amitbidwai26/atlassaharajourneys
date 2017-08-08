@@ -1,24 +1,12 @@
 <!DOCTYPE html>
-
-<!--[if !IE]><!--><html lang="en-US"> <!--<![endif]-->
-
-
+<html lang="en-US">
 <head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
 <link rel="shortcut icon" href="content/uploads/2012/07/favicon5.ico"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato' rel='stylesheet' type='text/css'>
-
 <title>The Desert Safari Morocco | Enjoy A Tour of Morocco Desert</title>
-
-
 <meta name="description"  content="Morocco desert safari is a traditional activity of Morocco. Enjoy the desert safari, belly dancing, dune bashing and a lot more." />
-
 <meta name="keywords"  content="desert safari Morocco, Morocco desert safari, desert safari Morocco, desert safari cost, prices of desert safari in Morocco, Morocco desert,  dune bashing, sand ski, camel ride, overnight desert safari" />
-
-<!-- /all in one seo pack -->
 <link rel='stylesheet' id='layerslider-css'  href='content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='bbp-default-css'  href='content/plugins/bbpress/templates/default/css/bbpress6640.css?ver=2.5.12-6148' type='text/css' media='screen' />
 <link rel='stylesheet' id='contact-form-7-css'  href='content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />
@@ -45,19 +33,11 @@ var LS_Meta = {"v":"6.5.1"};
 <script type='text/javascript' data-cfasync="false" src='content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsd3c7.js?ver=6.5.1'></script>
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min9009.js?ver=5.4.5.1'></script>
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
-
-
-
-
-<link rel='shortlink' href='index.html' />
-
-
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
-	<script type="text/javascript">
-		//<![CDATA[
+<script type="text/javascript">
+
 				function alo_em_pubblic_form ()
 		{
-
 			var alo_cf_array = new Array();
 									document.alo_easymail_widget_form.submit.value="sending...";
 			document.alo_easymail_widget_form.submit.disabled = true;
@@ -99,9 +79,9 @@ var LS_Meta = {"v":"6.5.1"};
 		}
 				//]]>
 	</script>
-	<!-- <meta name="NextGEN" version="2.2.10" /> -->
+
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta property="og:site_name" content="The Desert Safari" />
+<meta property="og:site_name" content="The Desert Safari" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
 <meta property="fb:app_id" content="127848234061418" />
@@ -262,86 +242,25 @@ p.comment-author-about {font-weight: bold;}
 				}catch(d){console.log("Failure at Presize of Slider:"+d)}
 			};</script>
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-<!--[if IE 9]>
-<style media="screen">
-#footer,
-.header-holder
- {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-
-<!--[if lte IE 8]>
-<script type='text/javascript' src='content/themes/karma/js/html5shiv.js'></script>
-<style media="screen">
-a.button,
-a.button:hover,
-ul.products li.product a img,
-div.product div.images img,
-span.onsale,
-#footer,
-.header-holder,
-#horizontal_nav ul li,
-#horizontal_nav ul a,
-#tt-gallery-nav li,
-#tt-gallery-nav a,
-ul.tabset li,
-ul.tabset a,
-.karma-pages a,
-.karma-pages span,
-.wp-pagenavi a,
-.wp-pagenavi span,
-.post_date,
-.post_comments,
-.ka_button,
-.flex-control-paging li a,
-.colored_box,
-.tools,
-.karma_notify
-.opener,
-.callout_button,
-.testimonials {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-
-<!--[if IE]>
-<link rel="stylesheet" href="content/themes/karma/css/_internet_explorer.css" media="screen"/>
-<![endif]-->
-
-
-
-
 </head>
-
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div id="tt-boxed-layout" class="content-style-tan">
 	<div id="wrapper">
 		<header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
-
 <div class="header-holder tt-logo-center">
 <div class="header-overlay">
 <div class="header-area">
-
-<a href="index.html" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
-
-
-<nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	    <ul id="menu-main-nav" class="sf-menu">
-	    <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-	    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>	    
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-	    </ul>
-    </nav>
-
+<a href="index.php" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
+        <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
+                            </nav>
 <div class="jquery2-slider-wrap flexslider">
 	<div class="jquery2-slider-bg" style="background-color:#FFF">
 		<ul class="slides">
@@ -351,7 +270,7 @@ ul.tabset a,
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="images/20.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+<img src="images/25.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -360,64 +279,53 @@ ul.tabset a,
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2012/02/Camel-riding-840x270.jpg" width="840" height="270" alt="Camel Safari" />
+<img src="images/29.jpg" width="840" height="270" alt="Camel Safari" />
+</div><!-- END slider-content-sub-content-full -->
+</div><!-- END slider-content-sub-full-width -->
+</li>
+<li class="jqslider">
+<div class="slider-content-sub-full-width">
+<div class="slider-content-sub-content-full">
+<img src="images/35.jpg" width="840" height="270" alt="Sand Boarding" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
 
-
-
-
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2012/02/sand-boarding-840x270.jpg" width="840" height="270" alt="Sand Boarding" />
+<img src="images/36.jpg" width="840" height="270" alt="Camel Riding" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
 
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/07/camel-riding-840x270.jpg" width="840" height="270" alt="Camel Riding" />
+<img src="images/37.jpg" width="840" height="270" alt="Henna Painting" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
 
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/07/Henna-Painting-840x270.jpg" width="840" height="270" alt="Henna Painting" />
+<img src="images/38.jpg" width="840" height="270" alt="Morocco Desert Safari" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
 
-
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/05/desert-safari1-840x270.jpg" width="840" height="270" alt="Morocco Desert Safari" />
-</div><!-- END slider-content-sub-content-full -->
-</div><!-- END slider-content-sub-full-width -->
-</li>
-<li class="jqslider">
-
-
-<div class="slider-content-sub-full-width">
-<div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/05/Tanoura-Dance-840x270.jpg" width="840" height="270" alt="Tanoura Dance" />
+<img src="images/30.jpg" width="840" height="270" alt="Tanoura Dance" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
 </ul>
 </div><!-- END jquery2-slider-bg -->
 </div><!-- END jquery2-slider-wrap -->
-  
-  
+    
   
 </div><!-- END header-area -->
 </div><!-- END header-overlay -->
@@ -443,13 +351,18 @@ ul.tabset a,
 		    			
 					
     
-<select><option selected="selected" value="">More in this section...</option></select></nav><!-- END sub_nav -->
+</nav><!-- END sub_nav -->
 
 
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
-<div itemscope="" itemtype="http://schema.org/BlogPosting"><div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
+<div itemscope="" itemtype="http://schema.org/BlogPosting">
+<div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="/booking-form.html#wpcf7-f6569-p6570-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<?php
+$payment =10.5;
+$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
+?>
+<form action="<?php echo $callurl ?>" target="_blank" method="post" class="wpcf7-form" >
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="6569">
 <input type="hidden" name="_wpcf7_version" value="4.8">
@@ -459,13 +372,59 @@ ul.tabset a,
 <input type="hidden" name="_wpcf7_nonce" value="d61dc53030">
 </div>
 <p>Your Name (required)<br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer"></span>   </p>
+  <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
 <p>Your Email (required) <br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="sales@thedesertsafari.com"></span>  </p>
+<span class="wpcf7-form-control-wrap your-email">
+<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" placeholder="abc@gmail.com"></span>  </p>
 <p>Contact number: (required)<br>
-    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="00971529372201"></span> </p>
+    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" 
+
+class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" 
+
+placeholder="00971529372201"></span> </p>
+<p>Chose Tour:<br>
+
+<span class="wpcf7-form-control-wrap tour">
+
+<select name="tour" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
+<option value="Southern Morocco">Southern Morocco</option>
+<option value="Ait Ben Haddou Day Trip">Ait Ben Haddou Day Trip</option>
+<option value="Essaouira Day Trip">Essaouira Day Trip</option>
+<option value="Ourika Valley Day Trip">Ourika Valley Day Trip</option>
+<option value="Imlil Day Trip">Imlil Day Trip</option>
+<option value="Ouzoud Water Falls">Ouzoud Water Falls</option>
+<option value="Kasbahs Sahara And Fes">Kasbahs Sahara And Fes</option>
+<option value="Kasbah And Sahara 3 Days">Kasbah And Sahara 3 Days</option>
+<option value="Zagora Experience 2 Days">Zagora Experience 2 Days</option>
+<option value="Imperial Cities Of Morocco">Imperial Cities Of Morocco</option>
+<option value="Northen Morocco And Marrakech">Northen Morocco And Marrakech</option>
+<option value="Follow The Nomads Tracks">Follow The Nomads Tracks</option>
+<option value="Berber Villages Of Telouet">Berber Villages Of Telouet</option>
+<option value="From Telouet To Tassaout">From Telouet To Tassaout</option>
+<option value="Toubkal 2 – 3 Or 4 Days">Toubkal 2 – 3 Or 4 Days</option>
+</select>
+</span>
+ </p>
+<p>Pickup Location:<br>
+    <span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="PickupLocation:" value="" size="40" 
+
+class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
+<p>Date of Tour:<br>
+  <span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
+
+wpcf7-text" aria-invalid="false" placeholder="31/12/2013"></span></p>
+<p>Adults (Age 8+): <br>
+    <span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="AdultsAge8:" value="" size="40" 
+
+class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
+<p>Children(Age 3-7): <br>
+    <span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="ChildrenAge3-7:" value="" size="40" 
+
+class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
 <p>Your Message<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-
+
+form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
@@ -538,7 +497,7 @@ var php_data = {"mobile_menu_text":"Main Menu","mobile_sub_menu_text":"More in t
 var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true,"appId":"127848234061418"});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
 /* ]]> */
 </script>
-<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="index.html\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="index.php\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
 <script type='text/javascript' src='content/wp-embed.minef15.js?ver=4.8'></script>
 <script type='text/javascript' src='content/themes/karma/js/scrollWatch.js'></script>
 

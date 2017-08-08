@@ -314,20 +314,7 @@
     .footer-overlay {
         background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
     }
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    position: absolute; right: 0;
-    text-decoration: none;
-    padding: 8px 25px;
-    color: initial;
-
-}
-
     </style>
-    
     <noscript>
         <style type="text/css">
         .wpb_animate_when_almost_visible {
@@ -350,18 +337,16 @@ a.button {
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	    <ul id="menu-main-nav" class="sf-menu">
-	    <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>	    
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                          <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -373,12 +358,12 @@ a.button {
             <!-- END header -->
             <div id="main" class="tt-slider-">
                 <div class="tools full-width-page-title-bar">
-                    <div class="karma-header-shadow"></div>
+                  
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        
-                        <h1>Southern Morocco</h1>
-                        <a href="http://google.com" class="button">Book Now</a>
+                        <h1>Ait Ben Haddou Day Trip</h1>
+                        <div align="right"><a href="/BookNow.php?tour=SM"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> 
+                       </div>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -403,52 +388,15 @@ a.button {
                             </div>
                         </div>
                         <div class="entry-content">
-                          <h5>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour dunes of Chagaga without forgetting the relaxed town of Essaouira.</h5>  
+                          <p>The journey today will take us back to the Moroccan history trough the road of caravans coming from the sub-Saharan countries bringing the ivory; spices and slaves.</p>
+<p>The scenery is breathtaking which requires a few picture stops before crossing the Tichka pass 2260m and getting to the famous Glaoui Kasbah that marks the Moroccan history with is power and beautiful architecture.</p>
+<p>After Telouet &nbsp;the drive goes on trough the Ounila Valley which is known for the beautiful colors contrasts till we get to Ait Ben Haddou which is the fascinating clay architecture of the Moroccan south ; also known as the famous set for some of the most popular movies in the cinema industry such as <strong><b>Gladiator</b></strong> ; <strong><b>Lawrence of Arabia</b></strong> ; <strong><b>The Jewels of the Nile</b></strong> and recently <strong><b>Game</b></strong> <strong><b>of Thrones</b></strong>….</p>
+<p>After the tour of the site and lunch, we continue till Ouarzazate which known as the African Hollywood with it’s two major studios for the visit before heading back to Marrakech.</p>
+<p>&nbsp;</p>
+<p><strong>Departure Time</strong>: 8 am from your hotel or Riad.</p>
+<p><strong>Included</strong>: Telouet Kasbah; Ait Ben Haddou; Studios in Ouarzazate.</p>  
                         </div>
-                        <p><span id="more-365"></span></p>
-                        <h2>Itinerary</h2>
-                        <table border="1" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr>
-                                    <td width="10%">Day 1:</td>
-                                    <td width="90%">the drive today will take us out of the city of Marrakech crossing the Atlas Mountains in one of the highest passes of Morocco Tichka “2260m” with a few picture stops on the way before getting to Telouat where we stop to visit the famous Glaoui Kasbah which played a major role on the Moroccan history.
-After Telouat we carry on driving till we reach the village of Ait Ben Haddou where we check in to our hotel first before heading for the tour of the site which remains one of the finest examples of the clay architecture of Morocco as well as the famous movie setting such as Gladiator; Lawrence of Arabia and Game of thrones.</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 2:</td>
-                                    <td>&nbsp;the journey starts by leaving to village of Ait Ben Hadddou and drive to Ouarzazate where the major cinema studios are located “tour of the studios is optional” then drive out south west to Draa valley which is know a big mass production of dates in Morocco.
-The scenery deserve a few picture stops to enjoy the views before getting to Zagora which is our destinations for tonight. Enjoying a swim is definitely and option to freshen up before exploring to oasis of Zagora by feet in 2h walk.
-</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 3:</td>
-                                    <td> after Zagora our next stop will be Tamagrout which hold the oldest library in the south of Morocco with over 4000 books and volumes collected from different countries.
-After the visit we drive till the end of the tarmac road where we take a 4/4 vehicles to get us very deep in the Sahara where will have a camel ride amongst the golden colour dunes of Chegaga and stay for a night in a Bedouin camp under the stars.</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 4:</td>
-                                    <td>&nbsp; a long day is waiting for us today which will start with an early wake up to see the sunrise before heading out of the Sahara 3h approximately before we get back to the road and continue our journey towards Taznakht which is known to be the genuine place where the Berber Carpets comes from; a short visit for one of those cooperatives is worthwhile.
-After lunch the drive goes on trough the Argan trees forest where most of the time we get lucky to see the goats climbing the trees. Our accommodation for tonight will be in a 17c palace that has been converted to hotel.</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 5:</td>
-                                    <td>after breakfast in our hotel our next stop will be Taroudant an old city often called the grandmother of Marrakech for a brief visit before getting to Agadir the big and the modern city touching the Atlantic where we stop in a supermarket to get some snacks before finishing our drive to Essaouira often called Mogador.
-A stop to visit the women cooperative for making Argan oil is recommended before our destination.
-Our stay for the next couple of night will be in a Riad.</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 6:</td>
-                                    <td> this morning will be conserved for a tour of the town of Essaouirato explore the major attractions of the city such as the Jewish quarter; the Skala; the port and the grain and fish Market.
-The afternoon will free for you to do whatever you wish but a Hamam and massage is highly recommended to distress you and take the tiredness of your body after all the traveling distances you had.</td>
-                                </tr>
-                                <tr>
-                                    <td>Day 7:</td>
-                                    <td> an early start driving towards Marrakech 3h approximately.after check in into our hotel we are going for the city tour of Marrakech which include the MajorelleGardens;the Bahia Palace and Dar si said meusum.
-The rest of the day is yours to explore more this city before meeting in the square at night for a street food meal to finish our adventure with.</td>
-                                </tr>
-                                
-                            </tbody>
-                        </table>
+
                     </div>
                 </div>
             </main>

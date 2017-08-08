@@ -331,16 +331,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                                <ul id="menu-main-nav" class="sf-menu">
-                                    <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                   <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->

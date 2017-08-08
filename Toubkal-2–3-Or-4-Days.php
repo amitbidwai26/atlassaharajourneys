@@ -337,19 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-                                    
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                   <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -364,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Kasbahs Sahara And Fes</h1>
+                        <h1>Toubkal 2 – 3 Or 4 Days</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -379,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/21.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/33.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -389,25 +386,68 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and clear and quiet night sky, the stars so close you can almost touch them.</p>
-                          <p><span id="more-60"></span></p>
-                          <h2>Itinerary</h2>
-                          <table style="height: 234px;" border="0" width="911" cellspacing="0" cellpadding="0" align="center">
+                          <p><strong><b>&nbsp;</b></strong></p>
+                          <p class="font_0">The Atlas Mountains of Morocco are the perfect choice for dedicated hikers and trekkers. Our trek takes you through several pretty Berber villages of the Atlas mountains, to the Neltner Refuge and to Toubkal, the highest point in North Africa.A variety of treks to suit nearly every age and fitness level.</p>
+                          <p><span id="more-51"></span></p>
+                          <h1 class="font_0">welcome</h1>
+                          <h3 class="font_0">The shortest way to climb the highest peak in North Africa.&nbsp;3 or 4&nbsp;and&nbsp;<a href="http://www.morocco4trekking.com/trek_toubkal-8.shtml" target="_blank" rel="noopener noreferrer" data-content="http://www.morocco4trekking.com/trek_toubkal-8.shtml" data-type="external">8 day</a>&nbsp;treks of Toubkal are also available.</h3>
+                          <p>&nbsp;</p>
+                          <h1 class="font_0">Toubkal in 2 days</h1>
+                          <div class="cushycms" title="Trek itinerary">
+<table border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
 <td width="10%">Day 1:</td>
-<td width="90%">&nbsp;First you cross the spectacular Tizi n’Tichka Pass of the High Atlas mountains. You then travel through several Berber villages, and once in the desert, the riverside oasis and barren hillsides are clustered with Kasbahs. After lunch you drive further to Valley of the Roses, with beautiful views of the Dades valley, the valley of a thousand Kasbahs. You stay overnight in Dades.</td>
+<td width="90%">A scenic drive to Imlil in the High Atlas then you begin your trek up to the Neltner Refuge (3207m) via the shrine of Sidi Chamharouch. Stop for lunch where you’ll be accompanied by muleteers. (1.5 hour drive, 5 hour trek)</td>
 </tr>
 <tr>
 <td>Day 2:</td>
-<td>&nbsp;After breakfast you drive to Todra Gorge and after a short stop you continue to “Auberge du Sud” at the dunes of Erg Chebbi. You then ride camels into the dunes, and after witnessing a beautiful sunset you can enjoy a fantastic dinner and then spend the night under the stars in Berber tents.</td>
-</tr>
-<tr>
-<td>Day 3:</td>
-<td>&nbsp;After viewing the most beautiful sunrise and having breakfast at the camp site you will ride camels back to the Auberge. Drive to Fes, again the views will be breathtaking. You will arrive to Fes late &nbsp;in the afternoon after seeing the Ziz valley ;the Ceder forest and the beautiful city of Ifrane.</td>
+<td>The long ascent of Jebel Toubkal (4167m). Following an early start your route zigzags upwards towards the summit. Enjoy the panoramic views and then return to the refuge to have lunch. You then return to Imlil to meet transport and drive back to Marrakech. (8-9 hour trek)</td>
 </tr>
 </tbody>
 </table>
+<h1 class="font_0">Toubkal in 3&nbsp;days</h1>
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td width="10%">Day 1:</td>
+<td width="90%">&nbsp;After a transfer to the little village of Imlil you begin your trek. Heading along the Mizane Valley, you pass the village of Aremd and then onto the shrine of Sidi Chamarouch. From here the trail continues to climb steadily, snaking and zigzagging its way up to the snowline and the Toukbal Refuge (3206m), your stop for the night. (4-5 hour trek)</td>
+</tr>
+<tr>
+<td>Day 2:</td>
+<td>Starting early you begin your attempt on the summit of Jebel Toukbal, the highest peak in Northern Africa. The route takes you up the south cirque, crossing the stream above the refuge. The walking is relatively straightforward, but the scree and the altitude can make it very challenging in parts. The views along the way make the journey more than worthwhile. When you reach the summit you will see that the vistas across the surrounding landscape are quite breath-taking. There are unrestricted views in every direction, from the Marrakesh Plain to the High Atlas in the north and as far south as the Anti-Atlas and the Sahara. You then return to the Refuge where you spend the night. (5-6 hour trek)</td>
+</tr>
+<tr>
+<td>Day 3:</td>
+<td>Today you retrace your steps down the mountain back to Imlil. Transfer back to Marrakech. (4 hour trek)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="font_0">Toubkal in 4&nbsp;days</h1>
+<div class="cushycms" title="Trek itinerary">
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td width="10%">Day 1:</td>
+<td width="90%">After arrival in Marrakech you transfer to the little village of Imlil. Here you will be able to explore the area and you will spend the night in a local Gite.</td>
+</tr>
+<tr>
+<td>Day 2:</td>
+<td>Today you begin your trek. Heading along the Mizane Valley, you first pass the village of Aremd then continue east. By crossing the flood plains your route follows mule tracks then takes you up into the high rocky cliffs above the valley. Crossing the river you come to the pastoral shrine of Sidi Chamarouch. From here the trail continues to climb steadily, snaking and zigzagging its way up to the snowline and the Toukbal refuge (3206m), your stop for the night. (4-5 hour trek)</td>
+</tr>
+<tr>
+<td>Day 3:</td>
+<td>Starting early you begin your attempt on the summit of Jebel Toukbal, the highest peak in Northern Africa. The route takes you up the south cirque, crossing the stream above the refuge. The walking is relatively straightforward, but the scree and the altitude can make it very challenging in parts. The views along the way make the journey more than worthwhile. When you reach the summit you will see that the vistas across the surrounding landscape are quite breath-taking. There are unrestricted views in every direction, from the Marrakesh Plain to the High Atlas in the north and as far south as the Anti-Atlas and the Sahara. You then retrace your steps and return down the mountain back to Imlil. Transfer back to Marrakech. (9 hour trek)</td>
+</tr>
+<tr>
+<td>Day 4:</td>
+<td>Spend your last few hours in Marrakech, before departure back home.</td>
+</tr>
+</tbody>
+</table>
+</div>
+      
                     </div>
                 </div>
             </main>

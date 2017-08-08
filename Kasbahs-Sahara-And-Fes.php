@@ -337,20 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	    <ul id="menu-main-nav" class="sf-menu">
-	    <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>	    
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                    <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -365,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Ourika Valley Day Trip</h1>
+                        <h1>Kasbahs Sahara And Fes</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -380,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/23.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/21.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -390,8 +386,25 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p>As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas and hugging the left-hand bank of the fast-flowing valley, a prime hiking territory in all seasons.<span id="more-70"></span> From its small beginnings in the Berber country, it streams down the slopes of Atlas mountains, between the Tlemcen peak and the Timeskar plateau.The green landscapes of this valley, the lazy meandering torrent of the river combined with the small red adobe Berber villages hanging on the slopes will enchant you… flat Berber homes; they’re assembled in stacked villages the same red as the earth they merge into. The only vertical line that breaks the slither of horizontal roofs is that of the village mosque, whose minaret towers above it all, there are many interesting things on the way, according to the season and your special interests…hiking in the valley, up Setti fatma and the waterfalls… It’s also stunning.</p>
-                          <p class="font_7">Program :&nbsp;8am pick up from your hotel/riad ; drive for a 1.5h&nbsp;with photo stops in the way before getting to Ourika when a walk to the water falls is on offer. have your meals in a small restaurant in the river side after lunch time at leisure before heading back to our accommodation in Marrakech</p>
+                          <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and clear and quiet night sky, the stars so close you can almost touch them.</p>
+                          <p><span id="more-60"></span></p>
+                          <h2>Itinerary</h2>
+                          <table style="height: 234px;" border="0" width="911" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td width="10%">Day 1:</td>
+<td width="90%">&nbsp;First you cross the spectacular Tizi n’Tichka Pass of the High Atlas mountains. You then travel through several Berber villages, and once in the desert, the riverside oasis and barren hillsides are clustered with Kasbahs. After lunch you drive further to Valley of the Roses, with beautiful views of the Dades valley, the valley of a thousand Kasbahs. You stay overnight in Dades.</td>
+</tr>
+<tr>
+<td>Day 2:</td>
+<td>&nbsp;After breakfast you drive to Todra Gorge and after a short stop you continue to “Auberge du Sud” at the dunes of Erg Chebbi. You then ride camels into the dunes, and after witnessing a beautiful sunset you can enjoy a fantastic dinner and then spend the night under the stars in Berber tents.</td>
+</tr>
+<tr>
+<td>Day 3:</td>
+<td>&nbsp;After viewing the most beautiful sunrise and having breakfast at the camp site you will ride camels back to the Auberge. Drive to Fes, again the views will be breathtaking. You will arrive to Fes late &nbsp;in the afternoon after seeing the Ziz valley ;the Ceder forest and the beautiful city of Ifrane.</td>
+</tr>
+</tbody>
+</table>
                     </div>
                 </div>
             </main>

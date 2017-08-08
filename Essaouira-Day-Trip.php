@@ -337,20 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                 <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -365,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Imperial Cities Of Morocco</h1>
+                        <h1>Essaouira Day Trip</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -380,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/28.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/22.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -390,57 +386,17 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p><strong><b>&nbsp;</b></strong></p>
-                          <p>This tour is dedicated to the travelers that are fascinated by the history; culture and diversity which Morocco proudly has to offer trough the different cities built by the Berbers; Phoenicians, Romains or different other Muslim dynasties that succeeded the throne of Morocco.</p>
-                          <p><span id="more-51"></span></p>
-                          <h2>Itinerary</h2>
-                          <table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="10%">Day 1:</td>
-<td width="90%">&nbsp;<strong style="font-family: inherit; font-size: inherit;"><b>Casablanca-Hassan 2 mosque</b></strong><br>
-Casablanca have a very big history that the city itself does not show trough its wall but more seen in the role that the city played during periods of Moroccan history. Nowadays Casablanca holds one of the sites that represents the Master-piece of the modern architecture: Hassan 2 mosque which is the only one of its kind that are allowed for non Muslims to visit in Morocco</td>
-</tr>
-<tr>
-<td>Day 2:</td>
-<td>
-<p class="font_7"><strong>&nbsp;</strong><strong><b>Casablanca-Rabat-Meknes-Volubils-Fes</b></strong></p>
-<p class="font_7">After leaving Casablanca we drive to Rabat, the actual capital of Morocco that holds some of the oldest and the finest sites such as<strong><b> Challa</b></strong> which marks the existence of the Romains in this part of the country and <strong><b>Hassan tour </b></strong>and <strong><b>Oudaia Kasbah</b></strong> which represents the Islamic prints trough the<strong><b> Almowahad</b></strong> dynasty.After the tour of the city of Rabat we have a 2h drive to reach Meknes where we have a brief visit of My Ismail Granary and Bab El Mansour the major sites of the city; then to Volubils the Romains ruins where we have a guided tour of the site before finishing our journey to Fes which will be our destination for today.</p>
-</td>
-</tr>
-<tr>
-<td>Day 3:</td>
-<td>&nbsp;<strong style="font-family: inherit; font-size: inherit;"><b>City tour of Fes</b></strong><p></p>
-<p>the city has a lot to offer and one day is not enough to explore and see it all; but in our city tour will try to cover the most important sites and handicrafts that marks the Fes culture.The tour starts with a visit of the royal palace from outside with its 7 beautiful gates then a short walk along the Jewish quarter. After that we drive to the highest part of Fes for a Beautiful view of the Medina and the pottery village will be the next stop to enjoy and learn how the ceramics are made especially the famous Moroccan Tajine.<span style="font-family: inherit; font-size: inherit;">After the ceramic section the walking part of the tour will begin inside the narrow alleys of the medina starting with the local vegetable market then trough all the different sections as the Dyers; the carpenters; Tanneries without forgetting the major sites such as University Quarouiyine the oldest of its kind in the world</span></p></td>
-</tr>
-<tr>
-<td>Day 4:</td>
-<td>&nbsp;<strong style="font-family: inherit; font-size: inherit;"><b>Fes-Ifrane-Azrou-Marrakech</b></strong><strong><b>&nbsp;</b></strong><p></p>
-<p>We have a long drive today from Fes to Marrakech crossing Ifrane known as the Little Switzerland of Morocco then to the cedar forest in the middle Atlas Mountains where some Monkeys still lives and people stop to take them in pictures.After the cedar forest our journey goes on trough the Berber villages and towns till we get to Marrakech in the late afternoon. You will still have time to explore the magic Square of the city and enjoy its atmosphere at night.</p></td>
-</tr>
-<tr>
-<td>Day 5:</td>
-<td><strong><b>City tour of Marrakech</b></strong><p></p>
-<p>Our morning will begin with the tour of the city tour of Marrakech that will takes us trough the Bahia palace;the Dar si Said meusum;the House of Photography and the Majorelle Gardens located in the new part of the city.The afternoon will be free for you to explore more the city and enjoy the hassle and the bargaining while purchasing your last souvenirs.</p>
-<p>&nbsp;</p></td>
-</tr>
-<tr>
-<td>Day 6:</td>
-<td>&nbsp;<strong style="font-family: inherit; font-size: inherit;"><b>Essaouira</b></strong><p></p>
-<p>This an extension of the trip for the people that have more time to spend in Morocco especially in a beautiful town like Essaouira.This city will make you fall in love with it from the first sight due to its relaxed atmosphere; friendly people and easy going pace.it is place where you can relax after all the traveling and the busy day that you had by having a Hamam;a massage and&nbsp; gentle walk on the beach.</p></td>
-</tr>
-<tr>
-<td>Day 7:</td>
-<td>&nbsp;<strong style="font-family: inherit; font-size: inherit;"><b>Essaouira –Marrakech</b></strong><p></p>
-<p>The afternoon is still yours to enjoy more the city before we head back to Marrakech in the early afternoon.</p>
-<p>&nbsp;</p></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+                          <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere; beautiful design; friendly people; great spots for surfers and the best places to taste the variety of fish and seafood.</p>
+<p>One day isn’t enough to enjoy what this town has to offer from Art galleries; handicraft and music but will try to give you the best insight of the city with our local and professional guides that will show you the hidden spots for eating and the magic secrets of this town.</p>
+<p> </p>
+<p>
+<strong>Departure time</strong>
+: 8 am from your hotel or Riad
+</p>
+<p>
+<strong>Included</strong>
+: Guided tour of the city
+</p>
                     </div>
                 </div>
             </main>

@@ -49,7 +49,7 @@ var LS_Meta = {"v":"6.5.1"};
 
 
 
-<link rel='shortlink' href='index.html' />
+<link rel='shortlink' href='index.php' />
 
 
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
@@ -325,22 +325,19 @@ ul.tabset a,
 <div class="header-overlay">
 <div class="header-area">
 
-<a href="index.html" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
+<a href="index.php" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
 
 
-
-    <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	    <ul id="menu-main-nav" class="sf-menu">
-	    <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>	    
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-	    </ul>
-    </nav>
+        <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
+                            </nav>
 
 <div class="jquery2-slider-wrap flexslider">
 	<div class="jquery2-slider-bg" style="background-color:#FFF">
@@ -447,13 +444,9 @@ ul.tabset a,
 
 
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
-<div itemscope="" itemtype="http://schema.org/BlogPosting"><div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" 
-
-lang="en-US" dir="ltr">
+<div itemscope="" itemtype="http://schema.org/BlogPosting"><div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="http://www.thedunebashing.com/booking-form.html#wpcf7-f6569-p6570-o1" method="post" class="wpcf7-form" 
-
-novalidate="novalidate">
+<form action="/booking-form.php" method="post" class="wpcf7-form" novalidate="novalidate">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="6569">
 <input type="hidden" name="_wpcf7_version" value="4.8">
@@ -463,65 +456,13 @@ novalidate="novalidate">
 <input type="hidden" name="_wpcf7_nonce" value="d61dc53030">
 </div>
 <p>Your Name (required)<br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-
-
-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip 
-
-Organizer"></span>   </p>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer"></span>   </p>
 <p>Your Email (required) <br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-
-
-required="true" aria-invalid="false" placeholder="sales@thedesertsafari.com"></span>  </p>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email"></span>  </p>
 <p>Contact number: (required)<br>
-    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" 
-
-placeholder="00971529372201"></span> </p>
-<p>Chose Tour:<br>
-   <span class="wpcf7-form-control-wrap tour"><select name="tour" class="wpcf7-form-control wpcf7-select" aria-
-
-invalid="false"><option value="Southern Morocco">Southern Morocco</option><option value="Ait Ben Haddou Day Trip">Ait Ben 
-
-Haddou Day Trip</option><option value="Essaouira Day Trip">Essaouira Day Trip</option><option value="Ourika Valley Day 
-
-Trip">Ourika Valley Day Trip</option><option value="Imlil Day Trip">Imlil Day Trip</option><option value="Ouzoud Water 
-
-Falls">Ouzoud Water Falls</option><option value="Kasbahs Sahara And Fes">Kasbahs Sahara And Fes</option><option 
-
-value="Kasbah And Sahara 3 Days">Kasbah And Sahara 3 Days</option><option value="Zagora Experience 2 Days">Zagora 
-
-Experience 2 Days</option><option value="Imperial Cities Of Morocco">Imperial Cities Of Morocco</option><option 
-
-value="Northen Morocco And Marrakech">Northen Morocco And Marrakech</option><option value="Follow The Nomads 
-
-Tracks">Follow The Nomads Tracks</option><option value="Berber Villages Of Telouet">Berber Villages Of 
-
-Telouet</option><option value="From Telouet To Tassaout">From Telouet To Tassaout</option><option value="Toubkal 2 – 3 Or 
-
-4 Days">Toubkal 2 – 3 Or 4 Days</option></select></span> </p>
-<p>Pickup Location:<br>
-    <span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="PickupLocation:" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-<p>Date of Tour:<br>
-  <span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
-
-wpcf7-text" aria-invalid="false" placeholder="31/12/2013"></span></p>
-<p>Adults (Age 8+): <br>
-    <span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="AdultsAge8:" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
-<p>Children(Age 3-7): <br>
-    <span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="ChildrenAge3-7:" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
+    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="00971529372201"></span> </p>
 <p>Your Message<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-
-
-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
@@ -594,7 +535,7 @@ var php_data = {"mobile_menu_text":"Main Menu","mobile_sub_menu_text":"More in t
 var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true,"appId":"127848234061418"});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
 /* ]]> */
 </script>
-<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="index.html\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="index.php\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
 <script type='text/javascript' src='content/wp-embed.minef15.js?ver=4.8'></script>
 <script type='text/javascript' src='content/themes/karma/js/scrollWatch.js'></script>
 

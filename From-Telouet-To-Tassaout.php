@@ -337,19 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                   <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -364,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Kasbah And Sahara 3 Days</h1>
+                        <h1>From Telouet To Tassaout</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -379,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/26.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/32.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -389,46 +386,48 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and clear and quiet night sky, the stars so close you can almost touch them.</p>
-                          <p><span id="more-60"></span></p>
+                          <p><strong><b>&nbsp;</b></strong></p>
+                          <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout, visiting its rustic villages of rammed earth houses and shepherds huts and crossing the magic Tamda lake.</p>
+                          <p><span id="more-51"></span></p>
                           <h2>Itinerary</h2>
-                          <table style="height: 234px;" border="0" width="911" cellspacing="0" cellpadding="0" align="center">
+                          <table border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
 <td width="10%">Day 1:</td>
 <td width="90%">
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="90%">First you cross the spectacular Tizi n’Tichka Pass of the High Atlas mountains. You then travel through several Berber villages, and once in the desert, the riverside oasis and barren hillsides are clustered with Kasbahs. After lunch you drive further to Valley of the Roses, with beautiful views of the Dades valley, the valley of a thousand Kasbahs. You stay overnight in Dades.</td>
-</tr>
-</tbody>
-</table>
+<p class="font_8">&nbsp;Arrival in Marrakech</p>
+<p class="font_8">&nbsp; included : transfer from&nbsp;airport</p>
 </td>
 </tr>
 <tr>
 <td>Day 2:</td>
-<td>
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td>After breakfast you drive to Todra Gorge and after a short stop you continue to “Auberge du Sud” at the dunes of Erg Chebbi. You then ride camels into the dunes, and after witnessing a beautiful sunset you can enjoy a fantastic dinner and then spend the night under the stars in Berber tents.</td>
-</tr>
-</tbody>
-</table>
-</td>
+<td>At Tizi n’Tichka, transfer by minibus to Anmiter (1750m) where you meet with a team of muleteers. You walk to the village of Tighza (2000m) and camp overnight. (3 hour drive, 2 hour trek)</td>
 </tr>
 <tr>
 <td>Day 3:</td>
-<td>
-<table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td>After viewing the most beautiful sunrise and having breakfast at the camp site you will ride camels back to the Auberge. Drive back to Marrakech, again via Tichka pass. You will arrive in Marrakech early in the afternoon.</td>
+<td>You cross the valley of flowers (Ounila) to the high pastures of Anfargal on the way to the camp at Lake Tamda (2667m). (4-5 hour trek)</td>
 </tr>
-</tbody>
-</table>
+<tr>
+<td>Day 4:</td>
+<td>You start the walk crossing the left side of the lake then climb the pass of Tamda (2800m) for a panoramic view of the Mgoun Ouarzazate and the Jebel Saghro. You then descend to Tawjda and camp overnight. (5 to 6 hour trek)</td>
+</tr>
+<tr>
+<td>Day 5:</td>
+<td>You cross the territory of nomadic herdsmen on a path through Geneper tree forests at the bottom of a small valley. Cross the pass of Megdaz (2400m) and its village, one of the most beautiful in the High Atlas, and reach Ait ali n’itto and camp overnight. (6 hour trek)</td>
+</tr>
+<tr>
+<td>Day 6:</td>
+<td>
+<p class="font_8">You descend to the river and visit the Tessaout villages Fakhour and Ifoulou that feature local architecture of rammed earth houses and coloured barns. Stay overnight in a Gite. (5 hour trek)</p>
 </td>
+</tr>
+<tr>
+<td>Day 7:</td>
+<td>Drive back to Marrakech via Demnat and its beautiful bridge in Imi n’ifri.</td>
+</tr>
+<tr>
+<td>Day 8:</td>
+<td>Depart from hotel</td>
 </tr>
 </tbody>
 </table>

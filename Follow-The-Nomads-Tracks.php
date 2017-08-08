@@ -337,19 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-        <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                   <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -364,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Imlil Day Trip</h1>
+                        <h1>Follow The Nomads Tracks</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -379,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/24.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/30.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -389,10 +386,75 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p class="font_7">Located 2 hours&nbsp;from Marrakech in the Atlas Mountains, its a beautiful&nbsp;arrive in this this&nbsp;town that is referred to as the “little Chamonix of Morocco”. <span id="more-68"></span>Most hikes in the area start&nbsp;from this town specifically the Toubkal Climb which is the highest peak in North Africa at 4167m high.</p>
-                          <p class="font_7">Program&nbsp;:&nbsp;9am pick up from your hotel or riad</p>
-                          <p class="font_7">Arrive at Imlil at 11am and you can begin a walk to one of the local Berber villages where you you can mingle with the locals. Enjoy lunch in one of the guest houses with majestic views of the&nbsp;mountains surrounding the village.</p>
-                          <p class="font_7">After lunch, walk back to Imlil though the walnut&nbsp;and apple terraces&nbsp;for the drive&nbsp;back to Marrakech&nbsp;where you will be returned to your accommodation.</p>
+                          <p><strong><b>&nbsp;</b></strong></p>
+                          <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view canyon carved walls, beautiful villages, rich gardens and magnificent buildings, this trek then offers food and shelter in the homes of the locals. A journey into the heart of the Berber soul, punctuated by songs, smiles and hellos, “Salam alaikum”.</p>
+                          <p><span id="more-51"></span></p>
+                          <h2>Itinerary</h2>
+                          <table border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td width="10%">Day 1:</td>
+<td width="90%">
+<p class="font_8">Arrival in Marrakech</p>
+<p class="font_8">&nbsp;&nbsp;<strong>included</strong>&nbsp; :&nbsp;transfer from the airport</p>
+</td>
+</tr>
+<tr>
+<td>Day 2:</td>
+<td>
+<p class="font_8">Transfer to Ait Ben Haddou via the Atlas Mountains and the pass of Tickha. Meet our mule team and start the hike through the wadi Oulina untill the fortified village of Tamdakht and its beautiful kasbah. Stay overnight at the Gite. (3 hour trek)</p>
+<p class="font_8">&nbsp;<strong>included</strong>&nbsp; : Breakfast — dinner</p>
+<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demonstration of making Couscous</p>
+</td>
+</tr>
+<tr>
+<td>Day 3:</td>
+<td>
+<p class="font_8">The trek takes you to Tamakoucte Tiguerte where the villages blend into one another with their terraced gardens and palm groves. Admire the impressive architecture comparable to that of Wadi Hadramaut in Yemen. Stay overnight in a Gite at Tizgui n’Barda. (4-5 hour trek)</p>
+<p class="font_8">&nbsp;&nbsp;<strong>included</strong>&nbsp; : Breakfast—Lunch—Dinner</p>
+</td>
+</tr>
+<tr>
+<td>Day 4:</td>
+<td>
+<p class="font_8">The valley narrows and leads into a canyon where you visit cave dwellings where some locals take refuge. Stay overnight in Assaka&nbsp;. (4 hour trek)</p>
+<p class="font_8">&nbsp;<strong>included</strong>&nbsp; : Breakfast — dinner —Lunch</p>
+<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; make the Moroccan bread</p>
+</td>
+</tr>
+<tr>
+<td>Day 5:</td>
+<td>
+<p class="font_8">In the valley, you reach Animiter, Tighouza and a beautiful cottage with mountain views. Walk around the village. (4-5 hour trek)</p>
+<p class="font_8">&nbsp;<strong>included&nbsp;</strong> :&nbsp;Breakfast—Lunch—Dinner</p>
+<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tajine cooking demonstration</p>
+</td>
+</tr>
+<tr>
+<td>Day 6:</td>
+<td>
+<p class="font_8">The day starts by following the assif Ouawrikt and by passing the Adrar Aglagal and the high altitude sheep pastures of Anfargal. You then travel back to Tighouza and stay overnight. (4 hour trek)</p>
+<p class="font_8">&nbsp;<strong>included&nbsp;</strong> : Breakfast—Lunch—Dinner</p>
+<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Pancake bread with the locals</p>
+</td>
+</tr>
+<tr>
+<td>Day 7:</td>
+<td>
+<p class="font_8">The last little hike, through Ighris, then crossing the red mountains and salt mines until Telouet. You visit the Kasbah of the Pasha Glaoui then transfer to Marrakech. (1 hour trek and 4 hours driving)</p>
+<p class="font_8"><strong>included</strong>&nbsp; : Breakfast—Lunch</p>
+<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kasbah Telouet visit</p>
+</td>
+</tr>
+<tr>
+<td>Day 8:</td>
+<td>
+<p class="font_8">Depart from hotel</p>
+<p class="font_8">&nbsp; <strong>included</strong>&nbsp; : Transfer to the airport</p>
+</td>
+</tr>
+</tbody>
+</table>
                     </div>
                 </div>
             </main>

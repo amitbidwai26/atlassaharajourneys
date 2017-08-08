@@ -27,8 +27,6 @@
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min9009.js?ver=5.4.5.1'></script>
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
     
-    
-    
     <!-- <meta name="NextGEN" version="2.2.10" /> -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
    
@@ -337,19 +335,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-        <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-                                    <li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>       
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                   <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -364,7 +359,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>Follow The Nomads Tracks</h1>
+                        <h1>About Mohamed</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -379,7 +374,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/30.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/34.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -389,75 +384,15 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p><strong><b>&nbsp;</b></strong></p>
-                          <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view canyon carved walls, beautiful villages, rich gardens and magnificent buildings, this trek then offers food and shelter in the homes of the locals. A journey into the heart of the Berber soul, punctuated by songs, smiles and hellos, “Salam alaikum”.</p>
-                          <p><span id="more-51"></span></p>
-                          <h2>Itinerary</h2>
-                          <table border="0" cellspacing="0" cellpadding="0" align="center">
-<tbody>
-<tr>
-<td width="10%">Day 1:</td>
-<td width="90%">
-<p class="font_8">Arrival in Marrakech</p>
-<p class="font_8">&nbsp;&nbsp;<strong>included</strong>&nbsp; :&nbsp;transfer from the airport</p>
-</td>
-</tr>
-<tr>
-<td>Day 2:</td>
-<td>
-<p class="font_8">Transfer to Ait Ben Haddou via the Atlas Mountains and the pass of Tickha. Meet our mule team and start the hike through the wadi Oulina untill the fortified village of Tamdakht and its beautiful kasbah. Stay overnight at the Gite. (3 hour trek)</p>
-<p class="font_8">&nbsp;<strong>included</strong>&nbsp; : Breakfast — dinner</p>
-<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Demonstration of making Couscous</p>
-</td>
-</tr>
-<tr>
-<td>Day 3:</td>
-<td>
-<p class="font_8">The trek takes you to Tamakoucte Tiguerte where the villages blend into one another with their terraced gardens and palm groves. Admire the impressive architecture comparable to that of Wadi Hadramaut in Yemen. Stay overnight in a Gite at Tizgui n’Barda. (4-5 hour trek)</p>
-<p class="font_8">&nbsp;&nbsp;<strong>included</strong>&nbsp; : Breakfast—Lunch—Dinner</p>
-</td>
-</tr>
-<tr>
-<td>Day 4:</td>
-<td>
-<p class="font_8">The valley narrows and leads into a canyon where you visit cave dwellings where some locals take refuge. Stay overnight in Assaka&nbsp;. (4 hour trek)</p>
-<p class="font_8">&nbsp;<strong>included</strong>&nbsp; : Breakfast — dinner —Lunch</p>
-<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; make the Moroccan bread</p>
-</td>
-</tr>
-<tr>
-<td>Day 5:</td>
-<td>
-<p class="font_8">In the valley, you reach Animiter, Tighouza and a beautiful cottage with mountain views. Walk around the village. (4-5 hour trek)</p>
-<p class="font_8">&nbsp;<strong>included&nbsp;</strong> :&nbsp;Breakfast—Lunch—Dinner</p>
-<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tajine cooking demonstration</p>
-</td>
-</tr>
-<tr>
-<td>Day 6:</td>
-<td>
-<p class="font_8">The day starts by following the assif Ouawrikt and by passing the Adrar Aglagal and the high altitude sheep pastures of Anfargal. You then travel back to Tighouza and stay overnight. (4 hour trek)</p>
-<p class="font_8">&nbsp;<strong>included&nbsp;</strong> : Breakfast—Lunch—Dinner</p>
-<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Pancake bread with the locals</p>
-</td>
-</tr>
-<tr>
-<td>Day 7:</td>
-<td>
-<p class="font_8">The last little hike, through Ighris, then crossing the red mountains and salt mines until Telouet. You visit the Kasbah of the Pasha Glaoui then transfer to Marrakech. (1 hour trek and 4 hours driving)</p>
-<p class="font_8"><strong>included</strong>&nbsp; : Breakfast—Lunch</p>
-<p class="font_8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kasbah Telouet visit</p>
-</td>
-</tr>
-<tr>
-<td>Day 8:</td>
-<td>
-<p class="font_8">Depart from hotel</p>
-<p class="font_8">&nbsp; <strong>included</strong>&nbsp; : Transfer to the airport</p>
-</td>
-</tr>
-</tbody>
-</table>
+                          <div id="comp-j0rbmmyc" class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$kkz58.1.$comp-j0rbmmyc">
+<p class="font_0"><strong>Who we are: &nbsp;</strong><span style="font-size: 16px;">We are a Team&nbsp;of professional licensed Tour Guides In Morocco. &nbsp;We all have been working as Mountain guides and interpreters for the best tour companies and providing private &amp; </span>Shared tours<span style="font-size: 16px;"> in&nbsp;Morocco. for none less than 20 years, and we all love our country and enjoy our work a lot</span><strong><span style="font-size: 16px;">.</span></strong></p>
+</div>
+<p class="font_8"><strong>What do we do: &nbsp;&nbsp;</strong>We are specialized in arranging travel packages and customized tours in Morocco, We work tirelessly to bring our customers authentic and personalized cultural experiences. We are also environmentally conscientious and seek to contribute to the development of local ethnic minorities. We operate closely with our villages and village hosts to preserve their traditional ways of life as well as the surrounding natural environment.At the same time we are very good friends, so we joined together on this site in order to provide you with the best possible guided tours of Morocco. and its fabulous sights and museums.</p>
+<p class="font_8"><strong>Where do we operate: &nbsp;</strong>Whether your destination is Morocco, The High Atlas Mountains or The Desert, we have tours to suit you. And if you want something a little more personal, we are also adept at organizing a customized journey with your<br>
+specific interests in mind, We are able to introduce you to all this in the best way possible, filling your trip with detailed information and thrilling stories that make the buildings live.</p>
+<p class="font_8">Amazing Adventures into a Unique Berber &nbsp;Culture and stunning Landscape. We offer Morocco Treks and Tours for every traveler<br>
+Morocco is our home and we treat anyone who comes here as our guests- Friend.</p>
+                          
                     </div>
                 </div>
             </main>

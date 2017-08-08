@@ -337,20 +337,16 @@
                 <div class="header-holder tt-logo-center">
                     <div class="header-overlay">
                         <div class="header-area">
-                            <a href="index.html" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <ul id="menu-main-nav" class="sf-menu">
-        <li id="menu-item-4699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item"><a href="index.html"><span><strong>Home</strong></span></a></li>
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="Blog.html"><span><strong>Blog</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.html"><span><strong>Tours</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="ContactForm.html"><span><strong>Contact Us</strong></span></a></li>      
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="About_Mohamed.html"><span><strong>About Mohamed</strong></span></a></li>
-
-<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="BookNow.html"><span><strong>Book Now</strong></span></a></li>
-                                </ul>
+                            <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
+                                    <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                    <ul id="menu-main-nav" class="sf-menu">
+                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                    </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -365,7 +361,7 @@
                     <div class="karma-header-shadow"></div>
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
-                        <h1>About Mohamed</h1>
+                        <h1>Northen Morocco And Marrakech</h1>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -380,7 +376,7 @@
                                     <li class="jqslider">
                                         <div class="slider-content-sub-full-width">
                                             <div class="slider-content-sub-content-full">
-                                                <img src="images/34.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                <img src="images/29.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                             </div>
                                             <!-- END slider-content-sub-content-full -->
                                         </div>
@@ -390,15 +386,90 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <div id="comp-j0rbmmyc" class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$kkz58.1.$comp-j0rbmmyc">
-<p class="font_0"><strong>Who we are: &nbsp;</strong><span style="font-size: 16px;">We are a Team&nbsp;of professional licensed Tour Guides In Morocco. &nbsp;We all have been working as Mountain guides and interpreters for the best tour companies and providing private &amp; </span>Shared tours<span style="font-size: 16px;"> in&nbsp;Morocco. for none less than 20 years, and we all love our country and enjoy our work a lot</span><strong><span style="font-size: 16px;">.</span></strong></p>
+                          <p><strong><b>&nbsp;</b></strong></p>
+                          <p>Come with us on an unforgettable adventure across Morocco. You’ll visit age-old imperial cities, mount up and join a camel safari through the magnificent Sahara and have time to relax on the Atlantic coast.</p>
+                          <p><span id="more-51"></span></p>
+                          <h2>Itinerary</h2>
+                          <table border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td width="10%">Day 1:</td>
+<td width="90%">
+<div class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$nnfu0.1.$comp-j10mmg3x">
+<div class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$nnfu0.1.$comp-j10mmg3x">
+<p class="font_2"><strong>Casablanca</strong> : Arrival and transfer to the hotel</p>
+<p class="font_2">&nbsp; &nbsp;&nbsp;<strong>Included :&nbsp;</strong>transfer from the Airport</p>
 </div>
-<p class="font_8"><strong>What do we do: &nbsp;&nbsp;</strong>We are specialized in arranging travel packages and customized tours in Morocco, We work tirelessly to bring our customers authentic and personalized cultural experiences. We are also environmentally conscientious and seek to contribute to the development of local ethnic minorities. We operate closely with our villages and village hosts to preserve their traditional ways of life as well as the surrounding natural environment.At the same time we are very good friends, so we joined together on this site in order to provide you with the best possible guided tours of Morocco. and its fabulous sights and museums.</p>
-<p class="font_8"><strong>Where do we operate: &nbsp;</strong>Whether your destination is Morocco, The High Atlas Mountains or The Desert, we have tours to suit you. And if you want something a little more personal, we are also adept at organizing a customized journey with your<br>
-specific interests in mind, We are able to introduce you to all this in the best way possible, filling your trip with detailed information and thrilling stories that make the buildings live.</p>
-<p class="font_8">Amazing Adventures into a Unique Berber &nbsp;Culture and stunning Landscape. We offer Morocco Treks and Tours for every traveler<br>
-Morocco is our home and we treat anyone who comes here as our guests- Friend.</p>
-                          
+</div>
+</td>
+</tr>
+<tr>
+<td>D<strong>ay 2:</strong></td>
+<td>
+<div class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$nnfu0.1.$comp-j10mre6y">
+<div class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$nnfu0.1.$comp-j10mre6y">
+<p class="font_2"><strong>Casablanca-Rabat-Moulay idriss :</strong></p>
+<p class="font_2">&nbsp;Today our journey starts with the tour of Hassan&nbsp; mosque after drive to Rabat. Rabat’s history is long and colorful, having been host to Roman settlements, pirates and more recently the Moroccan parliament. It contains numerous fine Arab monuments,spend a few hours strolling through the city’s old quarter, then walk up to Kasbah des Oudaias and enjoy views over the Atlantic Ocean; visit Mohamed V mosoleum and the Hassan tour&nbsp;. Continue on to Moulay Idriss &nbsp;(approximately 4hours), through scenic countryside to the sacred pilgrimage village of Moulay Idriss. Once forbidden to non-Muslims, explore the delightful medina of this ancient town that offers an excellent insight into traditional Moroccan life. See where the faithful gather to pay homage at the tomb of Moulay Idriss I, who was the great-grandson of Mohammed and brought Islam to Morocco. At sunset, enjoy great views over the plains of Volubilis below. Your accommodation for the night is in a guesthouse/homestay with a local family. Bathroom facilities may be shared and you may be sharing a room with two or three others.</p>
+<p class="font_2">
+</p></div>
+</div>
+<div id="comp-j10mre6y" class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$nnfu0.1.$comp-j10mre6y">
+<p class="font_2"><strong>Included :&nbsp;</strong>Breakfast/Hassan 2 mosque visit/ diner/ Couscous cooking class</p>
+</div>
+</td>
+</tr>
+<tr>
+<td>Day 3:</td>
+<td>
+<p class="font_2"><strong>Moulay Idriss-Mekns-Fes : &nbsp;</strong></p>
+<p class="font_2">Today, take a guided tour of the archaeological site of Volubilis. World Heritage-listed Volubilis was once a provincial Roman capital, a distant outpost of the empire, and the remains make an undeniably impressive sight. Upon arrival, take a tour around the ruins with a local guide.The town is filled with fantastic mosaics along the Decumanus Maximus, many of which remain intact. After time spent imagining Volubulis as the bustling city it once was, return to the nearby imperial city of Meknes, where you’ll have a few hours to explore. In the 17th century Sultan Moulay Ismail turned Meknes from a provincial town to a spectacular Imperial city, building his own version of Versailles with labour force of over 25,000 slaves. The adventurous may want to try a camel burger for lunch at a local restaurant in the medina. In the afternoon, take a one-hour train to Fes, where you’ll spend the next two nights. Fes is the spiritual and cultural heart of Morocco; vibrant, noisy, fascinating and overwhelming – a visual and pungent feast for the senses – with a huge, well-preserved medieval old city that’s the mother of all medinas.</p>
+<p class="font_2"><strong>Included : </strong>Breakfast/Guided tour of Volubilis/Guided tour of Meknes</p>
+</td>
+</tr>
+<tr>
+<td>Day 4:</td>
+<td>
+<p class="font_2"><strong>Fes city tour : </strong></p>
+<p class="font_2"><strong>&nbsp;</strong>Take a guided group walking tour of the old city, known locally as Fes el Bali. Step back into the Middle Ages in the labyrinth of the Medina, which is alive with craftsmen, markets, tanneries and mosques. Pass donkeys piled high with goods (this is one of the largest car-free urban zones in the world) and explore the specialty sections that divide the souk. Look out for the Medersa Bou Inania, one of the city’s most beautiful buildings, which has recently been restored and is now open to tourists. Visit the Belghazi Museum, Medresse el Attarine and the splendid Funduk Nejjarine, a beautifully restored 18th century inn. You’ll also see the famous tannery, known for the iconic view overlooking its dye pits, and a ceramics factory where you can see potters working in the traditional way. In the evening, enjoy a delicious group dinner of Moroccan specialities like harira (chickpea soup) and chicken-stuffed pastilla with couscous. The group may also head to the Palais Jamai for a drink. Watching the sunset over the Medina while a dozen prayer calls vie for attention is an experience you’ll likely remember for a long time.</p>
+<p class="font_2"><strong>Included :&nbsp;</strong>Breakfast/City tour of Fes</p>
+</td>
+</tr>
+<tr>
+<td>Day 5:</td>
+<td>
+<p class="font_2"><strong>Fes-Chefchaouen :</strong></p>
+<p class="font_2">&nbsp;Take a local four-hour bus to the isolated town of Chefchaouen today. Chefchaouen, or the ‘blue city’, is arguably one of the prettiest places in Morocco. Set against a wide valley and nestled between two peaks in the stunning Rif Mountains, Chefchaouen may take you by surprise. Its medina has been lovingly cared for with striking blue and whitewashed houses, red-tiled roofs and artistic doorways. Much of Chefchaouen was recreated by Andalusian refugees escaping the Reconquistia, so you might feel like you’re in the hills of Spain while exploring its streets. Ease into the relaxed pace of life in this rural retreat. Take a stroll through the ancient medina and shop for handicrafts, go hiking in the Rif mountains or simply sit at a cafe and enjoy the pleasure of time passing by. If you’re feeling peckish, the goats’ cheese on offer is a popular treat enjoyed by many visitors.</p>
+<p class="font_2"><strong>Included :&nbsp;</strong>breakfast</p>
+</td>
+</tr>
+<tr>
+<td>Day 6:</td>
+<td>&nbsp;<strong>Chefchaouen : </strong><p></p>
+<p><strong>&nbsp;</strong>Today is a free day to explore Chefchaouen. Perhaps take a guided tour of the sights, sounds, and smells of the medina, or sample the delicious local goat cheese at a cafe in the Plaza Uta el-Hammam. Admire the architecture of the 15th-century Grand Mosque (closed to non-Muslims) and browse the shops in the square selling woven goods and small sweets. Also within the plaza is the walled fortress of the Kasbah. Wander through the tranquil gardens inside, check out the ethnographic museum and soak in wonderful views from the rooftop. Alternatively, you might prefer to get out of town and enjoy a hike and picnic in the surrounding hills. In the evening, tuck into a tagine at a local restaurant or visit a hammam, a traditional Moroccan spa</p>
+<p><strong>Included :&nbsp;</strong>breakfast/</p></td>
+</tr>
+<tr>
+<td>Day 7:</td>
+<td><strong>Chefchaouen-Tangier : </strong><p></p>
+<p><strong>&nbsp;</strong>Today take a local three-hour bus to the coastal town of Tangier, a place of strategic importance to the Mediterranean and the gateway to Africa. Once a hotspot for artists, secret agents and millionaires, Tangier has been going through something of a renaissance of late thanks to the arrival of a new monarch in Morocco in 1999. Mohammed VI of Morocco and his forward-thinking ideas about commerce and tourism has suddenly woke up the community to the potential of this city. Today, the city’s medina and kasbah are well worth exploring, as are the cafes and patisseries around the Place de la France in the Ville Nouvelle. Perhaps visit the American Legation Museum, the former palace of Dar el-Makhzen or the Caves of Hercules. The recently reconstructed beach promenade is lined with great restaurants. Perhaps enjoy a fresh seafood dinner by the port, before boarding an overnight sleeper train bound for Marrakech.</p>
+<p><strong>Included :&nbsp;</strong>breakfast</p></td>
+</tr>
+<tr>
+<td>Day 8:</td>
+<td>
+<p class="font_2"><strong>Tangier-Marrakech :</strong></p>
+<p class="font_2"><strong> &nbsp;</strong>Arrive early into Marrakech on the overnight train. The day is free for you to explore. Marrakech is a feast for the senses. Explore the Medina and the city’s seemingly endless mosaic of souqs. Each is devoted to a separate trade: pottery, woodwork, copper, leather, carpets and spices.Take a wander through the tropical gardens of the French painter Jacques Majorelle (now owned by Yves Saint Laurent). You might like to check out the Palais Bahia, a superb example of Muslim architecture, or the ruins of the Palais Badi, reputedly one of the most beautiful palaces in the world in its time. The Saadian tombs are a recently uncovered gem of the Medina. All of the above can be a challenge to locate, but that’s all part of the experience of exploring the medinas of Morocco. In the evening, join the thronging crowds for an optional dinner in the Djemaa el Fna, the city’s main square. When night falls it transforms into a hive of activity. Snake-charmers, henna-painters, performers and storytellers share the square with a street food bazaar, packed with stalls loaded with Moroccan delicacies. This is sure to be an unforgettable farewell to Marrakech.</p>
+<p class="font_2"><strong>Included :&nbsp;</strong>breakfast</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;Day 9:</td>
+<td>&nbsp;<strong>Marrakech-Departure :</strong><p></p>
+<p><strong> &nbsp;</strong>Your trip ends today after breakfast. Check-out time is usually around midday and you are free to leave at any time. Additional accommodation can be pre-booked if you wish to spend more time exploring here. Speak to your leader about the wealth of extra activities to do around Marrakech.</p>
+<p><strong>Included :&nbsp;</strong>Breakfast/ transfer to the Airport</p></td>
+</tr>
+</tbody>
+</table>
                     </div>
                 </div>
             </main>
