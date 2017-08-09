@@ -290,7 +290,7 @@
 
 			$( '.screen-reader-response', $form.closest( '.wpcf7' ) ).each( function() {
 				var $response = $( this );
-				$response.php( '' ).attr( 'role', '' ).append( data.message );
+				$response.html( '' ).attr( 'role', '' ).append( data.message );
 
 				if ( data.invalidFields ) {
 					var $invalids = $( '<ul></ul>' );
@@ -446,7 +446,7 @@
 	wpcf7.clearResponse = function( form ) {
 		var $form = $( form );
 		$form.removeClass( 'invalid spam sent failed' );
-		$form.siblings( '.screen-reader-response' ).php( '' ).attr( 'role', '' );
+		$form.siblings( '.screen-reader-response' ).html( '' ).attr( 'role', '' );
 
 		$( '.wpcf7-not-valid-tip', $form ).remove();
 		$( '[aria-invalid]', $form ).attr( 'aria-invalid', 'false' );

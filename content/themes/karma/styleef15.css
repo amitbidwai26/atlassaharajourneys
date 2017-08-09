@@ -173,11 +173,7 @@ div.woocommerce:after,
 	clear: both;
 	display: block;
 	content: "";
-},
-.buttonbooknow{
- 	margin-left: 750px;  
-
-},
+}
 ul.list1 li:before,
 ul.list2 li:before,
 ul.list3 li:before,
@@ -1901,7 +1897,7 @@ body.karma-header-light .jquery2-slider-wrap.flexslider {
 .home_video_preload {
 	width: 100%;
 	height: 100%;
-	background: url(../../../content/themes/karma/images/_global/preload-white.php) center center no-repeat;
+	background: url(../../../content/themes/karma/images/_global/preload-white.html) center center no-repeat;
 }
 .big-banner .content_home_video {
 	padding-top: 80px !important;
@@ -1953,7 +1949,7 @@ body.karma-header-light .jquery2-slider-wrap.flexslider {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background: url(../../../content/themes/karma/images/_global/preload-white.php) center center no-repeat;
+	background: url(../../../content/themes/karma/images/_global/preload-white.html) center center no-repeat;
 }
 /* @sinze 4.4 */
 .wpb_wrapper .video-frame {
@@ -6448,13 +6444,13 @@ a.tt-icon-box {
 /* Shadows */
 .uds-pricing-table thead th.featured-l .uds-product-name,
 #main #content .uds-pricing-table thead th.featured-l .uds-product-name {
-	background-image: url(../../../content/themes/images/shadow-left.php);
+	background-image: url(../../../content/themes/images/shadow-left.html);
 	background-repeat: repeat-y;
 	background-position: top right;
 }
 .uds-pricing-table thead th.featured-r .uds-product-name,
 #main #content .uds-pricing-table thead th.featured-r .uds-product-name {
-	background-image: url(../../../content/themes/images/shadow-right.php);
+	background-image: url(../../../content/themes/images/shadow-right.html);
 	background-repeat: repeat-y;
 	background-position: top left;
 }
@@ -6462,7 +6458,7 @@ a.tt-icon-box {
 #main #content .uds-pricing-table th.featured-l,
 .uds-pricing-table td.featured-l,
 #main #content .uds-pricing-table td.featured-l {
-	background-image: url(../../../content/themes/images/shadow-left.php);
+	background-image: url(../../../content/themes/images/shadow-left.html);
 	background-repeat: repeat-y;
 	background-position: top right;
 }
@@ -6470,14 +6466,14 @@ a.tt-icon-box {
 #main #content .uds-pricing-table th.featured-r,
 .uds-pricing-table td.featured-r,
 #main #content .uds-pricing-table td.featured-r {
-	background-image: url(../../../content/themes/images/shadow-right.php);
+	background-image: url(../../../content/themes/images/shadow-right.html);
 	background-repeat: repeat-y;
 	background-position: top left;
 }
 .uds-pricing-table thead tr th.header-shadow.featured,
 #main #content .uds-pricing-table thead tr th.header-shadow.featured {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-top.php);
+	background-image: url(../../../content/themes/images/shadow-top.html);
 	background-repeat: repeat-x;
 	background-position: bottom left;
 	border: none;
@@ -6489,21 +6485,21 @@ a.tt-icon-box {
 .uds-pricing-table thead tr th.header-shadow.featured-l,
 #main #content .uds-pricing-table thead tr th.header-shadow.featured-l {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-top-left.php);
+	background-image: url(../../../content/themes/images/shadow-top-left.html);
 	background-repeat: no-repeat;
 	background-position: bottom right;
 }
 .uds-pricing-table thead tr th.header-shadow.featured-r,
 #main #content .uds-pricing-table thead tr th.header-shadow.featured-r {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-top-right.php);
+	background-image: url(../../../content/themes/images/shadow-top-right.html);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 }
 .uds-pricing-table tfoot tr th.footer-shadow.featured,
 #main #content .uds-pricing-table tfoot tr th.footer-shadow.featured {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-bottom.php);
+	background-image: url(../../../content/themes/images/shadow-bottom.html);
 	background-repeat: repeat-x;
 	background-position: top left;
 	border: none;
@@ -6515,14 +6511,14 @@ a.tt-icon-box {
 .uds-pricing-table tfoot tr th.footer-shadow.featured-l,
 #main #content .uds-pricing-table tfoot tr th.footer-shadow.featured-l {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-bottom-left.php);
+	background-image: url(../../../content/themes/images/shadow-bottom-left.html);
 	background-repeat: no-repeat;
 	background-position: top right;
 }
 .uds-pricing-table tfoot tr th.footer-shadow.featured-r,
 #main #content .uds-pricing-table tfoot tr th.footer-shadow.featured-r {
 	background-color: transparent;
-	background-image: url(../../../content/themes/images/shadow-bottom-right.php);
+	background-image: url(../../../content/themes/images/shadow-bottom-right.html);
 	background-repeat: no-repeat;
 	background-position: top left;
 }
