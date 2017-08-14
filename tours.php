@@ -42,7 +42,51 @@
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
     <link rel='shortlink' href='index.php' />
     <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    function alo_em_pubblic_form() {
 
+        var alo_cf_array = new Array();
+        document.alo_easymail_widget_form.submit.value = "sending...";
+        document.alo_easymail_widget_form.submit.disabled = true;
+        document.getElementById('alo_em_widget_loading').style.display = "inline";
+        document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
+
+        var alo_em_sack = new sack("wp-admin/admin-ajax.php");
+
+        alo_em_sack.execute = 1;
+        alo_em_sack.method = 'POST';
+        alo_em_sack.setVar("action", "alo_em_pubblic_form_check");
+        alo_em_sack.setVar("alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value);
+        alo_em_sack.setVar("alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value);
+        alo_em_sack.setVar("alo_easymail_txt_generic_error", 'Error during operation.');
+        alo_em_sack.setVar("alo_em_error_email_incorrect", "The e-mail address is not correct");
+        alo_em_sack.setVar("alo_em_error_name_empty", "The name field is empty");
+        alo_em_sack.setVar("alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
+        alo_em_sack.setVar("alo_em_error_email_activated", "Warning: this email address has already been subscribed");
+        alo_em_sack.setVar("alo_em_error_on_sending", "Error during sending: please try again");
+        alo_em_sack.setVar("alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
+        alo_em_sack.setVar("alo_em_txt_subscribe", "Subscribe");
+        alo_em_sack.setVar("alo_em_lang_code", "en");
+
+        var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
+        var length = cbs.length;
+        var lists = "";
+        for (var i = 0; i < length; i++) {
+            if (cbs[i].name == 'alo_em_form_lists' + '[]' && cbs[i].type == 'checkbox') {
+                if (cbs[i].checked) lists += cbs[i].value + ",";
+            }
+        }
+        alo_em_sack.setVar("alo_em_form_lists", lists);
+        alo_em_sack.setVar("alo_em_nonce", '080b59a59c');
+        //alo_em_sack.onError = function() { alert('Ajax error' )};
+        alo_em_sack.runAJAX();
+
+        return true;
+
+    }
+    //]]>
+    </script>
     <!-- <meta name="NextGEN" version="2.2.10" /> -->
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
@@ -411,86 +455,15 @@ ul.tabset a,
                         <div class="header-area">
                             <a href="index.php" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
                             <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                                 <ul id="menu-main-nav" class="sf-menu">
-                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
-                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
-                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
-                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
-                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
-                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
-                    </ul>
+                                <ul id="menu-main-nav" class="sf-menu">
+                                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                                    <li class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                                    <li class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                                    <li class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                                </ul>
                             </nav>
-                            <div class="jquery2-slider-wrap flexslider">
-                                <div class="jquery2-slider-bg" style="background-color:#FFF">
-                                    <ul class="slides">
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/23.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/25.jpg" width="840" height="270" alt="Camel Safari" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/29.jpg" width="840" height="270" alt="Sand Boarding" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/35.jpg" width="840" height="270" alt="Camel Riding" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/36.jpg" width="840" height="270" alt="Henna Painting" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/37.jpg" width="840" height="270" alt="Morocco Desert Safari" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                        <li class="jqslider">
-                                            <div class="slider-content-sub-full-width">
-                                                <div class="slider-content-sub-content-full">
-                                                    <img src="images/38.jpg" width="840" height="270" alt="Tanoura Dance" />
-                                                </div>
-                                                <!-- END slider-content-sub-content-full -->
-                                            </div>
-                                            <!-- END slider-content-sub-full-width -->
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- END jquery2-slider-bg -->
-                            </div>
-                            <!-- END jquery2-slider-wrap -->
                         </div>
                         <!-- END header-area -->
                     </div>
@@ -499,7 +472,7 @@ ul.tabset a,
                 <!-- END header-holder -->
             </header>
             <!-- END header -->
-            <div id="main" class="tt-slider-karma-custom-jquery-2">
+            <div id="main" class="tt-slider-">
                 <div class="main-area">
                     <div class="main-holder">
                         <main role="main" id="content" class="content_full_width">
@@ -507,11 +480,19 @@ ul.tabset a,
                                 <div class="callout-wrap"><span>Enjoy <a title="The Desert Safari" href="index.php">Desert Tours Morocco</a> with our expert staff Call Us&nbsp;+212662138038 </span></div>
                                 <!-- END callout-wrap -->
                                 <br class="clear" />
-                                <div class="one_third tt-column">
-                                    <h3><a title="Southern Morocco" href="southernMorocco.php">Southern Morocco</a></h3>
-                                    <div class="modern_img_frame modern_three_col_large tt_"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
-                                    <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
-                                    <h5><a title="Southern Morocco Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                <div class="tt-column">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <h3><a title="Southern Morocco" href="southernMorocco.php">Southern Morocco</a></h3>
+                                                <div class="modern_img_frame modern_three_col_large tt_"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></td>
+                                            <td></td>
+                                            <td>
+                                                <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
+                                                <h5><a title="Southern Morocco Cont" href="southernMorocco.php">Continue Reading -></a></h5></td>
+                                        </tr>
+                                    </table>
+                                    </div>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="Ait Ben Haddou Day Trip" href="Ait-Ben-Haddou-Day-Trip.php">Ait Ben Haddou Day Trip</a></h3>
@@ -554,7 +535,6 @@ ul.tabset a,
                                     <p>Situated 2.5 hours from Marrakech, the Ouzoud Water falls of 110m in height are considered the highest in Morocco and 2nd highest in North Africa.</p>
                                     <h5><a title="Quad Biking in Morocco desert safari Cont" href="Ouzoud-Water-Falls.php">Continue Reading -></a></h5>
                                 </div>
-                                
                                 <div class="one_third tt-column">
                                     <h3><a title="Kasbahs Sahara And Fes" href="Kasbahs-Sahara-And-Fes.php">Kasbahs Sahara And Fes</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
@@ -563,15 +543,14 @@ ul.tabset a,
                                     <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and</p>
                                     <h5><a title="Camel Safari in the Desert Cont" href="Kasbah-And-Sahara-3-Days.php">Continue Reading -></a></h5>
                                 </div>
-
-								<div class="one_third tt-column">
+                                <div class="one_third tt-column">
                                     <h3><a title="" href="Kasbah-And-Sahara-3-Days.php">Kasbah And Sahara 3 Days</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/8.jpg" alt='The desert safari bring Dinner parties' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air.</p>
                                     <h5><a title="Dinner in the Desert Cont" href="Kasbahs-Sahara-And-Fes.php">Continue Reading -></a></h5>
-                                </div>                                
+                                </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Zagora Experience 2 Days" href="Zagora-Experience-2-Days.php">Zagora Experience 2 Days</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
@@ -634,36 +613,7 @@ ul.tabset a,
                                 <div class="shadow">
                                     <div class="hr_shadow {$custom_css_class}">&nbsp;</div>
                                 </div>
-                                <div>
-                                    <div class="true-testimonial-wrapper tt_ ">
-                                        <div class="testimonials flexslider">
-                                            <ul class="slides">
-                                                <li>
-                                                    <blockquote>
-                                                        <p>You people are doing great job, i realy enjoy it and will always prefer to take desert services from you
-                                                            <cite>&ndash;Muhammad Amir, China Petroluem</cite>
-                                                        </p>
-                                                    </blockquote>
-                                                </li>
-                                                <li>
-                                                    <blockquote>
-                                                        <p>Great arrangement, perfect timing and affordable price waooooo amazing
-                                                            <cite>&ndash;Suraish, Oil Filed Supply Center</cite>
-                                                        </p>
-                                                    </blockquote>
-                                                </li>
-                                                <li>
-                                                    <blockquote>
-                                                        <p>I am amazed at the services that thedesertsafari has provided during our trip to Morocco desert
-                                                            <cite>&ndash;Steve Nicholson , IMF Morocco</cite>
-                                                        </p>
-                                                    </blockquote>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- END testimonials -->
-                                </div>
+                               
                                 <div>
                                     <div class="hr_shadow {$custom_css_class}">&nbsp;</div>
                                 </div>
@@ -673,51 +623,43 @@ ul.tabset a,
                     </div>
                     <!-- END main-holder -->
                 </div>
-                <!-- END main-area -->
-                <div id="footer-top">&nbsp;</div>
                 <!-- END footer-top -->
             </div>
-            <!-- END main -->
-            <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-                <div id="footer-callout">
-                    <div id="footer-callout-content">
-                        <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
-                    </div>
-                    <!-- END footer-callout-content -->
-                </div>
-                <!-- END footer-callout -->
-                <div class="footer-overlay">
-                    <div class="karma-footer-shadow"></div>
-                    <!-- END karma-footer-shadow -->
-                    <br /> </div>
-                <!-- END footer-overlay -->
-                <div id="footer_bottom">
-                    <div class="info">
-                        <div id="foot_left">                           
-                            <div id="google_translate_element"></div>
-                            <br>
-                            <script type="text/javascript">
-                            function googleTranslateElementInit() {
-                                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
-                            }
-                            </script>
-                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                         <div class="textwidget">
-                                <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
-                            </div>
-                        </div>
-                        <!-- END foot_left -->
-                        <div id="foot_right">
-                        </div>
-                        <!-- END foot_right -->
-                    </div>
-                    <!-- END info -->
-                </div>
-                <!-- END footer_bottom -->
-            </footer>
-            <!-- END footer -->
+            <!-- END footer-top -->
         </div>
-        <!-- END wrapper -->
+        <!-- END main -->
+        <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+            <div id="footer-callout">
+                <div id="footer-callout-content">
+                    <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
+                </div>
+                <!-- END footer-callout-content -->
+            </div>
+            <!-- END footer-callout -->
+            <div class="footer-overlay">
+                <div class="karma-footer-shadow"></div>
+                <!-- END karma-footer-shadow -->
+                <br /> </div>
+            <!-- END footer-overlay -->
+            <div id="footer_bottom">
+                <div class="info">
+                    <div id="foot_left">&nbsp;
+                        <div class="textwidget">
+                            <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
+                        </div>
+                    </div>
+                    <!-- END foot_left -->
+                    <div id="foot_right">
+                    </div>
+                    <!-- END foot_right -->
+                </div>
+                <!-- END info -->
+            </div>
+            <!-- END footer_bottom -->
+        </footer>
+        <!-- END footer -->
+    </div>
+    <!-- END wrapper -->
     </div>
     <!-- END tt-layout -->
     <!-- ngg_resource_manager_marker -->
@@ -744,6 +686,28 @@ ul.tabset a,
     <script type='text/javascript' src='content/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
     <script type='text/javascript' src='content/jquery/ui/accordion.mine899.js?ver=1.11.4'></script>
     <script type='text/javascript' src='content/themes/karma/js/jquery.prettyPhoto.js'></script>
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var FB_WP = FB_WP || {};
+    FB_WP.queue = { _methods: [], flushed: false, add: function(fn) { FB_WP.queue.flushed ? fn() : FB_WP.queue._methods.push(fn) }, flush: function() { for (var fn; fn = FB_WP.queue._methods.shift();) { fn() } FB_WP.queue.flushed = true } };
+    window.fbAsyncInit = function() { FB.init({ "xfbml": true, "appId": "127848234061418" }); if (FB_WP && FB_WP.queue && FB_WP.queue.flush) { FB_WP.queue.flush() } }
+    /* ]]> */
+    </script>
+    <script type="text/javascript">
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return } js = d.createElement(s);
+        js.id = id;
+        js.src = "index.php\/\/connect.facebook.net\/en_US\/all.js";
+        fjs.parentNode.insertBefore(js, fjs)
+    }(document, "script", "facebook-jssdk"));
+    </script>
+    <script type='text/javascript' src='content/wp-embed.minef15.js?ver=4.8'></script>
+    <script type='text/javascript' src='content/themes/karma/js/scrollWatch.js'></script>
+    <script type='text/javascript'>
+    jQuery(document).ready(function() { if (jQuery(window).width() > 770) { truethemes_StickyMenu(1); } });
+    </script>
+    <div id="fb-root"></div><a href="#0" class="karma-scroll-top"><i class="fa fa-chevron-up"></i></a>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
