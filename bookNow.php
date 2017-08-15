@@ -21,11 +21,7 @@
 <link rel='stylesheet' id='font-awesome-css'  href='content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min3c21.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='mobile-css'  href='content/themes/karma/css/_mobileef15.css?ver=4.8' type='text/css' media='all' />
 <script type='text/javascript' src='content/swfobjecteb77.js?ver=2.2-20120417'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var LS_Meta = {"v":"6.5.1"};
-/* ]]> */
-</script>
+
 <script type='text/javascript' data-cfasync="false" src='content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0'></script>
 <script type='text/javascript' src='content/jquery/jqueryb8ff.js?ver=1.12.4'></script><script>jQueryWP = jQuery;</script>
 <script type='text/javascript' src='content/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
@@ -362,15 +358,8 @@ p.comment-author-about {font-weight: bold;}
 $payment =10.5;
 $callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 ?>
-<form action="<?php echo $callurl ?>" target="_blank" method="post" class="wpcf7-form" >
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="6569">
-<input type="hidden" name="_wpcf7_version" value="4.8">
-<input type="hidden" name="_wpcf7_locale" value="en_US">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6569-p6570-o1">
-<input type="hidden" name="_wpcf7_container_post" value="6570">
-<input type="hidden" name="_wpcf7_nonce" value="d61dc53030">
-</div>
+<form action="<?php echo $callurl ?>" target="_blank" method="get" class="wpcf7-form" >
+
 <p>Your Name (required)<br>
   <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
 <p>Your Email (required) <br>

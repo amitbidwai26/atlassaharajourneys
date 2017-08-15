@@ -448,12 +448,7 @@ ul.tabset a,
 <div class="screen-reader-response"></div>
 <form action="/booking-form.php" method="post" class="wpcf7-form" novalidate="novalidate">
 <div style="display: none;">
-<input type="hidden" name="_wpcf7" value="6569">
-<input type="hidden" name="_wpcf7_version" value="4.8">
-<input type="hidden" name="_wpcf7_locale" value="en_US">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6569-p6570-o1">
-<input type="hidden" name="_wpcf7_container_post" value="6570">
-<input type="hidden" name="_wpcf7_nonce" value="d61dc53030">
+
 </div>
 <p>Your Name (required)<br>
     <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name"></span>   </p>
