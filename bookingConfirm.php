@@ -292,129 +292,93 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 <div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
 <?php
-$payment =10.5;
-$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
+if(!empty($_POST))
+{
+
+	$name =		(isset($_POST["name"])  && !empty($_POST["name"]) ) ? $_POST["name"]:'Not Set';
+	$email = 	(isset($_POST["email"]) && !empty($_POST["email"])) ? $_POST["email"]:"Email Not Set"; 
+	$phone = 	(isset($_POST["phone"]) && !empty($_POST["phone"])) ?$_POST["phone"]:"Phone Not Set";
+	$tour = 	(isset($_POST["tour"])  && !empty($_POST["tour"])) ?$_POST["tour"]:"Tour Not Set";
+	$location = (isset($_POST["pickup"])  && !empty($_POST["pickup"])) ?$_POST["pickup"]:"Pickup Not Set";
+	$tourdate = (isset($_POST["date"])  && !empty($_POST["date"])) ?$_POST["date"]:"Date Note Set";
+	$adults = 	(isset($_POST["adult"])  && !empty($_POST["adult"])) ?$_POST["adult"]:"0";
+	$child = 	(isset($_POST["child"])  && !empty($_POST["child"])) ?$_POST["child"]:"0";
+	$msg = 		(isset($_POST["message"]) && !empty($_POST["message"])) ?$_POST["message"]:"No Message";
+	$payment = 	(isset($_POST["payment"]) && !empty($_POST["payment"])) ?$_POST["payment"]:"10";	
+	$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 ?>
-<form action="bookingConfirm.php?"  method="post" class="wpcf7-form" >
+<h2><u>Booking Details</u></h2>
+<br>
+<table border="1px">
+<tr>
+<td><h5>Name </h5></td>
+<td></td>
+<td><h5><?php echo $name ?></h5></td>
+</tr>
+<tr>
+<td><h5>Email</h5></td>
+<td></td>
+<td><h5><?php echo $email ?></h5></td>
+</tr>
+<tr>
+<td><h5>Phone</h5></td>
+<td></td>
+<td><h5><?php echo $phone ?></h5></td>
+</tr>
+<tr>
+<td><h5>Pickup Location:</h5></td>
+<td></td>
+<td><h5><?php echo $location ?></h5></td>
+</tr>
+<tr>
+<td><h5>Date of Tour:</h5></td>
+<td></td>
+<td><h5><?php echo $tourdate ?></h5></td>
+</tr>
+<tr>
+<td><h5>Adults:</h5></td>
+<td></td>
+<td><h5><?php echo $adults ?></h5></td>
+</tr>
+<tr>
+<td><h5>Children:</h5></td>
+<td></td>
+<td><h5><?php echo $child ?></h5></td>
+</tr>
+<tr>
+<td><h5>Special Message:</h5></td>
+<td></td>
+<td><h5><?php echo $msg ?></h5></td>
+</tr>
+<tr>
+<td><h5>Payment:</h5></td>
+<td></td>
+<td><h5><?php echo $payment ?></h5></td>
+</tr>
 
-<p>Your Name (required)<br>
-<input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
-<p>Your Email (required) <br>
-<span class="wpcf7-form-control-wrap your-email">
-<input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" placeholder="abc@gmail.com"></span>  </p>
-<p>Contact number: (required)<br>
-<span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phone" value="" size="40" 
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+</tr>
 
-class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" ></span> </p>
-
-
-<p>Select Tour:
-<?php
-if(isset ( $_GET["tour"])){
-$tour = ($_GET["tour"]);
-
-if($tour == 'southernMorocco') { ?>
-<b> Southern Morocco</b> 
-<?php 	} 
-elseif($tour == 'Ait-Ben-Haddou-Day-Trip'){ ?>
-<b> Ait Ben Haddou Day Trip</b> 
-<?php	}
-elseif($tour == 'Berber-Villages-Of-Telouet'){ ?>
-<b> Berber Villages Of Telouet</b> 
-<?php	}
-elseif($tour == 'Essaouira-Day-Trip'){ ?>
-<b> Essaouira Day Trip</b> 
-<?php	}
-elseif($tour == 'Follow-The-Nomads-Tracks'){ ?>
-<b> Follow The Nomads Tracks</b> 
-<?php	}
-elseif($tour == 'From-Telouet-To-Tassaout'){ ?>
-<b> From Telouet To Tassaout</b> 
-<?php	}
-elseif($tour == 'Imlil-Day-Trip'){ ?>
-<b> Imlil Day Trip</b> 
-<?php	}
-elseif($tour == 'Imperial-Cities-Of-Morocco'){ ?>
-<b> Imperial Cities Of Morocco</b> 
-<?php	}
-elseif($tour == 'Kasbah-And-Sahara-3-Days'){ ?>
-<b> Kasbah And Sahara 3 Days</b> 
-<?php	}
-elseif($tour == 'Kasbahs-Sahara-And-Fes'){ ?>
-<b> Kasbahs Sahara And Fes</b> 
-<?php	}
-elseif($tour == 'Northen-Morocco-And-Marrakech'){ ?>
-<b> Northen Morocco And Marrakech</b> 
-<?php	}
-elseif($tour == 'Ourika-Valley-Day-Trip'){ ?>
-<b> Ourika Valley Day Trip</b> 
-<?php	}
-elseif($tour == 'Ouzoud-Water-Falls'){ ?>
-<b> Ouzoud Water Falls</b> 
-<?php	}
-elseif($tour == 'Toubkal-2–3-Or-4-Days'){ ?>
-<b> Toubkal-2–3 Or 4 Days</b> 
-<?php	}
-elseif($tour == 'Zagora-Experience-2-Days'){ ?>
-<b> Zagora Experience 2 Days</b> 
-<?php	}} if(!isset ( $_GET["tour"])){?>
-
-<span class="wpcf7-form-control-wrap tour">
-
-<select name="tour" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
-<option value="Southern Morocco">Southern Morocco</option>
-<option value="Ait Ben Haddou Day Trip">Ait Ben Haddou Day Trip</option>
-<option value="Essaouira Day Trip">Essaouira Day Trip</option>
-<option value="Ourika Valley Day Trip">Ourika Valley Day Trip</option>
-<option value="Imlil Day Trip">Imlil Day Trip</option>
-<option value="Ouzoud Water Falls">Ouzoud Water Falls</option>
-<option value="Kasbahs Sahara And Fes">Kasbahs Sahara And Fes</option>
-<option value="Kasbah And Sahara 3 Days">Kasbah And Sahara 3 Days</option>
-<option value="Zagora Experience 2 Days">Zagora Experience 2 Days</option>
-<option value="Imperial Cities Of Morocco">Imperial Cities Of Morocco</option>
-<option value="Northen Morocco And Marrakech">Northen Morocco And Marrakech</option>
-<option value="Follow The Nomads Tracks">Follow The Nomads Tracks</option>
-<option value="Berber Villages Of Telouet">Berber Villages Of Telouet</option>
-<option value="From Telouet To Tassaout">From Telouet To Tassaout</option>
-<option value="Toubkal 2 – 3 Or 4 Days">Toubkal 2 – 3 Or 4 Days</option>
-</select>
-</span>
-<?php	}  ?>
-
-</p>
-<p>Pickup Location:<br>
-<span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="pickup" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-<p>Date of Tour:<br>
-<span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
-
-wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
-<p>Adults (Age 8+): <br>
-<span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="adult" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
-<p>Children(Age 3-7): <br>
-<span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="child" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-<p>Any Special Message<br>
-<span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-
-
-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
-<p><input type="submit" value="Proceed to Payment" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+<tr>
+<td></td>
+<td></td>
+<td><a href="<?php echo $callurl ?>"><input type="submit" value="   Pay   " class="wpcf7-form-control wpcf7-submit"></a></td>
+</tr>
+</table>
+<?php 
+}else{
+echo "<H1>Insufficient Parameters<H1>";
+}
+?>
 </div></main><!-- END main #content -->
-
 <aside role="complementary" id="sidebar" class="left_sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 </aside><!-- END sidebar -->
-
 </div><!-- END main-area -->
-
 <div id="footer-top">&nbsp;</div><!-- END footer-top -->
 </div>
-
-
 <div id="footer-top">&nbsp;</div><!-- END footer-top -->
 </div><!-- END main -->
 
@@ -427,7 +391,7 @@ form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 
 <div class="footer-overlay">
 <div class="karma-footer-shadow"></div><!-- END karma-footer-shadow --> 
-<br /></div><!-- END footer-overlay -->  
+<br/></div><!-- END footer-overlay -->  
 
 <div id="footer_bottom">
 <div class="info">
@@ -495,5 +459,5 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 </body>
 
-<!-- Mirrored from www.bidwai.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 11:44:03 GMT -->
+
 </html>
