@@ -277,42 +277,26 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 </div><!-- END tt-container -->
 </div><!-- END full-width-page-title-bar -->
 <div class="main-area">
-
 <nav role="navigation" id="sub_nav" class="nav_right_sub_nav">
-
-
-
-
-
 </nav><!-- END sub_nav -->
-
-
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
 <div itemscope="" itemtype="http://schema.org/BlogPosting">
 <div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
 <?php
-$payment =10.5;
-$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 ?>
 <form action="bookingConfirm.php?"  method="post" class="wpcf7-form" >
-
 <p>Your Name (required)<br>
-<input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
+<input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Adam Smith" required>  </p>
 <p>Your Email (required) <br>
 <span class="wpcf7-form-control-wrap your-email">
-<input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" placeholder="abc@gmail.com"></span>  </p>
+<input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" placeholder="abc@gmail.com" required></span>  </p>
 <p>Contact number: (required)<br>
-<span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phone" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" ></span> </p>
-
-
+<span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phone" value="" placeholder="+212-3454545543" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required ></span> </p>
 <p>Select Tour:
 <?php
 if(isset ( $_GET["tour"])){
 $tour = ($_GET["tour"]);
-
 if($tour == 'southernMorocco') { ?>
 <b> Southern Morocco</b> 
 <?php 	} 
@@ -380,24 +364,17 @@ elseif($tour == 'Zagora-Experience-2-Days'){ ?>
 </select>
 </span>
 <?php	}  ?>
-
 </p>
+<input type="hidden" name="payment1" value='80'>
 <p>Pickup Location:<br>
-<span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="pickup" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-<p>Date of Tour:<br>
-<span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
-
-wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
+<span class="wpcf7-form-control-wrap PickupLocation">
+<input type="text" name="pickup" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
+<p>Date of Tour: [DD/MM/YYYY] <br>
+<span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
 <p>Adults (Age 8+): <br>
-<span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="adult" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
+<span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="adult" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
 <p>Children(Age 3-7): <br>
-<span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="child" value="" size="40" 
-
-class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
+<span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="child" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
 <p>Any Special Message<br>
 <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-
 
@@ -495,5 +472,5 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 </body>
 
-<!-- Mirrored from www.bidwai.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 11:44:03 GMT -->
+
 </html>

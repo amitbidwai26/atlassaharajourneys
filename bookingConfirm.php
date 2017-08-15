@@ -295,16 +295,16 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 if(!empty($_POST))
 {
 
-	$name =		(isset($_POST["name"])  && !empty($_POST["name"]) ) ? $_POST["name"]:'Not Set';
-	$email = 	(isset($_POST["email"]) && !empty($_POST["email"])) ? $_POST["email"]:"Email Not Set"; 
-	$phone = 	(isset($_POST["phone"]) && !empty($_POST["phone"])) ?$_POST["phone"]:"Phone Not Set";
-	$tour = 	(isset($_POST["tour"])  && !empty($_POST["tour"])) ?$_POST["tour"]:"Tour Not Set";
-	$location = (isset($_POST["pickup"])  && !empty($_POST["pickup"])) ?$_POST["pickup"]:"Pickup Not Set";
-	$tourdate = (isset($_POST["date"])  && !empty($_POST["date"])) ?$_POST["date"]:"Date Note Set";
-	$adults = 	(isset($_POST["adult"])  && !empty($_POST["adult"])) ?$_POST["adult"]:"0";
-	$child = 	(isset($_POST["child"])  && !empty($_POST["child"])) ?$_POST["child"]:"0";
-	$msg = 		(isset($_POST["message"]) && !empty($_POST["message"])) ?$_POST["message"]:"No Message";
-	$payment = 	(isset($_POST["payment"]) && !empty($_POST["payment"])) ?$_POST["payment"]:"10";	
+	$name =		(isset($_POST["name"])  && !empty($_POST["name"]) ) ? $_POST["name"]: "Not Set";
+	$email = 	(isset($_POST["email"]) && !empty($_POST["email"])) ? $_POST["email"]: "Email Not Set"; 
+	$phone = 	(isset($_POST["phone"]) && !empty($_POST["phone"])) ? $_POST["phone"]: "Phone Not Set";
+	$tour = 	(isset($_POST["tour"])  && !empty($_POST["tour"])) ? $_POST["tour"]: "Tour Not Set";
+	$location = (isset($_POST["pickup"])  && !empty($_POST["pickup"])) ? $_POST["pickup"]: "Pickup Not Set";
+	$tourdate = (isset($_POST["date"])  && !empty($_POST["date"])) ? $_POST["date"]: "Date Note Set";
+	$adults = 	(isset($_POST["adult"])  && !empty($_POST["adult"])) ? $_POST["adult"]: "0";
+	$child = 	(isset($_POST["child"])  && !empty($_POST["child"])) ? $_POST["child"]: "0";
+	$msg = 		(isset($_POST["message"]) && !empty($_POST["message"])) ? $_POST["message"]: "No Message";
+	$payment = 	(isset($_POST["payment1"]) && !empty($_POST["payment1"])) ? $_POST["payment1"]: "0";	
 	$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 ?>
 <h2><u>Booking Details</u></h2>

@@ -933,6 +933,6 @@ behavior: url(content/themes/karma/js/PIE/PIE.php);
     </script>
     <!--End of Tawk.to Script-->
 </body>
-<!-- Mirrored from www.bidwai.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 11:44:03 GMT -->
+
 
 </html>
