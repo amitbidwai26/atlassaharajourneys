@@ -32,49 +32,49 @@
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
 <script type="text/javascript">
 
-				function alo_em_pubblic_form ()
-		{
-			var alo_cf_array = new Array();
-									document.alo_easymail_widget_form.submit.value="sending...";
-			document.alo_easymail_widget_form.submit.disabled = true;
-			document.getElementById('alo_em_widget_loading').style.display = "inline";
-			document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
+function alo_em_pubblic_form ()
+{
+var alo_cf_array = new Array();
+document.alo_easymail_widget_form.submit.value="sending...";
+document.alo_easymail_widget_form.submit.disabled = true;
+document.getElementById('alo_em_widget_loading').style.display = "inline";
+document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
 
-			var alo_em_sack = new sack("wp-admin/admin-ajax.php" );
+var alo_em_sack = new sack("wp-admin/admin-ajax.php" );
 
-			alo_em_sack.execute = 1;
-			alo_em_sack.method = 'POST';
-			alo_em_sack.setVar( "action", "alo_em_pubblic_form_check" );
-						alo_em_sack.setVar( "alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value );
-						alo_em_sack.setVar( "alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value );
-						alo_em_sack.setVar( "alo_easymail_txt_generic_error", 'Error during operation.' );
-			alo_em_sack.setVar( "alo_em_error_email_incorrect", "The e-mail address is not correct");
-			alo_em_sack.setVar( "alo_em_error_name_empty", "The name field is empty");
-						alo_em_sack.setVar( "alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
-			alo_em_sack.setVar( "alo_em_error_email_activated", "Warning: this email address has already been subscribed");
-			alo_em_sack.setVar( "alo_em_error_on_sending", "Error during sending: please try again");
-			alo_em_sack.setVar( "alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
-			alo_em_sack.setVar( "alo_em_txt_subscribe", "Subscribe");
-			alo_em_sack.setVar( "alo_em_lang_code", "en");
+alo_em_sack.execute = 1;
+alo_em_sack.method = 'POST';
+alo_em_sack.setVar( "action", "alo_em_pubblic_form_check" );
+alo_em_sack.setVar( "alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value );
+alo_em_sack.setVar( "alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value );
+alo_em_sack.setVar( "alo_easymail_txt_generic_error", 'Error during operation.' );
+alo_em_sack.setVar( "alo_em_error_email_incorrect", "The e-mail address is not correct");
+alo_em_sack.setVar( "alo_em_error_name_empty", "The name field is empty");
+alo_em_sack.setVar( "alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
+alo_em_sack.setVar( "alo_em_error_email_activated", "Warning: this email address has already been subscribed");
+alo_em_sack.setVar( "alo_em_error_on_sending", "Error during sending: please try again");
+alo_em_sack.setVar( "alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
+alo_em_sack.setVar( "alo_em_txt_subscribe", "Subscribe");
+alo_em_sack.setVar( "alo_em_lang_code", "en");
 
-			var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
-			var length = cbs.length;
-			var lists = "";
-			for (var i=0; i < length; i++) {
-				if (cbs[i].name == 'alo_em_form_lists' +'[]' && cbs[i].type == 'checkbox') {
-					if ( cbs[i].checked ) lists += cbs[i].value + ",";
-				}
-			}
-			alo_em_sack.setVar( "alo_em_form_lists", lists );
-			alo_em_sack.setVar( "alo_em_nonce", '080b59a59c' );
-			//alo_em_sack.onError = function() { alert('Ajax error' )};
-			alo_em_sack.runAJAX();
+var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
+var length = cbs.length;
+var lists = "";
+for (var i=0; i < length; i++) {
+if (cbs[i].name == 'alo_em_form_lists' +'[]' && cbs[i].type == 'checkbox') {
+if ( cbs[i].checked ) lists += cbs[i].value + ",";
+}
+}
+alo_em_sack.setVar( "alo_em_form_lists", lists );
+alo_em_sack.setVar( "alo_em_nonce", '080b59a59c' );
+//alo_em_sack.onError = function() { alert('Ajax error' )};
+alo_em_sack.runAJAX();
 
-			return true;
+return true;
 
-		}
-				//]]>
-	</script>
+}
+//]]>
+</script>
 
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <meta property="og:site_name" content="The Desert Safari" />
@@ -93,70 +93,70 @@ h1, h2, h3, h4, h5 #main .comment-title, .four_o_four, .callout-wrap span, .sear
 
 .callout-wrap,
 .post_footer {
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
 }
 .heading-horizontal:before {
-	border-top: 1px solid ;
-	border-bottom: 1px solid #000000;
+border-top: 1px solid ;
+border-bottom: 1px solid #000000;
 }
 .hr,
 .hr_top_link {
-	border-top: 1px solid #000000;
+border-top: 1px solid #000000;
 }
 .callout-wrap:before,
 .post_footer:before,
 .hr:before,
 .hr_top_link:before {
-   border-top: 1px solid ;
+border-top: 1px solid ;
 }
 .callout-wrap:after,
 .post_footer:after,
 #horizontal_nav:after,
 .member-wrap:after {
-   border-bottom: 1px solid ;
+border-bottom: 1px solid ;
 }
 #horizontal_nav,
 .sidebar-widget,
 #sub_nav ul a,
 .member-wrap {
-	border-bottom: 1px solid #000000;
+border-bottom: 1px solid #000000;
 }
 #sidebar {
-	border-left: 1px solid ;
+border-left: 1px solid ;
 }
 #sidebar:before {
-   border-left: 1px solid #000000;
+border-left: 1px solid #000000;
 }
 #sidebar.left_sidebar {
-	border-right: 1px solid #000000;
+border-right: 1px solid #000000;
 }
 #sidebar.left_sidebar:after {
-   border-right: 1px solid ;
+border-right: 1px solid ;
 }
 #sidebar.left_sidebar,
 #sidebar.left_sidebar:before {
-	border-left: none;	
+border-left: none;	
 }
 .sidebar-widget:after,
 #sub_nav ul a:after {
-   border-bottom: 1px solid ;
+border-bottom: 1px solid ;
 }
 #sub_nav ul a:hover,
 #sub_nav ul a:hover:after {
-	border-color: transparent;
+border-color: transparent;
 }
 
 .header-overlay {
-	background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
+background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
 }
 
 div.karma-header-shadow {
-	background: url(content/themes/karma/images/_global/shadow-1.png) repeat-x scroll center top;
+background: url(content/themes/karma/images/_global/shadow-1.png) repeat-x scroll center top;
 }
 
 div.karma-footer-shadow {
-	background: url(content/themes/karma/images/_global/shadow-1.png) repeat-x scroll center top;
+background: url(content/themes/karma/images/_global/shadow-1.png) repeat-x scroll center top;
 }
 
 #tt-boxed-layout {
@@ -167,15 +167,15 @@ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 body{background-image:url(content/themes/karma/images/body-backgrounds/low-contrast-linen.png) !important;background-position:left top !important;background-repeat:repeat !important;}
 
 #tt-slider-full-width {
-	background-image: url(content/themes/karma/images/_global/overlay-halftone.png);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
+background-image: url(content/themes/karma/images/_global/overlay-halftone.png);
+background-position: 50% 50%;
+background-repeat: no-repeat;
 }
 
 body,
 .testimonials blockquote,
 .testimonials_static blockquote {
-	font-family: 'Open Sans', Arial, sans-serif;
+font-family: 'Open Sans', Arial, sans-serif;
 }
 #tt-parallax-banner h1,
 #tt-parallax-banner h2,
@@ -183,13 +183,13 @@ body,
 #tt-parallax-banner h4,
 #tt-parallax-banner h5,
 #tt-parallax-banner h6 {
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: 600;
+font-family: 'Open Sans', Arial, sans-serif;
+font-weight: 600;
 }
 #tt-parallax-banner h1,
 #tt-parallax-banner h2,
 #tt-parallax-banner h3 {
-	font-size: 28px;
+font-size: 28px;
 }
 h1, h2, h3, h4, h5, #footer h3, #menu-main-nav li strong, #wrapper.tt-uberstyling-enabled .ubermenu ul.ubermenu-nav > li.ubermenu-item > a span.ubermenu-target-title, p.footer-callout-heading, #tt-mobile-menu-button span , .post_date .day, .karma_mega_div span.karma-mega-title {font-family: 'Lato', Arial, sans-serif;}
 h1, h2, h3, h4, h5, h6 {margin-bottom:12px;}
@@ -211,12 +211,12 @@ p {line-height: 2;margin-bottom:20px;font-size: 13px;}
 #footer p.footer-callout-heading {font-size: 18px;}
 #footer .blogroll a,
 #footer ul.tt-recent-posts h4 {
-	font-weight: normal;
-	color:rgba(255,255,255,0.8);
+font-weight: normal;
+color:rgba(255,255,255,0.8);
 }
 #footer ul.tt-recent-posts h4,
 #sidebar ul.tt-recent-posts h4 {
-	font-size: 13px !important;	
+font-size: 13px !important;	
 }
 .tools .breadcrumb .current_crumb:after, .woocommerce-page .tt-woocommerce .breadcrumb span:last-child:after {bottom: -16px;}
 .post_title span {font-weight: normal;}
@@ -229,37 +229,37 @@ p.comment-author-about {font-weight: bold;}
 
 
 .footer-overlay {
-	background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
+background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
 }
 </style>
 <script type="text/javascript">function setREVStartSize(e){
-				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
-					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
-				}catch(d){console.log("Failure at Presize of Slider:"+d)}
-			};</script>
+try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+}catch(d){console.log("Failure at Presize of Slider:"+d)}
+};</script>
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div id="tt-boxed-layout" class="content-style-tan">
-	<div id="wrapper">
-		<header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
+<div id="wrapper">
+<header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
 <div class="header-holder tt-logo-center">
 <div class="header-overlay">
 <div class="header-area">
 <a href="index.php" class="logo"><img src="images/logo.png"  alt="The Desert Safari" /></a>
-        <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <ul id="menu-main-nav" class="sf-menu">
-                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
-                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
-                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
-                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
-                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
-                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
-                    </ul>
-                            </nav>
+<nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+<ul id="menu-main-nav" class="sf-menu">
+<li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+<li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+<li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+<li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+<li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+<li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+</ul>
+</nav>
 <div class="jquery2-slider-wrap flexslider">
-	<div class="jquery2-slider-bg" style="background-color:#FFF">
-		<ul class="slides">
+<div class="jquery2-slider-bg" style="background-color:#FFF">
+<ul class="slides">
 
 <li class="jqslider">
 
@@ -321,8 +321,8 @@ p.comment-author-about {font-weight: bold;}
 </ul>
 </div><!-- END jquery2-slider-bg -->
 </div><!-- END jquery2-slider-wrap -->
-    
-  
+
+
 </div><!-- END header-area -->
 </div><!-- END header-overlay -->
 </div><!-- END header-holder -->
@@ -330,23 +330,23 @@ p.comment-author-about {font-weight: bold;}
 
 
 <div id="main" class="tt-slider-">
-	
+
 
 <div class="tools full-width-page-title-bar">
-		<div class="karma-header-shadow"></div><!-- END karma-header-shadow --> 
-		<div class="tt-container">
+<div class="karma-header-shadow"></div><!-- END karma-header-shadow --> 
+<div class="tt-container">
 
-		<h1>Booking Form</h1>
-	</div><!-- END tt-container -->
+<h1>Booking Form</h1>
+</div><!-- END tt-container -->
 </div><!-- END full-width-page-title-bar -->
 <div class="main-area">
-	
+
 <nav role="navigation" id="sub_nav" class="nav_right_sub_nav">
-	
-	
-		    			
-					
-    
+
+
+
+
+
 </nav><!-- END sub_nav -->
 
 
@@ -361,12 +361,12 @@ $callurl= "http://www.paypal.me/MohamedDTM/".$payment;
 <form action="<?php echo $callurl ?>" target="_blank" method="get" class="wpcf7-form" >
 
 <p>Your Name (required)<br>
-  <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
+<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Trip Organizer">  </p>
 <p>Your Email (required) <br>
 <span class="wpcf7-form-control-wrap your-email">
 <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" placeholder="abc@gmail.com"></span>  </p>
 <p>Contact number: (required)<br>
-    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" 
+<span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" 
 
 class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" ></span> </p>
 
@@ -374,52 +374,52 @@ class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required=
 <p>Select Tour:
 <?php
 if(isset ( $_GET["tour"])){
-	$tour = ($_GET["tour"]);
-	
-	if($tour == 'southernMorocco') { ?>
-  	<b> Southern Morocco</b> 
+$tour = ($_GET["tour"]);
+
+if($tour == 'southernMorocco') { ?>
+<b> Southern Morocco</b> 
 <?php 	} 
-	elseif($tour == 'Ait-Ben-Haddou-Day-Trip'){ ?>
-	<b> Ait Ben Haddou Day Trip</b> 
+elseif($tour == 'Ait-Ben-Haddou-Day-Trip'){ ?>
+<b> Ait Ben Haddou Day Trip</b> 
 <?php	}
-	elseif($tour == 'Berber-Villages-Of-Telouet'){ ?>
-	<b> Berber Villages Of Telouet</b> 
+elseif($tour == 'Berber-Villages-Of-Telouet'){ ?>
+<b> Berber Villages Of Telouet</b> 
 <?php	}
-	elseif($tour == 'Essaouira-Day-Trip'){ ?>
-	<b> Essaouira Day Trip</b> 
+elseif($tour == 'Essaouira-Day-Trip'){ ?>
+<b> Essaouira Day Trip</b> 
 <?php	}
-	elseif($tour == 'Follow-The-Nomads-Tracks'){ ?>
-	<b> Follow The Nomads Tracks</b> 
+elseif($tour == 'Follow-The-Nomads-Tracks'){ ?>
+<b> Follow The Nomads Tracks</b> 
 <?php	}
-	elseif($tour == 'From-Telouet-To-Tassaout'){ ?>
-	<b> From Telouet To Tassaout</b> 
+elseif($tour == 'From-Telouet-To-Tassaout'){ ?>
+<b> From Telouet To Tassaout</b> 
 <?php	}
-	elseif($tour == 'Imlil-Day-Trip'){ ?>
-	<b> Imlil Day Trip</b> 
+elseif($tour == 'Imlil-Day-Trip'){ ?>
+<b> Imlil Day Trip</b> 
 <?php	}
-	elseif($tour == 'Imperial-Cities-Of-Morocco'){ ?>
-	<b> Imperial Cities Of Morocco</b> 
+elseif($tour == 'Imperial-Cities-Of-Morocco'){ ?>
+<b> Imperial Cities Of Morocco</b> 
 <?php	}
-	elseif($tour == 'Kasbah-And-Sahara-3-Days'){ ?>
-	<b> Kasbah And Sahara 3 Days</b> 
+elseif($tour == 'Kasbah-And-Sahara-3-Days'){ ?>
+<b> Kasbah And Sahara 3 Days</b> 
 <?php	}
-	elseif($tour == 'Kasbahs-Sahara-And-Fes'){ ?>
-	<b> Kasbahs Sahara And Fes</b> 
+elseif($tour == 'Kasbahs-Sahara-And-Fes'){ ?>
+<b> Kasbahs Sahara And Fes</b> 
 <?php	}
-	elseif($tour == 'Northen-Morocco-And-Marrakech'){ ?>
-	<b> Northen Morocco And Marrakech</b> 
+elseif($tour == 'Northen-Morocco-And-Marrakech'){ ?>
+<b> Northen Morocco And Marrakech</b> 
 <?php	}
-	elseif($tour == 'Ourika-Valley-Day-Trip'){ ?>
-	<b> Ourika Valley Day Trip</b> 
+elseif($tour == 'Ourika-Valley-Day-Trip'){ ?>
+<b> Ourika Valley Day Trip</b> 
 <?php	}
-	elseif($tour == 'Ouzoud-Water-Falls'){ ?>
-	<b> Ouzoud Water Falls</b> 
+elseif($tour == 'Ouzoud-Water-Falls'){ ?>
+<b> Ouzoud Water Falls</b> 
 <?php	}
-	elseif($tour == 'Toubkal-2–3-Or-4-Days'){ ?>
-	<b> Toubkal-2–3 Or 4 Days</b> 
+elseif($tour == 'Toubkal-2–3-Or-4-Days'){ ?>
+<b> Toubkal-2–3 Or 4 Days</b> 
 <?php	}
-	elseif($tour == 'Zagora-Experience-2-Days'){ ?>
-	<b> Zagora Experience 2 Days</b> 
+elseif($tour == 'Zagora-Experience-2-Days'){ ?>
+<b> Zagora Experience 2 Days</b> 
 <?php	}} if(!isset ( $_GET["tour"])){?>
 
 <span class="wpcf7-form-control-wrap tour">
@@ -444,28 +444,28 @@ if(isset ( $_GET["tour"])){
 </span>
 <?php	}  ?>
 
- </p>
+</p>
 <p>Pickup Location:<br>
-    <span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="PickupLocation:" value="" size="40" 
+<span class="wpcf7-form-control-wrap PickupLocation"><input type="text" name="PickupLocation:" value="" size="40" 
 
 class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
 <p>Date of Tour:<br>
-  <span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
+<span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control 
 
 wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
 <p>Adults (Age 8+): <br>
-    <span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="AdultsAge8:" value="" size="40" 
+<span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="AdultsAge8:" value="" size="40" 
 
 class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
 <p>Children(Age 3-7): <br>
-    <span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="ChildrenAge3-7:" value="" size="40" 
+<span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="ChildrenAge3-7:" value="" size="40" 
 
 class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-<p>Your Message<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-
+<p>Any Special Message<br>
+<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-
 
 form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
-<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
+<p><input type="submit" value="Proceed to Payment" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
 
@@ -481,32 +481,32 @@ form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 <div id="footer-top">&nbsp;</div><!-- END footer-top -->
 </div><!-- END main -->
 
-        <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-        	            <div id="footer-callout" >
-            	<div id="footer-callout-content">
-                	                    	<p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
-			                                    </div><!-- END footer-callout-content -->
-            </div><!-- END footer-callout -->
-                        
-            <div class="footer-overlay">
-				                <div class="karma-footer-shadow"></div><!-- END karma-footer-shadow --> 
-                <br />            </div><!-- END footer-overlay -->  
-        
-        <div id="footer_bottom">
-            <div class="info">
-            	                <div id="foot_left">&nbsp;                    			<div class="textwidget"><p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
+<footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+<div id="footer-callout" >
+<div id="footer-callout-content">
+<p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
+</div><!-- END footer-callout-content -->
+</div><!-- END footer-callout -->
+
+<div class="footer-overlay">
+<div class="karma-footer-shadow"></div><!-- END karma-footer-shadow --> 
+<br />            </div><!-- END footer-overlay -->  
+
+<div id="footer_bottom">
+<div class="info">
+<div id="foot_left">&nbsp;                    			<div class="textwidget"><p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
 </div>
-		                    
-                </div><!-- END foot_left -->
-                              
-                <div id="foot_right">
-                           
-                </div><!-- END foot_right -->
-            </div><!-- END info -->
-        </div><!-- END footer_bottom -->
-                </footer><!-- END footer -->
-        
-	</div><!-- END wrapper -->
+
+</div><!-- END foot_left -->
+
+<div id="foot_right">
+
+</div><!-- END foot_right -->
+</div><!-- END info -->
+</div><!-- END footer_bottom -->
+</footer><!-- END footer -->
+
+</div><!-- END wrapper -->
 </div><!-- END tt-layout -->
 <!-- ngg_resource_manager_marker --><script type='text/javascript' src='content/plugins/bbpress/templates/default/js/editor6640.js?ver=2.5.12-6148'></script>
 
