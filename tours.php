@@ -87,6 +87,10 @@
     }
     //]]>
     </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- <meta name="NextGEN" version="2.2.10" /> -->
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
@@ -374,6 +378,44 @@
     .footer-overlay {
         background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
     }
+
+
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+
     </style>
     <script type="text/javascript">
     function setREVStartSize(e) {
@@ -447,6 +489,13 @@ behavior: url(content/themes/karma/js/PIE/PIE.php);
 </head>
 
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
     <div id="tt-boxed-layout" class="content-style-tan">
         <div id="wrapper">
             <header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">

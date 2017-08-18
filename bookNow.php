@@ -400,7 +400,7 @@ elseif($tour == 'Zagora-Experience-2-Days'){ ?>
 form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
  <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
 <br><br>
-<p><input type="submit" value="Proceed to Payment"  id="submit" class=""></p>
+<p><input type="submit" value="Proceed to Payment"  id="submit" class="wpcf7-form-control wpcf7-text"></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
 
