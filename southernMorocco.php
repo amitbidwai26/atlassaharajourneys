@@ -315,6 +315,33 @@
         background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
     }
 
+    #DIV_1 {
+    bottom: 16px;
+    box-sizing: border-box;
+    color: rgb(123, 128, 132);
+    height: 276px;
+    left: 0px;
+    position: fixed;
+    right: 1301px;
+    text-decoration: none solid rgb(123, 128, 132);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 250px;
+    width: 48px;
+    z-index: 100020;
+    column-rule-color: rgb(123, 128, 132);
+    perspective-origin: 24px 138px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 24px 138px;
+    caret-color: rgb(123, 128, 132);
+    animation: slideInLeft 0.4s ease-out 0s 1 normal both running;
+    border: 0px none rgb(123, 128, 132);
+    font: normal normal normal normal 14px / 21px Montserrat, sans-serif;
+    outline: rgb(123, 128, 132) none 0px;
+    padding-left: 10px;
+
+}/*#DIV_1*/
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -344,6 +371,13 @@ a.button {
 </head>
 
 <body itemscope="" class="page-template page-template-template_rightsidebar_horizontalnav page-template-template_rightsidebar_horizontalnav-php page page-id-5141 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    <div id="DIV_1">
+<a href="https://www.facebook.com/atlassaharajourneys">
+<img src="images/facebook.png" height="32px" width="32px"></a><br>
+<a href="https://twitter.com/atlassaharajour"><img src="images/twitter.png" height="32px" width="32px"></a><br>
+<a href="https://www.instagram.com/deserttoursmorocco5/"><img src="images/instagram.png" height="32px" width="32px"></a>
+<br>
+</div>
     <div id="tt-boxed-layout" class="content-style-tan">
         <div id="wrapper">
             <header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">

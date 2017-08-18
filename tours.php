@@ -379,40 +379,63 @@
         background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
     }
 
+    #DIV_1 {
+    bottom: 16px;
+    box-sizing: border-box;
+    color: rgb(123, 128, 132);
+    height: 276px;
+    left: 0px;
+    position: fixed;
+    right: 1301px;
+    text-decoration: none solid rgb(123, 128, 132);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 250px;
+    width: 48px;
+    z-index: 100020;
+    column-rule-color: rgb(123, 128, 132);
+    perspective-origin: 24px 138px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 24px 138px;
+    caret-color: rgb(123, 128, 132);
+    animation: slideInLeft 0.4s ease-out 0s 1 normal both running;
+    border: 0px none rgb(123, 128, 132);
+    font: normal normal normal normal 14px / 21px Montserrat, sans-serif;
+    outline: rgb(123, 128, 132) none 0px;
+    padding-left: 10px;
 
-    .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+}/*#DIV_1*/
 
-.fa:hover {
-    opacity: 0.7;
-}
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
+  
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
+#DIV_1 {
+    bottom: 16px;
+    box-sizing: border-box;
+    color: rgb(123, 128, 132);
+    height: 276px;
+    left: 0px;
+    position: fixed;
+    right: 1301px;
+    text-decoration: none solid rgb(123, 128, 132);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 250px;
+    width: 48px;
+    z-index: 100020;
+    column-rule-color: rgb(123, 128, 132);
+    perspective-origin: 24px 138px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 24px 138px;
+    caret-color: rgb(123, 128, 132);
+    animation: slideInLeft 0.4s ease-out 0s 1 normal both running;
+    border: 0px none rgb(123, 128, 132);
+    font: normal normal normal normal 14px / 21px Montserrat, sans-serif;
+    outline: rgb(123, 128, 132) none 0px;
+    padding-left: 10px;
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
+}/*#DIV_1*/
 
 
 
@@ -440,63 +463,20 @@
         }
         </style>
     </noscript>
-    <!--[if IE 9]>
-<style media="screen">
-#footer,
-.header-holder
-{
-behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-    <!--[if lte IE 8]>
-<script type='text/javascript' src='content/themes/karma/js/html5shiv.js'></script>
-<style media="screen">
-a.button,
-a.button:hover,
-ul.products li.product a img,
-div.product div.images img,
-span.onsale,
-#footer,
-.header-holder,
-#horizontal_nav ul li,
-#horizontal_nav ul a,
-#tt-gallery-nav li,
-#tt-gallery-nav a,
-ul.tabset li,
-ul.tabset a,
-.karma-pages a,
-.karma-pages span,
-.wp-pagenavi a,
-.wp-pagenavi span,
-.post_date,
-.post_comments,
-.ka_button,
-.flex-control-paging li a,
-.colored_box,
-.tools,
-.karma_notify
-.opener,
-.callout_button,
-.testimonials {
-behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-    <!--[if IE]>
-<link rel="stylesheet" href="content/themes/karma/css/_internet_explorer.css" media="screen"/>
-<![endif]-->
+
 </head>
 
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
 
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
-
-    <div id="tt-boxed-layout" class="content-style-tan">
+<div id="DIV_1">
+<a href="https://www.facebook.com/atlassaharajourneys">
+<img src="images/facebook.png" height="32px" width="32px"></a><br>
+<a href="https://twitter.com/atlassaharajour"><img src="images/twitter.png" height="32px" width="32px"></a><br>
+<a href="https://www.instagram.com/deserttoursmorocco5/"><img src="images/instagram.png" height="32px" width="32px"></a>
+<br>
+</div>
+  <div id="tt-boxed-layout" class="content-style-tan">
         <div id="wrapper">
             <header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
                 <div class="header-holder tt-logo-center">
