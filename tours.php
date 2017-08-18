@@ -837,7 +837,7 @@ behavior: url(content/themes/karma/js/PIE/PIE.php);
                 <!-- END footer-top -->
             </div>
             <!-- END main -->
-            <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+                        <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
                 <div id="footer-callout">
                     <div id="footer-callout-content">
                         <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
@@ -852,8 +852,16 @@ behavior: url(content/themes/karma/js/PIE/PIE.php);
                 <!-- END footer-overlay -->
                 <div id="footer_bottom">
                     <div class="info">
-                        <div id="foot_left">&nbsp;
-                            <div class="textwidget">
+                        <div id="foot_left">                           
+                            <div id="google_translate_element"></div>
+                            <br>
+                            <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                            }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                         <div class="textwidget">
                                 <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
                             </div>
                         </div>

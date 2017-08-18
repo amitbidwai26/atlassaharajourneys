@@ -481,38 +481,46 @@ ul.tabset a,
             <!-- END footer-top -->
         </div>
         <!-- END main -->
-        <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-            <div id="footer-callout">
-                <div id="footer-callout-content">
-                    <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
+                   <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+                <div id="footer-callout">
+                    <div id="footer-callout-content">
+                        <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
+                    </div>
+                    <!-- END footer-callout-content -->
                 </div>
-                <!-- END footer-callout-content -->
-            </div>
-            <!-- END footer-callout -->
-            <div class="footer-overlay">
-                <div class="karma-footer-shadow"></div>
-                <!-- END karma-footer-shadow -->
-                <br /> </div>
-            <!-- END footer-overlay -->
-            <div id="footer_bottom">
-                <div class="info">
-                    <div id="foot_left">&nbsp;
-                        <div class="textwidget">
-                            <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
+                <!-- END footer-callout -->
+                <div class="footer-overlay">
+                    <div class="karma-footer-shadow"></div>
+                    <!-- END karma-footer-shadow -->
+                    <br /> </div>
+                <!-- END footer-overlay -->
+                <div id="footer_bottom">
+                    <div class="info">
+                        <div id="foot_left">                           
+                            <div id="google_translate_element"></div>
+                            <br>
+                            <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+                            }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                         <div class="textwidget">
+                                <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
+                            </div>
                         </div>
+                        <!-- END foot_left -->
+                        <div id="foot_right">
+                        </div>
+                        <!-- END foot_right -->
                     </div>
-                    <!-- END foot_left -->
-                    <div id="foot_right">
-                    </div>
-                    <!-- END foot_right -->
+                    <!-- END info -->
                 </div>
-                <!-- END info -->
-            </div>
-            <!-- END footer_bottom -->
-        </footer>
-        <!-- END footer -->
-    </div>
-    <!-- END wrapper -->
+                <!-- END footer_bottom -->
+            </footer>
+            <!-- END footer -->
+        </div>
+        <!-- END wrapper -->
     </div>
     <!-- END tt-layout -->
     <!-- ngg_resource_manager_marker -->
