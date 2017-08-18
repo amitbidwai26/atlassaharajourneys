@@ -21,7 +21,26 @@
 <link rel='stylesheet' id='font-awesome-css'  href='content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min3c21.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='mobile-css'  href='content/themes/karma/css/_mobileef15.css?ver=4.8' type='text/css' media='all' />
 <script type='text/javascript' src='content/swfobjecteb77.js?ver=2.2-20120417'></script>
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+  document.getElementById("submit").classList.remove('wpcf7-form-control wpcf7-submit');
+ }
 
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+        document.getElementById("submit").classList.add('wpcf7-form-control wpcf7-submit'); 
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+        document.getElementById("submit").classList.remove('wpcf7-form-control wpcf7-submit');
+
+      }
+
+  }
+</script>
 <script type='text/javascript' data-cfasync="false" src='content/plugins/LayerSlider/static/layerslider/js/greensockb3a6.js?ver=1.19.0'></script>
 <script type='text/javascript' src='content/jquery/jqueryb8ff.js?ver=1.12.4'></script><script>jQueryWP = jQuery;</script>
 <script type='text/javascript' src='content/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
@@ -239,7 +258,7 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 };</script>
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
-<body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<body  onload="disableSubmit()" itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div id="tt-boxed-layout" class="content-style-tan">
 <div id="wrapper">
 <header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
@@ -379,7 +398,9 @@ elseif($tour == 'Zagora-Experience-2-Days'){ ?>
 <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-
 
 form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
-<p><input type="submit" value="Proceed to Payment" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
+<br><br>
+<p><input type="submit" value="Proceed to Payment"  id="submit" class="wpcf7-form-control wpcf7-submit"></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
 
