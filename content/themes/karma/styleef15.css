@@ -756,7 +756,7 @@ Content
 #content.content_sidebar {
 	float: right;
 	margin: 0 5px 0 0;
-	width: 522px;
+	/* width: 522px; */
 }
 #content.content_sidebar.content_right_sidebar {
 	float: left;

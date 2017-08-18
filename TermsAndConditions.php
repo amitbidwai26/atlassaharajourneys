@@ -4,7 +4,7 @@
 
 <head>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato' rel='stylesheet' type='text/css'>
-<title>Desert Tours Morocco</title>
+<title>Terms and Conditions</title>
 <!-- /all in one seo pack -->
 <link rel='stylesheet' id='layerslider-css' href='content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='bbp-default-css' href='content/plugins/bbpress/templates/default/css/bbpress6640.css?ver=2.5.12-6148' type='text/css' media='screen' />
@@ -390,41 +390,29 @@ opacity: 1;
 <div class="karma-header-shadow"></div>
 <!-- END karma-header-shadow -->
 <div class="tt-container">
-<h1>About Mohamed</h1>
+<h1>Terms and Conditions</h1>
 </div>
 <!-- END tt-container -->
 </div>
 <!-- END full-width-page-title-bar -->
 </div>
-<main>
+<main class="content_sidebar content_left_sidebar">
 <div class="main-area">
-<div class="one_third tt-column">
-<div class="jquery2-slider-wrap flexslider">
-<div class="jquery2-slider-bg" style="background-color:#FFF">
-<ul class="slides">
-<li class="jqslider">
-<div class="slider-content-sub-full-width">
-<div class="slider-content-sub-content-full">
-<img src="images/34.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
-</div>
-<!-- END slider-content-sub-content-full -->
-</div>
-<!-- END slider-content-sub-full-width -->
-</li>
-</ul>
-</div>
-</div>
-<div class="entry-content">
-<div id="comp-j0rbmmyc" class="s2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$kkz58.1.$comp-j0rbmmyc">
-<p align="justify"><strong>Who we are: </strong>We are a Team of professional licensed Tour Guides In Morocco. We all have been working as Mountain guides and interpreters for the best tour companies and providing private & Shared tours in Morocco. for none less than 20 years, and we all love our country and enjoy our work a lot.</p>
-</div>
-<p align="justify"><strong>What do we do: </strong>We are specialized in arranging travel packages and customized tours in Morocco, We work tirelessly to bring our customers authentic and personalized cultural experiences. We are also environmentally conscientious and seek to contribute to the development of local ethnic minorities. We operate closely with our villages and village hosts to preserve their traditional ways of life as well as the surrounding natural environment.At the same time we are very good friends, so we joined together on this site in order to provide you with the best possible guided tours of Morocco. and its fabulous sights and museums.</p>
-<p align="justify"><strong>Where do we operate: </strong>Whether your destination is Morocco, The High Atlas Mountains or The Desert, we have tours to suit you. And if you want something a little more personal, we are also adept at organizing a customized journey with your<br>
-specific interests in mind, We are able to introduce you to all this in the best way possible, filling your trip with detailed information and thrilling stories that make the buildings live.</p>
-<p align="justify">Amazing Adventures into a Unique Berber Culture and stunning Landscape. We offer Morocco Treks and Tours for every traveler 
-Morocco is our home and we treat anyone who comes here as our guests- Friend.</p>
+<p align="justify">Please read this agreement thoroughly and carefully. The Terms and Conditions quoted here are in effect immediately upon the receipt of your tour or trek payment or deposit. As the Participant(s) I have read this entire agreement, and I agree with it freely. I understand that this is a legally binding contract. No other representations concerning the legal effect of this document have been made to me. My agreement to pay a deposit to Morocco Explored registered in Morocco as Society Morocco Explored SARL applies to all pages of this agreement. 
+</p>
+<h3>1.  AGREEMENT.</h3>
+<p align="justify">The terms and conditions set forth in this agreement constitute the entire understanding and agreement between www.Deserttoursmorocco.com and any or all of the trip Participants named on all payment receipts with respect to any and all bookings, tours or transactions made with  www.Deserttoursmorocco.com.</p>
+<p align="justify">By submitting your tour deposit the Participants and any and all those whom the Participant represents in their group regardless of age or association to accept all of the terms in this agreement and directs www.Deserttoursmorocco.com to perform services for you and your groups behalf. All persons included in this booking are Participants and are subject to this agreement. By paying your deposit, you affirm that you have made all other Participants in your group aware of these terms – regardless of how final payment is made – and that all Participants in your group accept these terms.</p>
+<h3>2.  RESERVATIONS.</h3>
+<p align="justify">You may reserve space on a tour by making a deposit payment. A booking is not final until www.Deserttoursmorocco.com receives full payment for the tour. For this reason we encourage you to pay your complete tour costs as soon as possible. Any errors in a receipt amount is not binding, instead the agreed final quoted price will be the amount paid upon any discrepancy.</p>
+<h3>3.  PAYMENTS</h3>
+<p align="justify">www.Deserttoursmorocco.com has the right to withhold any product or service until it is fully paid for by the Participant. 50% (US $) for a GROUP TOUR of two or more people is required at the time of booking. 50% (US $) for SINGLE travellers is required at the time of booking. 100% (US $) for a DAY TRIP payment is required at the time of booking. Final payment is due 30 days before the first day of your tour. Exceptions are for daytrip payments where the full price of the daytrip must be received in full the morning before the tour is to begin. If your booking is made within one day of departure the entire tour cost must be paid before Morocco Explored confirms the trip with you the Participant(s). Payments may be made by credit card online through our booking page, INTERAC bank to bank electronic transfers, or wire transfer. Morocco Explored will confirm your reservation when your payment has been cleared by our bank. The central Bank Al Maghreb in Morocco will be used to convert all foreign currencies into Morocco dirhams (MAD). Because all www.Deserttoursmorocco.com tour and trek expenses are paid in Morocco dirhams www.Deserttoursmorocco.com uses the Morocco dirham as the base price for tours and treks.</p>
 
-</div>
+ <p align="justify">Note : Because tour cost is converted from dirhams to dollars the amount will be based upon the buy rates from the Bank Al Maghreb in Morocco. Your payments can be held in perpetuity and transferred towards rebooking with Morocco Explored anytime without further costs, fees or penalties ; unless you cancel your tour, change the itinerary, or hotel, or number of participants, or add products or services to the extent that it increases the cost of running your revised tour. Payment for added hotels or services after the tour begins will be due upon the date of Participants request for that service or product. You will pay the full agreed amount in cash or through our payment terminal on our website. You will not be billed and allowed to pay when you get home. See also item number </p>
+
+<h3>CANCELLATIONS AND CHANGES</h3>
+ <p align="justify">below. Credit Card Authorization for Post-Booking Charges: Participants may authorize www.Deserttoursmorocco.com to charge their credit card number for any changed fees, price increases, or supplemental payments that you add post-booking. We will contact you in writing first. If Participants prefer a different payment method, notify us in writing at the time of booking 
+</p>
 </div>
 </main>
 <!-- END main #content -->

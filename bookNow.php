@@ -12,9 +12,7 @@
 <link rel='stylesheet' id='contact-form-7-css'  href='content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='karma-builder-css'  href='content/plugins/karma_builder/css/karma-builderef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='content/plugins/revslider/public/assets/css/settings9009.css?ver=5.4.5.1' type='text/css' media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'>
-#rs-demo-id {}
-</style>
+
 <link rel='stylesheet' id='style-css'  href='content/themes/karma/styleef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='primary-color-css'  href='content/themes/karma/css/karma-cherryef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='secondary-color-css'  href='content/themes/karma/css/secondary-fireef15.css?ver=4.8' type='text/css' media='all' />
@@ -24,18 +22,23 @@
 <script>
  function disableSubmit() {
   document.getElementById("submit").disabled = true;
-  document.getElementById("submit").classList.remove('wpcf7-form-control wpcf7-submit');
+  document.getElementById("submit").className = document.getElementById("submit").className.replace( /(?:^|\s)wpcf7-form-control(?!\S)/g , '' );
+        document.getElementById("submit").className = document.getElementById("submit").className.replace( /(?:^|\s)wpcf7-submit(?!\S)/g , '' )
  }
 
   function activateButton(element) {
 
       if(element.checked) {
         document.getElementById("submit").disabled = false;
-        document.getElementById("submit").classList.add('wpcf7-form-control wpcf7-submit'); 
+        // document.getElementById("submit").classList.add('wpcf7-form-control ');
+        document.getElementById("submit").className += "wpcf7-form-control ";
+        document.getElementById("submit").className += "wpcf7-submit";
+         
        }
        else  {
         document.getElementById("submit").disabled = true;
-        document.getElementById("submit").classList.remove('wpcf7-form-control wpcf7-submit');
+        document.getElementById("submit").className = document.getElementById("submit").className.replace( /(?:^|\s)wpcf7-form-control(?!\S)/g , '' );
+        document.getElementById("submit").className = document.getElementById("submit").className.replace( /(?:^|\s)wpcf7-submit(?!\S)/g , '' )
 
       }
 
@@ -49,51 +52,7 @@
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min9009.js?ver=5.4.5.1'></script>
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
-<script type="text/javascript">
 
-function alo_em_pubblic_form ()
-{
-var alo_cf_array = new Array();
-document.alo_easymail_widget_form.submit.value="sending...";
-document.alo_easymail_widget_form.submit.disabled = true;
-document.getElementById('alo_em_widget_loading').style.display = "inline";
-document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
-
-var alo_em_sack = new sack("wp-admin/admin-ajax.php" );
-
-alo_em_sack.execute = 1;
-alo_em_sack.method = 'POST';
-alo_em_sack.setVar( "action", "alo_em_pubblic_form_check" );
-alo_em_sack.setVar( "alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value );
-alo_em_sack.setVar( "alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value );
-alo_em_sack.setVar( "alo_easymail_txt_generic_error", 'Error during operation.' );
-alo_em_sack.setVar( "alo_em_error_email_incorrect", "The e-mail address is not correct");
-alo_em_sack.setVar( "alo_em_error_name_empty", "The name field is empty");
-alo_em_sack.setVar( "alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
-alo_em_sack.setVar( "alo_em_error_email_activated", "Warning: this email address has already been subscribed");
-alo_em_sack.setVar( "alo_em_error_on_sending", "Error during sending: please try again");
-alo_em_sack.setVar( "alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
-alo_em_sack.setVar( "alo_em_txt_subscribe", "Subscribe");
-alo_em_sack.setVar( "alo_em_lang_code", "en");
-
-var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
-var length = cbs.length;
-var lists = "";
-for (var i=0; i < length; i++) {
-if (cbs[i].name == 'alo_em_form_lists' +'[]' && cbs[i].type == 'checkbox') {
-if ( cbs[i].checked ) lists += cbs[i].value + ",";
-}
-}
-alo_em_sack.setVar( "alo_em_form_lists", lists );
-alo_em_sack.setVar( "alo_em_nonce", '080b59a59c' );
-//alo_em_sack.onError = function() { alert('Ajax error' )};
-alo_em_sack.runAJAX();
-
-return true;
-
-}
-//]]>
-</script>
 
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <meta property="og:site_name" content="The Desert Safari" />
@@ -329,7 +288,7 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 </div><!-- END tt-container -->
 </div><!-- END full-width-page-title-bar -->
 <div class="main-area">
-<nav role="navigation" id="sub_nav" class="nav_right_sub_nav">
+<!-- <nav role="navigation"  class="nav_right_sub_nav"> -->
 </nav><!-- END sub_nav -->
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
 <div itemscope="" itemtype="http://schema.org/BlogPosting">
@@ -431,9 +390,9 @@ elseif($tour == 'Zagora-Experience-2-Days'){ ?>
 <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-
 
 form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
- <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  <a href="TermsAndConditions.php" target="_blank"> I Agree Terms & Conditions</a>
 <br><br>
-<p><input type="submit" value="Proceed to Payment"  id="submit" class="wpcf7-form-control wpcf7-text"></p>
+<p><input type="submit" value="Proceed to Payment"  id="submit" class=""></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 </div></main><!-- END main #content -->
 

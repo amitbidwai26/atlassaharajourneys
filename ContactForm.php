@@ -24,9 +24,7 @@
 <link rel='stylesheet' id='contact-form-7-css'  href='content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='karma-builder-css'  href='content/plugins/karma_builder/css/karma-builderef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='content/plugins/revslider/public/assets/css/settings9009.css?ver=5.4.5.1' type='text/css' media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'>
-#rs-demo-id {}
-</style>
+
 <link rel='stylesheet' id='style-css'  href='content/themes/karma/styleef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='primary-color-css'  href='content/themes/karma/css/karma-cherryef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='secondary-color-css'  href='content/themes/karma/css/secondary-fireef15.css?ver=4.8' type='text/css' media='all' />
@@ -53,52 +51,7 @@ var LS_Meta = {"v":"6.5.1"};
 
 
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
-	<script type="text/javascript">
-		//<![CDATA[
-				function alo_em_pubblic_form ()
-		{
-
-			var alo_cf_array = new Array();
-									document.alo_easymail_widget_form.submit.value="sending...";
-			document.alo_easymail_widget_form.submit.disabled = true;
-			document.getElementById('alo_em_widget_loading').style.display = "inline";
-			document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
-
-			var alo_em_sack = new sack("wp-admin/admin-ajax.php" );
-
-			alo_em_sack.execute = 1;
-			alo_em_sack.method = 'POST';
-			alo_em_sack.setVar( "action", "alo_em_pubblic_form_check" );
-						alo_em_sack.setVar( "alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value );
-						alo_em_sack.setVar( "alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value );
-						alo_em_sack.setVar( "alo_easymail_txt_generic_error", 'Error during operation.' );
-			alo_em_sack.setVar( "alo_em_error_email_incorrect", "The e-mail address is not correct");
-			alo_em_sack.setVar( "alo_em_error_name_empty", "The name field is empty");
-						alo_em_sack.setVar( "alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
-			alo_em_sack.setVar( "alo_em_error_email_activated", "Warning: this email address has already been subscribed");
-			alo_em_sack.setVar( "alo_em_error_on_sending", "Error during sending: please try again");
-			alo_em_sack.setVar( "alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
-			alo_em_sack.setVar( "alo_em_txt_subscribe", "Subscribe");
-			alo_em_sack.setVar( "alo_em_lang_code", "en");
-
-			var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
-			var length = cbs.length;
-			var lists = "";
-			for (var i=0; i < length; i++) {
-				if (cbs[i].name == 'alo_em_form_lists' +'[]' && cbs[i].type == 'checkbox') {
-					if ( cbs[i].checked ) lists += cbs[i].value + ",";
-				}
-			}
-			alo_em_sack.setVar( "alo_em_form_lists", lists );
-			alo_em_sack.setVar( "alo_em_nonce", '080b59a59c' );
-			//alo_em_sack.onError = function() { alert('Ajax error' )};
-			alo_em_sack.runAJAX();
-
-			return true;
-
-		}
-				//]]>
-	</script>
+	
 	<!-- <meta name="NextGEN" version="2.2.10" /> -->
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta property="og:site_name" content="The Desert Safari" />
@@ -288,54 +241,7 @@ p.comment-author-about {font-weight: bold;}
 				}catch(d){console.log("Failure at Presize of Slider:"+d)}
 			};</script>
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-<!--[if IE 9]>
-<style media="screen">
-#footer,
-.header-holder
- {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
 
-<!--[if lte IE 8]>
-<script type='text/javascript' src='content/themes/karma/js/html5shiv.js'></script>
-<style media="screen">
-a.button,
-a.button:hover,
-ul.products li.product a img,
-div.product div.images img,
-span.onsale,
-#footer,
-.header-holder,
-#horizontal_nav ul li,
-#horizontal_nav ul a,
-#tt-gallery-nav li,
-#tt-gallery-nav a,
-ul.tabset li,
-ul.tabset a,
-.karma-pages a,
-.karma-pages span,
-.wp-pagenavi a,
-.wp-pagenavi span,
-.post_date,
-.post_comments,
-.ka_button,
-.flex-control-paging li a,
-.colored_box,
-.tools,
-.karma_notify
-.opener,
-.callout_button,
-.testimonials {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-
-<!--[if IE]>
-<link rel="stylesheet" href="content/themes/karma/css/_internet_explorer.css" media="screen"/>
-<![endif]-->
 
 
 
@@ -466,15 +372,6 @@ ul.tabset a,
 	</div><!-- END tt-container -->
 </div><!-- END full-width-page-title-bar -->
 <div class="main-area">
-	
-<nav role="navigation" id="sub_nav" class="nav_right_sub_nav">
-	
-	
-		    			
-					
-    
-</nav><!-- END sub_nav -->
-
 
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
 <div itemscope="" itemtype="http://schema.org/BlogPosting"><div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
