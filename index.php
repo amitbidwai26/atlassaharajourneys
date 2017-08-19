@@ -381,52 +381,7 @@
         }
         </style>
     </noscript>
-    <!--[if IE 9]>
-<style media="screen">
-#footer,
-.header-holder
- {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-    <!--[if lte IE 8]>
-<script type='text/javascript' src='content/themes/karma/js/html5shiv.js'></script>
-<style media="screen">
-a.button,
-a.button:hover,
-ul.products li.product a img,
-div.product div.images img,
-span.onsale,
-#footer,
-.header-holder,
-#horizontal_nav ul li,
-#horizontal_nav ul a,
-#tt-gallery-nav li,
-#tt-gallery-nav a,
-ul.tabset li,
-ul.tabset a,
-.karma-pages a,
-.karma-pages span,
-.wp-pagenavi a,
-.wp-pagenavi span,
-.post_date,
-.post_comments,
-.ka_button,
-.flex-control-paging li a,
-.colored_box,
-.tools,
-.karma_notify
-.opener,
-.callout_button,
-.testimonials {
-      behavior: url(content/themes/karma/js/PIE/PIE.php);
-}
-</style>
-<![endif]-->
-    <!--[if IE]>
-<link rel="stylesheet" href="content/themes/karma/css/_internet_explorer.css" media="screen"/>
-<![endif]-->
+ 
 </head>
 
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
@@ -460,7 +415,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/23.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                    <img src="images/h9.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -469,7 +424,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/25.jpg" width="840" height="270" alt="Camel Safari" />
+                                                    <img src="images/h8.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -478,7 +433,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/29.jpg" width="840" height="270" alt="Sand Boarding" />
+                                                    <img src="images/h1.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -487,7 +442,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/35.jpg" width="840" height="270" alt="Camel Riding" />
+                                                    <img src="images/h2.jpg" width="840" height="270" alt="Camel Safari" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -496,7 +451,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/36.jpg" width="840" height="270" alt="Henna Painting" />
+                                                    <img src="images/h3.jpg" width="840" height="270" alt="Sand Boarding" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -505,7 +460,7 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/37.jpg" width="840" height="270" alt="Morocco Desert Safari" />
+                                                    <img src="images/h4.jpg" width="840" height="270" alt="Camel Riding" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -514,7 +469,25 @@ ul.tabset a,
                                         <li class="jqslider">
                                             <div class="slider-content-sub-full-width">
                                                 <div class="slider-content-sub-content-full">
-                                                    <img src="images/38.jpg" width="840" height="270" alt="Tanoura Dance" />
+                                                    <img src="images/h5.jpg" width="840" height="270" alt="Henna Painting" />
+                                                </div>
+                                                <!-- END slider-content-sub-content-full -->
+                                            </div>
+                                            <!-- END slider-content-sub-full-width -->
+                                        </li>
+                                        <li class="jqslider">
+                                            <div class="slider-content-sub-full-width">
+                                                <div class="slider-content-sub-content-full">
+                                                    <img src="images/h6.jpg" width="840" height="270" alt="Morocco Desert Safari" />
+                                                </div>
+                                                <!-- END slider-content-sub-content-full -->
+                                            </div>
+                                            <!-- END slider-content-sub-full-width -->
+                                        </li>
+                                        <li class="jqslider">
+                                            <div class="slider-content-sub-full-width">
+                                                <div class="slider-content-sub-content-full">
+                                                    <img src="images/h7.jpg" width="840" height="270" alt="Tanoura Dance" />
                                                 </div>
                                                 <!-- END slider-content-sub-content-full -->
                                             </div>
@@ -645,7 +618,7 @@ ul.tabset a,
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/13.jpg" alt='Southern Morocco trip only in 160 AED' class="attachment-fadeIn" /></div>
                                     </div>
-                                    <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view ...</p>
+                                    <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people.</p>
                                     <h5><a title="Berber Villages Of Telouet Cont" href="Berber-Villages-Of-Telouet.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third tt-column">
@@ -653,7 +626,7 @@ ul.tabset a,
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/14.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
-                                    <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout, visiting its rustic vil...</p>
+                                    <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout.</p>
                                     <h5><a title="From Telouet To Tassaout Cont" href="southernMorocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">

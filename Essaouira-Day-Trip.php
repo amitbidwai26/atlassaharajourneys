@@ -5,8 +5,6 @@
 <head>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato' rel='stylesheet' type='text/css'>
     <title>Desert Tours Morocco</title>
-    
-    
     <!-- /all in one seo pack -->
     <link rel='stylesheet' id='layerslider-css' href='content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1' type='text/css' media='all' />
     <link rel='stylesheet' id='bbp-default-css' href='content/plugins/bbpress/templates/default/css/bbpress6640.css?ver=2.5.12-6148' type='text/css' media='screen' />
@@ -26,12 +24,8 @@
     <script type='text/javascript' data-cfasync="false" src='content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsd3c7.js?ver=6.5.1'></script>
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min9009.js?ver=5.4.5.1'></script>
     <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
-    
-    
-    
     <!-- <meta name="NextGEN" version="2.2.10" /> -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
-   
     <style type='text/css'>
     h1,
     h2,
@@ -316,31 +310,31 @@
     }
 
     #DIV_1 {
-    bottom: 16px;
-    box-sizing: border-box;
-    color: rgb(123, 128, 132);
-    height: 276px;
-    left: 0px;
-    position: fixed;
-    right: 1301px;
-    text-decoration: none solid rgb(123, 128, 132);
-    text-rendering: optimizeLegibility;
-    text-size-adjust: 100%;
-    top: 250px;
-    width: 48px;
-    z-index: 100020;
-    column-rule-color: rgb(123, 128, 132);
-    perspective-origin: 24px 138px;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    transform-origin: 24px 138px;
-    caret-color: rgb(123, 128, 132);
-    animation: slideInLeft 0.4s ease-out 0s 1 normal both running;
-    border: 0px none rgb(123, 128, 132);
-    font: normal normal normal normal 14px / 21px Montserrat, sans-serif;
-    outline: rgb(123, 128, 132) none 0px;
-    padding-left: 10px;
-
-}/*#DIV_1*/
+        bottom: 16px;
+        box-sizing: border-box;
+        color: rgb(123, 128, 132);
+        height: 276px;
+        left: 0px;
+        position: fixed;
+        right: 1301px;
+        text-decoration: none solid rgb(123, 128, 132);
+        text-rendering: optimizeLegibility;
+        text-size-adjust: 100%;
+        top: 250px;
+        width: 48px;
+        z-index: 100020;
+        column-rule-color: rgb(123, 128, 132);
+        perspective-origin: 24px 138px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transform-origin: 24px 138px;
+        caret-color: rgb(123, 128, 132);
+        animation: slideInLeft 0.4s ease-out 0s 1 normal both running;
+        border: 0px none rgb(123, 128, 132);
+        font: normal normal normal normal 14px / 21px Montserrat, sans-serif;
+        outline: rgb(123, 128, 132) none 0px;
+        padding-left: 10px;
+    }
+    /*#DIV_1*/
     </style>
     <noscript>
         <style type="text/css">
@@ -359,12 +353,14 @@
 
 <body itemscope="" class="page-template page-template-template_rightsidebar_horizontalnav page-template-template_rightsidebar_horizontalnav-php page page-id-5141 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
     <div id="DIV_1">
-<a href="https://www.facebook.com/atlassaharajourneys">
-<img src="images/facebook.png" height="32px" width="32px"></a><br>
-<a href="https://twitter.com/atlassaharajour"><img src="images/twitter.png" height="32px" width="32px"></a><br>
-<a href="https://www.instagram.com/deserttoursmorocco5/"><img src="images/instagram.png" height="32px" width="32px"></a>
-<br>
-</div>
+        <a href="https://www.facebook.com/atlassaharajourneys">
+<img src="images/facebook.png" height="32px" width="32px"></a>
+        <br>
+        <a href="https://twitter.com/atlassaharajour"><img src="images/twitter.png" height="32px" width="32px"></a>
+        <br>
+        <a href="https://www.instagram.com/deserttoursmorocco5/"><img src="images/instagram.png" height="32px" width="32px"></a>
+        <br>
+    </div>
     <div id="tt-boxed-layout" class="content-style-tan">
         <div id="wrapper">
             <header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
@@ -372,15 +368,15 @@
                     <div class="header-overlay">
                         <div class="header-area">
                             <a href="index.php" class="logo"><img src="images/logo.png" alt="The Desert Safari" /></a>
-                                 <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <ul id="menu-main-nav" class="sf-menu">
-                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
-                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
-                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
-                    <li  class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
-                    <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
-                    <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
-                    </ul>
+                            <nav role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                                <ul id="menu-main-nav" class="sf-menu">
+                                    <li class="menu-item"><a href="index.php"><span><strong>Home</strong></span></a></li>
+                                    <li class="menu-item"><a href="tours.php"><span><strong>Tours</strong></span></a></li>
+                                    <li class="menu-item"><a href="Blog.php"><span><strong>Blog</strong></span></a></li>
+                                    <li class="menu-item"><a href="About_Mohamed.php"><span><strong>About Mohamed</strong></span></a></li>
+                                    <li class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
+                                    <li class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
+                                </ul>
                             </nav>
                         </div>
                         <!-- END header-area -->
@@ -392,11 +388,10 @@
             <!-- END header -->
             <div id="main" class="tt-slider-">
                 <div class="tools full-width-page-title-bar">
-                 
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Essaouira Day Trip</h1>
-                         <div align="right"><a href="bookNow.php?tour=Essaouira-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> </div>
+                        <div align="right"><a href="bookNow.php?tour=Essaouira-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> </div>
                     </div>
                     <!-- END tt-container -->
                 </div>
@@ -421,60 +416,78 @@
                             </div>
                         </div>
                         <div class="entry-content">
-                          <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere; beautiful design; friendly people; great spots for surfers and the best places to taste the variety of fish and seafood.</p>
-<p>One day isn’t enough to enjoy what this town has to offer from Art galleries; handicraft and music but will try to give you the best insight of the city with our local and professional guides that will show you the hidden spots for eating and the magic secrets of this town.</p>
-<p> </p>
-<p>
-<strong>Departure time</strong>
-: 8 am from your hotel or Riad
-</p>
-<p>
-<strong>Included</strong>
-: Guided tour of the city
-</p>
-                    </div>
+                            <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere; beautiful design; friendly people; great spots for surfers and the best places to taste the variety of fish and seafood.</p>
+                            <p>One day isn’t enough to enjoy what this town has to offer from Art galleries; handicraft and music but will try to give you the best insight of the city with our local and professional guides that will show you the hidden spots for eating and the magic secrets of this town.</p>
+                            <p> </p>
+                            <p>
+                                <strong>Departure time</strong> : 8 am from your hotel or Riad
+                            </p>
+                            <hr>
+                            <br>
+                            <div style="padding-left: 20px;" ">
+                                <b>Included</b>
+                                <ul>
+                                    <li>Professional English speaking guide</li>
+                                    <li>Transport & professional drivers</li>
+                                    <li>Accommodation: hotel/riad based on sharing rooms extra for single supplement </li>
+                                    <li>Meals: to be decided on each trip</li>
+                                    <li>Entrance Fees to sites</li>
+                                    <li>Transfer from & to airport </li>
+                                </ul>
+                                <br>
+                                <b>Not Included</b>
+                                <ul>
+                                    <li>Travel insurance</li>
+                                    <li>Drinks and non included Meals</li>
+                                    <li>Personal items</li>
+                                    <li>Tips</li>
+                                    <li>Single room supplement</li>
+                                </ul>
+                                <br>
+                                <b>Note: our groups stays in 3* hotels & riads but upgrading your accommodations remains an option you can choose.</b>
+                            </div>                    </div>
                 </div>
             </main>
             <!-- END main #content -->
-            <aside role="complementary" id="sidebar" class="right_sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+            <aside role="complementary " id="sidebar " class="right_sidebar " itemscope="itemscope " itemtype="http://schema.org/WPSideBar ">
             </aside>
             <!-- END sidebar -->
         </div>
         <!-- END main-area -->
-        <div id="footer-top">&nbsp;</div>
+        <div id="footer-top ">&nbsp;</div>
         <!-- END footer-top -->
     </div>
     <!-- END main -->
-    <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-        <div id="footer-callout">
-            <div id="footer-callout-content">
-                <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
+    <footer role="contentinfo " id="footer " itemscope="itemscope " itemtype="http://schema.org/WPFooter ">
+        <div id="footer-callout ">
+            <div id="footer-callout-content ">
+                <p class="footer-callout-heading ">For Booking Call Us : +212662138038</p>
             </div>
             <!-- END footer-callout-content -->
         </div>
         <!-- END footer-callout -->
-        <div class="footer-overlay">
-            <div class="karma-footer-shadow"></div>
+        <div class="footer-overlay ">
+            <div class="karma-footer-shadow "></div>
             <!-- END karma-footer-shadow -->
             <br /> </div>
         <!-- END footer-overlay -->
-        <div id="footer_bottom">
-            <div class="info">
-                        <div id="foot_left">                           
-                            <div id="google_translate_element"></div>
+        <div id="footer_bottom ">
+            <div class="info ">
+                        <div id="foot_left ">                           
+                            <div id="google_translate_element "></div>
                             <br>
-                            <script type="text/javascript">
+                            <script type="text/javascript ">
                             function googleTranslateElementInit() {
                                 new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
                             }
                             </script>
-                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                         <div class="textwidget">
-                                <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
+                            <script type="text/javascript " src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit "></script>
+                         <div class="textwidget ">
+                                <p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in "> Website designed by Bidwai Technologies</a></p>
                             </div>
                         </div>
                         <!-- END foot_left -->
-                        <div id="foot_right">
+                        <div id="foot_right ">
                         </div>
                         <!-- END foot_right -->
                     </div>
@@ -497,7 +510,7 @@
     <script type='text/javascript' src='content/plugins/karma_builder/js/karma-builder.js'></script>
     <script type='text/javascript'>
     /* <![CDATA[ */
-    var php_data = { "mobile_menu_text": "Main Menu", "mobile_sub_menu_text": "More in this section...", "mobile_horz_dropdown": "false", "karma_jquery_slideshowSpeed": "8000", "karma_jquery_pause_hover": "true", "karma_jquery_randomize": "true", "karma_jquery_directionNav": "true", "karma_jquery_animation_effect": "slide", "karma_jquery_animationSpeed": "600", "testimonial_slideshowSpeed": "8000", "testimonial_pause_hover": "true", "testimonial_randomize": "false", "testimonial_directionNav": "true", "testimonial_animation_effect": "fade", "testimonial_animationSpeed": "600", "sticky_sidebar": "true", "sticky_menu_one": "true", "sticky_menu_two": "false" };
+    var php_data = { "mobile_menu_text ": "Main Menu ", "mobile_sub_menu_text ": "More in this section... ", "mobile_horz_dropdown ": "false ", "karma_jquery_slideshowSpeed ": "8000 ", "karma_jquery_pause_hover ": "true ", "karma_jquery_randomize ": "true ", "karma_jquery_directionNav ": "true ", "karma_jquery_animation_effect ": "slide ", "karma_jquery_animationSpeed ": "600 ", "testimonial_slideshowSpeed ": "8000 ", "testimonial_pause_hover ": "true ", "testimonial_randomize ": "false ", "testimonial_directionNav ": "true ", "testimonial_animation_effect ": "fade ", "testimonial_animationSpeed ": "600 ", "sticky_sidebar ": "true ", "sticky_menu_one ": "true ", "sticky_menu_two ": "false " };
     /* ]]> */
     </script>
     <script type='text/javascript' src='content/themes/karma/js/custom-main.js'></script>
@@ -527,6 +540,20 @@
     <script type='text/javascript'>
     jQuery(document).ready(function() { if (jQuery(window).width() > 770) { truethemes_StickyMenu(1); } });
     </script>
-    <div id="fb-root"></div><a href="#0" class="karma-scroll-top"><i class="fa fa-chevron-up"></i></a>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/5975cfee5dfc8255d623e9c5/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>

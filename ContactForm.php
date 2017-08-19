@@ -296,7 +296,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2012/02/Camel-riding-840x270.jpg" width="840" height="270" alt="Camel Safari" />
+<img src="images/39.jpg" width="840" height="270" alt="Camel Safari" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -308,7 +308,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2012/02/sand-boarding-840x270.jpg" width="840" height="270" alt="Sand Boarding" />
+<img src="images/40.jpg" width="840" height="270" alt="Sand Boarding" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -317,7 +317,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/07/camel-riding-840x270.jpg" width="840" height="270" alt="Camel Riding" />
+<img src="images/41.jpg" width="840" height="270" alt="Camel Riding" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -326,7 +326,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/07/Henna-Painting-840x270.jpg" width="840" height="270" alt="Henna Painting" />
+<img src="images/42.jpg" width="840" height="270" alt="Henna Painting" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -336,7 +336,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/05/desert-safari1-840x270.jpg" width="840" height="270" alt="Morocco Desert Safari" />
+<img src="images/43.jpg" width="840" height="270" alt="Morocco Desert Safari" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>
@@ -345,7 +345,7 @@ p.comment-author-about {font-weight: bold;}
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
-<img src="content/uploads/2011/05/Tanoura-Dance-840x270.jpg" width="840" height="270" alt="Tanoura Dance" />
+<img src="images/44.jpg" width="840" height="270" alt="Tanoura Dance" />
 </div><!-- END slider-content-sub-content-full -->
 </div><!-- END slider-content-sub-full-width -->
 </li>

@@ -483,6 +483,30 @@ The rest of the day is yours to explore more this city before meeting in the squ
                                 
                             </tbody>
                         </table>
+                        <hr>
+                            <br>
+                            <div style="padding-left: 20px;" ">
+                                <b>Included</b>
+                                <ul>
+                                    <li>Professional English speaking guide</li>
+                                    <li>Transport & professional drivers</li>
+                                    <li>Accommodation: hotel/riad based on sharing rooms extra for single supplement </li>
+                                    <li>Meals: to be decided on each trip</li>
+                                    <li>Entrance Fees to sites</li>
+                                    <li>Transfer from & to airport </li>
+                                </ul>
+                                <br>
+                                <b>Not Included</b>
+                                <ul>
+                                    <li>Travel insurance</li>
+                                    <li>Drinks and non included Meals</li>
+                                    <li>Personal items</li>
+                                    <li>Tips</li>
+                                    <li>Single room supplement</li>
+                                </ul>
+                                <br>
+                                <b>Note: our groups stays in 3* hotels & riads but upgrading your accommodations remains an option you can choose.</b>
+                            </div>
                     </div>
                 </div>
             </main>
@@ -578,6 +602,21 @@ The rest of the day is yours to explore more this city before meeting in the squ
     <script type='text/javascript'>
     jQuery(document).ready(function() { if (jQuery(window).width() > 770) { truethemes_StickyMenu(1); } });
     </script>
-    <div id="fb-root"></div><a href="#0" class="karma-scroll-top"><i class="fa fa-chevron-up"></i></a>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/5975cfee5dfc8255d623e9c5/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    
 </body>
 </html>

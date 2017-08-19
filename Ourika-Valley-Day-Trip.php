@@ -423,6 +423,30 @@
                         <div class="entry-content">
                           <p>As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas and hugging the left-hand bank of the fast-flowing valley, a prime hiking territory in all seasons.<span id="more-70"></span> From its small beginnings in the Berber country, it streams down the slopes of Atlas mountains, between the Tlemcen peak and the Timeskar plateau.The green landscapes of this valley, the lazy meandering torrent of the river combined with the small red adobe Berber villages hanging on the slopes will enchant you… flat Berber homes; they’re assembled in stacked villages the same red as the earth they merge into. The only vertical line that breaks the slither of horizontal roofs is that of the village mosque, whose minaret towers above it all, there are many interesting things on the way, according to the season and your special interests…hiking in the valley, up Setti fatma and the waterfalls… It’s also stunning.</p>
                           <p class="font_7">Program :&nbsp;8am pick up from your hotel/riad ; drive for a 1.5h&nbsp;with photo stops in the way before getting to Ourika when a walk to the water falls is on offer. have your meals in a small restaurant in the river side after lunch time at leisure before heading back to our accommodation in Marrakech</p>
+                          <hr>
+                            <br>
+                            <div style="padding-left: 20px;" ">
+                                <b>Included</b>
+                                <ul>
+                                    <li>Professional English speaking guide</li>
+                                    <li>Transport & professional drivers</li>
+                                    <li>Accommodation: hotel/riad based on sharing rooms extra for single supplement </li>
+                                    <li>Meals: to be decided on each trip</li>
+                                    <li>Entrance Fees to sites</li>
+                                    <li>Transfer from & to airport </li>
+                                </ul>
+                                <br>
+                                <b>Not Included</b>
+                                <ul>
+                                    <li>Travel insurance</li>
+                                    <li>Drinks and non included Meals</li>
+                                    <li>Personal items</li>
+                                    <li>Tips</li>
+                                    <li>Single room supplement</li>
+                                </ul>
+                                <br>
+                                <b>Note: our groups stays in 3* hotels & riads but upgrading your accommodations remains an option you can choose.</b>
+                            </div>
                     </div>
                 </div>
             </main>
@@ -518,6 +542,20 @@
     <script type='text/javascript'>
     jQuery(document).ready(function() { if (jQuery(window).width() > 770) { truethemes_StickyMenu(1); } });
     </script>
-    <div id="fb-root"></div><a href="#0" class="karma-scroll-top"><i class="fa fa-chevron-up"></i></a>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/5975cfee5dfc8255d623e9c5/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>
