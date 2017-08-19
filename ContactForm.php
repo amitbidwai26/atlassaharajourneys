@@ -1,30 +1,18 @@
 <!DOCTYPE html>
-
 <!--[if !IE]><!--><html lang="en-US"> <!--<![endif]-->
-
-
 <head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
 <link rel="shortcut icon" href="content/uploads/2012/07/favicon5.ico"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato' rel='stylesheet' type='text/css'>
-
 <title>The Desert Safari Morocco | Enjoy A Tour of Morocco Desert</title>
-
-
 <meta name="description"  content="Morocco desert safari is a traditional activity of Morocco. Enjoy the desert safari, belly dancing, dune bashing and a lot more." />
-
 <meta name="keywords"  content="desert safari Morocco, Morocco desert safari, desert safari Morocco, desert safari cost, prices of desert safari in Morocco, Morocco desert,  dune bashing, sand ski, camel ride, overnight desert safari" />
-
 <!-- /all in one seo pack -->
 <link rel='stylesheet' id='layerslider-css'  href='content/plugins/LayerSlider/static/layerslider/css/layersliderd3c7.css?ver=6.5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='bbp-default-css'  href='content/plugins/bbpress/templates/default/css/bbpress6640.css?ver=2.5.12-6148' type='text/css' media='screen' />
 <link rel='stylesheet' id='contact-form-7-css'  href='content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='karma-builder-css'  href='content/plugins/karma_builder/css/karma-builderef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='content/plugins/revslider/public/assets/css/settings9009.css?ver=5.4.5.1' type='text/css' media='all' />
-
 <link rel='stylesheet' id='style-css'  href='content/themes/karma/styleef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='primary-color-css'  href='content/themes/karma/css/karma-cherryef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='secondary-color-css'  href='content/themes/karma/css/secondary-fireef15.css?ver=4.8' type='text/css' media='all' />
@@ -43,16 +31,9 @@ var LS_Meta = {"v":"6.5.1"};
 <script type='text/javascript' data-cfasync="false" src='content/plugins/LayerSlider/static/layerslider/js/layerslider.transitionsd3c7.js?ver=6.5.1'></script>
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min9009.js?ver=5.4.5.1'></script>
 <script type='text/javascript' src='content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min9009.js?ver=5.4.5.1'></script>
-
-
-
-
 <link rel='shortlink' href='index.php' />
-
-
 <script type='text/javascript' src='content/tw-sack.min51a2.js?ver=1.6.1'></script>
-	
-	<!-- <meta name="NextGEN" version="2.2.10" /> -->
+<!-- <meta name="NextGEN" version="2.2.10" /> -->
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta property="og:site_name" content="The Desert Safari" />
 <meta property="og:type" content="website" />
@@ -63,7 +44,6 @@ var LS_Meta = {"v":"6.5.1"};
 <meta property="og:url" content="http://www.bidwai.in" />
 <meta name="generator" content="Powered by Slider Revolution 5.4.5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
-
 <style type='text/css'>
 h1, h2, h3, h4, h5 #main .comment-title, .four_o_four, .callout-wrap span, .search-title,.callout2, .comment-author-about, .logo-text {font-family:'Oswald', Arial, sans-serif;}
 
@@ -241,13 +221,7 @@ p.comment-author-about {font-weight: bold;}
 				}catch(d){console.log("Failure at Presize of Slider:"+d)}
 			};</script>
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
-
-
-
-
-
 </head>
-
 <body itemscope="" class="home page-template page-template-template-homepage-jquery-2 page-template-template-homepage-jquery-2-php page page-id-4469 karma-menu-no-indicator karma-menu-no-description karma-no-post-date karma-footer-bottom karma-no-content-gradient karma-no-mobile-submenu karma-header-gradient karma-foot-center wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div id="DIV_1">
 <a href="https://www.facebook.com/atlassaharajourneys">
@@ -259,7 +233,6 @@ p.comment-author-about {font-weight: bold;}
     <div id="tt-boxed-layout" class="content-style-tan">
 	<div id="wrapper">
 		<header role="banner" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
-
 <div class="header-holder tt-logo-center">
 <div class="header-overlay">
 <div class="header-area">
@@ -276,15 +249,13 @@ p.comment-author-about {font-weight: bold;}
                     <li  class="menu-item"><a href="bookNow.php"><span><strong>Book Now</strong></span></a></li>
                     <li  class="menu-item"><a href="ContactForm.php"><span><strong>Contact Us</strong></span></a></li>
                     </ul>
-                            </nav>
+        </nav>
 
 <div class="jquery2-slider-wrap flexslider">
 	<div class="jquery2-slider-bg" style="background-color:#FFF">
 		<ul class="slides">
 
 <li class="jqslider">
-
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
 <img src="images/20.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
@@ -292,7 +263,6 @@ p.comment-author-about {font-weight: bold;}
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
-
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
@@ -302,10 +272,6 @@ p.comment-author-about {font-weight: bold;}
 </li>
 <li class="jqslider">
 
-
-
-
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
 <img src="images/40.jpg" width="840" height="270" alt="Sand Boarding" />
@@ -313,7 +279,6 @@ p.comment-author-about {font-weight: bold;}
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
-
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
@@ -323,7 +288,6 @@ p.comment-author-about {font-weight: bold;}
 </li>
 <li class="jqslider">
 
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
 <img src="images/42.jpg" width="840" height="270" alt="Henna Painting" />
@@ -332,8 +296,6 @@ p.comment-author-about {font-weight: bold;}
 </li>
 <li class="jqslider">
 
-
-
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
 <img src="images/43.jpg" width="840" height="270" alt="Morocco Desert Safari" />
@@ -341,7 +303,6 @@ p.comment-author-about {font-weight: bold;}
 </div><!-- END slider-content-sub-full-width -->
 </li>
 <li class="jqslider">
-
 
 <div class="slider-content-sub-full-width">
 <div class="slider-content-sub-content-full">
@@ -352,17 +313,13 @@ p.comment-author-about {font-weight: bold;}
 </ul>
 </div><!-- END jquery2-slider-bg -->
 </div><!-- END jquery2-slider-wrap -->
-  
-  
-  
+   
 </div><!-- END header-area -->
 </div><!-- END header-overlay -->
 </div><!-- END header-holder -->
 </header><!-- END header -->
 
-
 <div id="main" class="tt-slider-">
-	
 
 <div class="tools full-width-page-title-bar">
 		<div class="karma-header-shadow"></div><!-- END karma-header-shadow --> 
@@ -376,21 +333,62 @@ p.comment-author-about {font-weight: bold;}
 <main role="main" id="content" class="content_sidebar content_left_sidebar">
 <div itemscope="" itemtype="http://schema.org/BlogPosting"><div role="form" class="wpcf7" id="wpcf7-f6569-p6570-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="/booking-form.php" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-
-</div>
+<form action="ContactForm.php" method="post" class="wpcf7-form" novalidate="novalidate">
+<?php 
+if(!empty($_POST)){
+ // Checking For Blank Fields..
+    if ($_POST["name"] == "" || $_POST["email"] == "" || $_POST["message"] == "" ||$_POST["phonenumber"] == "") {
+    ?>
+    <h1>Please Check few fileds missing in form</h1>
+    <?php        
+    } else {
+        // Check if the "Sender's Email" input field is filled out
+        $email = $_POST['email'];
+        // Sanitize E-mail Address
+        $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+        // Validate E-mail Address
+        $email = filter_var($email, FILTER_VALIDATE_EMAIL);
+        if (!$email) {
+            echo "Invalid Sender's Email";
+        } else {
+            $from = 'contact@deserttours-morocco.com';
+            $to = $email;
+            $subject = 'Desert Tours Morocco';
+            $message =  "\n\nName  : " . $_POST["name"];
+            $message .= "\n\nEmail  : " . $_POST["email"];
+            $message .= "\n\nPhone Number  : " . $_POST["phonenumber"];
+            $message .= "\n\nMessage  : " . $_POST['message'];
+            $headers = "From:" . $from;
+            // Sender's Email
+            // Message lines should not exceed 70 characters (PHP rule), so wrap it
+            $message = wordwrap($message, 70, "\r\n");
+            // Send Mail By PHP Mail Function
+            if (mail($to, $subject, $message, $headers)) {
+            ?>    <h1>Query submitted successfully!</h1> <?php
+            } else {
+            ?>    <h1> Their was an error in sending mail  Please send an mail to contact@deserttours-morocco.com or use chat window from right side</h1><?php
+             
+            }
+        }
+    }
+}else {
+ ?>
 <p>Your Name (required)<br>
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name"></span>   </p>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name"  required></span>   </p>
 <p>Your Email (required) <br>
-    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email"></span>  </p>
-<p>Contact number: (required)<br>
-    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="+countrycode-phone"></span> </p>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" required></span>  </p>
+<p>Contact Number: (required)<br>
+    <span class="wpcf7-form-control-wrap phonenumber"><input type="text" name="phonenumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Phone Number" required></span> </p>
 <p>Your Message<br>
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
 <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
-</div></main><!-- END main #content -->
+<div class="wpcf7-response-output wpcf7-display-none"></div>
+<?php }  ?>
+</form>
+</div>
+</div>
+
+</main><!-- END main #content -->
 
 <aside role="complementary" id="sidebar" class="left_sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 </aside><!-- END sidebar -->
@@ -445,7 +443,8 @@ p.comment-author-about {font-weight: bold;}
         </div>
         <!-- END wrapper -->
     </div><!-- END tt-layout -->
-<!-- ngg_resource_manager_marker --><script type='text/javascript' src='content/plugins/bbpress/templates/default/js/editor6640.js?ver=2.5.12-6148'></script>
+<!-- ngg_resource_manager_marker -->
+<script type='text/javascript' src='content/plugins/bbpress/templates/default/js/editor6640.js?ver=2.5.12-6148'></script>
 
 <script type='text/javascript' src='content/plugins/contact-form-7/includes/js/scriptsef15.js?ver=4.8'></script>
 <script type='text/javascript' src='content/plugins/karma_builder/js/bootstrap.min.js'></script>
