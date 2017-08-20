@@ -390,7 +390,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Zagora Experience 2 Days</h1>
-                        <div align="right"><a href="bookNow.php?tour=Zagora-Experience-2-Days"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
+                        <div align="right"><a href="bookNow.php?tour=Zagora-Experience-2-Days&price=190$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
                     <!-- END tt-container -->
                 </div>

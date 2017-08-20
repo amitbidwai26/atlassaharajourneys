@@ -396,7 +396,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Ourika Valley Day Trip</h1>
-                        <div align="right"><a href="bookNow.php?tour=Ourika-Valley-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
+                        <div align="right"><a href="bookNow.php?tour=Ourika-Valley-Day-Trip&price=52$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
                     <!-- END tt-container -->
                 </div>

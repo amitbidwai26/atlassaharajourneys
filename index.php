@@ -356,10 +356,10 @@ p.comment-author-about {font-weight: bold;}
                                 <!-- END callout-wrap -->
                                 <br class="clear" />
                                 <div class="one_third tt-column">
-                                    <h3><a title="Southern Morocco" href="southernMorocco.php">Southern Morocco</a></h3>
+                                    <h3><a title="Southern Morocco" href="Southern-Morocco.php">Southern Morocco</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
-                                    <h5><a title="Southern Morocco Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Southern Morocco Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="Ait Ben Haddou Day Trip" href="Ait-Ben-Haddou-Day-Trip.php">Ait Ben Haddou Day Trip</a></h3>
@@ -367,7 +367,7 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>The journey today will take us back to the Moroccan history trough the road of caravans coming from the sub-Saharan countries bringing the ivory; spices and slaves.</p>
-                                    <h5><a title="overnight-desert-safari Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="overnight-desert-safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Essaouira Day Trip" href="Essaouira-Day-Trip.php">Essaouira Day Trip</a></h3>
@@ -375,7 +375,7 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/3.jpg" alt='morning desert safari trip' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere.</p>
-                                    <h5><a title="Morning Desert Safari Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Morning Desert Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <br class="clear" />
                                 <div class="one_third tt-column">
@@ -384,7 +384,7 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/4.jpg" alt='Hatta Mountain Safari is one of the best safari trip in Morocco' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas.</p>
-                                    <h5><a title="Hatta Mountain Safari Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Hatta Mountain Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="Imlil Day Trip" href="Imlil-Day-Trip.php">Imlil Day Trip</a></h3>
@@ -392,7 +392,7 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/5.jpg" alt='Hummer Desert Safari is for VIPs' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Located 2 hours from Marrakech in the Atlas Mountains, its a beautiful arrive in this this town that is referred to as the "little Chamonix of Moro.</p>
-                                    <h5><a title="Hummer Desert Safari Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Hummer Desert Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Ouzoud Water Falls" href="Ouzoud-Water-Falls.php">Ouzoud Water Falls</a></h3>
@@ -468,7 +468,7 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/14.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout.</p>
-                                    <h5><a title="From Telouet To Tassaout Cont" href="southernMorocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="From Telouet To Tassaout Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Toubkal 2 – 3 Or 4 Days" href="Toubkal-2–3-Or-4-Days.php">Toubkal 2 – 3 Or 4 Days</a></h3>

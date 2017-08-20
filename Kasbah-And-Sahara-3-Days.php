@@ -396,7 +396,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Kasbah And Sahara 3 Days</h1>
-                         <div align="right"><a href="bookNow.php?tour=Kasbah-And-Sahara-3-Days"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
+                         <div align="right"><a href="bookNow.php?tour=Kasbah-And-Sahara-3-Days&price=285$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
                     <!-- END tt-container -->
                 </div>

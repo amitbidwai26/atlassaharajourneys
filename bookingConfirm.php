@@ -330,9 +330,9 @@ if(!empty($_POST))
 <td><h5><?php echo $msg ?></h5></td>
 </tr>
 <tr>
-<td><h5>Payment:</h5></td>
+<td><h5>Payment:/h5></td>
 <td></td>
-<td><h5><?php echo $payment ?></h5></td>
+<td><h5> $<?php echo $payment ?>.00</h5></td>
 </tr>
 
 <tr>

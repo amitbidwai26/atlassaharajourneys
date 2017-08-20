@@ -350,11 +350,8 @@ a.button {
     text-decoration: none;
     padding: 8px 25px;
     color: initial;
-
 }
-
     </style>
-    
     <noscript>
         <style type="text/css">
         .wpb_animate_when_almost_visible {
@@ -410,7 +407,7 @@ a.button {
                     <div class="tt-container">
                         
                         <h1>Southern Morocco</h1>
-                        <div align="right"><a href="bookNow.php?tour=southernMorocco"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> 
+                        <div align="right"><a href="bookNow.php?tour=Southern-Morocco&price=595$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a> 
                        </div>
                     </div>
                     <!-- <a href="/"><img src="images/book-now-button.png" width="150px" height="75px"></a> -->

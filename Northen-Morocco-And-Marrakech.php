@@ -396,7 +396,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Northen Morocco And Marrakech</h1>
-                        <div align="right"><a href="bookNow.php?tour=Northen-Morocco-And-Marrakech"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
+                        <div align="right"><a href="bookNow.php?tour=Northen-Morocco-And-Marrakech&price=855$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
                     <!-- END tt-container -->
                 </div>

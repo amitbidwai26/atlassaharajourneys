@@ -837,7 +837,7 @@
                                     <table>
                                         <tr>
                                             <td>
-                                                <h3><a title="Southern Morocco" href="southernMorocco.php">Southern Morocco</a></h3>
+                                                <h3><a title="Southern Morocco" href="Southern-Morocco.php">Southern Morocco</a></h3>
                                                 <div class="modern_img_frame modern_three_col_large tt_"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                             </td>
                                             <td></td>
@@ -845,7 +845,7 @@
                                                 <br>
                                                 <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
                                                 <br>
-                                                <div align="right"><a href="bookNow.php?tour=southernMorocco"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
+                                                <div align="right"><a href="bookNow.php?tour=Southern-Morocco"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                                 <td>
                                         </tr>

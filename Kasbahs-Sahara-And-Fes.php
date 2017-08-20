@@ -396,7 +396,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Kasbahs Sahara And Fes</h1>
-                        <div align="right"><a href="bookNow.php?tour=Kasbahs-Sahara-And-Fes"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
+                        <div align="right"><a href="bookNow.php?tour=Kasbahs-Sahara-And-Fes&price=475$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
                     <!-- END tt-container -->
                 </div>
