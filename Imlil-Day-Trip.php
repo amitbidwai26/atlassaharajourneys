@@ -393,6 +393,7 @@
                         <h1>Imlil Day Trip</h1>
                         <div align="right"><a href="bookNow.php?tour=Imlil-Day-Trip&price=62$"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a></div>
                     </div>
+
                     <!-- END tt-container -->
                 </div>
                 <!-- END full-width-page-title-bar -->
@@ -401,20 +402,37 @@
                 <div class="main-area">
                     <div class="one_third tt-column">
                         <div class="jquery2-slider-wrap flexslider">
-                            <div class="jquery2-slider-bg" style="background-color:#FFF">
-                                <ul class="slides">
-                                    <li class="jqslider">
-                                        <div class="slider-content-sub-full-width">
-                                            <div class="slider-content-sub-content-full">
-                                                <img src="images/24.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                <div class="jquery2-slider-bg" style="background-color:#FFF">
+                                    <ul class="slides">
+                                        <li class="jqslider">
+                                            <div class="slider-content-sub-full-width">
+                                                <div class="slider-content-sub-content-full">
+                                                    <img src="images/Iml2.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                </div>
+                                                <!-- END slider-content-sub-content-full -->
                                             </div>
-                                            <!-- END slider-content-sub-content-full -->
-                                        </div>
-                                        <!-- END slider-content-sub-full-width -->
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                                            <!-- END slider-content-sub-full-width -->
+                                        </li>
+                                        <li class="jqslider">
+                                            <div class="slider-content-sub-full-width">
+                                                <div class="slider-content-sub-content-full">
+                                                    <img src="images/Iml1.jpg" width="840" height="270" alt="Dune Bashing in Morocco Desert" />
+                                                </div>
+                                                <!-- END slider-content-sub-content-full -->
+                                            </div>
+                                            <!-- END slider-content-sub-full-width -->
+                                        </li>
+                                       
+                                    </ul>
+        </div>
+                                <!-- END jquery2-slider-bg -->
+    </div>
+                            <!-- END jquery2-slider-wrap -->
+
+
+
+
+
                         <div class="entry-content">
                             <p class="font_7">Located 2 hours&nbsp;from Marrakech in the Atlas Mountains, its a beautiful&nbsp;arrive in this this&nbsp;town that is referred to as the “little Chamonix of Morocco”. <span id="more-68"></span>Most hikes in the area start&nbsp;from this town specifically the Toubkal Climb which is the highest peak in North Africa at 4167m high.</p>
                             <p class="font_7">Program&nbsp;:&nbsp;9am pick up from your hotel or riad</p>
