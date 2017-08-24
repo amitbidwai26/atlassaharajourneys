@@ -695,7 +695,7 @@ function myFunction() {
         valuepertour = "595";
         totaltourcost = valuepertour * adult;
     if ( tour=="Ait-Ben-Haddou-Day-Trip")
-        valuepertour = "595";
+        valuepertour = "95";
         totaltourcost = valuepertour * adult;
     if ( tour=="Essaouira-Day-Trip")
         valuepertour = "78";

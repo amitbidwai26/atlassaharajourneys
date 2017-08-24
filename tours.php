@@ -438,7 +438,10 @@
 }/*#DIV_1*/
 
 
-
+div.relative {
+    position: relative;
+    left:  460px;
+}
     </style>
     <script type="text/javascript">
     function setREVStartSize(e) {
@@ -513,6 +516,7 @@
                                             <td>
                                                 <h3><a title="Essaouira Day Trip" href="Essaouira-Day-Trip.php">Essaouira Day Trip</a></h3>
                                                 <div class="modern_img_frame modern_three_col_large tt_">
+
                                                     <img src="images/3.jpg" alt='morning desert safari trip' class="attachment-fadeIn" /></div>
                                             </td>
                                             <td></td>
@@ -524,7 +528,14 @@
                                                 <br>
                                                 <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere.</p>
                                                 <br>
-                                                <div align="right"><a href="bookNow.php?tour=Essaouira-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
+                                                
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 78</h5>
+                                                </div>
+                                                
+                                                <div align="right">
+
+                                                <a href="bookNow.php?tour=Essaouira-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -547,6 +558,9 @@
                                                 <br>
                                                 <p>As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 52</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Ourika-Valley-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -570,6 +584,9 @@
                                                 <br>
                                                 <p>Located 2 hours from Marrakech in the Atlas Mountains, its a beautiful arrive in this this town that is referred to as the "little Chamonix of Moro.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 62</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Imlil-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -593,6 +610,9 @@
                                                 <br>
                                                 <p>Situated 2.5 hours from Marrakech, the Ouzoud Water falls of 110m in height are considered the highest in Morocco and 2nd highest in North Africa.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 82</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Ouzoud-Water-Falls"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -616,6 +636,9 @@
                                                 <br>
                                                 <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 475</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Kasbahs-Sahara-And-Fes"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -639,6 +662,9 @@
                                                 <br>
                                                 <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 285</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Kasbah-And-Sahara-3-Days"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -662,6 +688,9 @@
                                                 <br>
                                                 <p>Cross the spectacular Tizi n’Tichka pass and travel through Berber villages on the drive to Zagora. Enjoy a camel trek and sleep in Berber tents in</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 190</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Zagora-Experience-2-Days"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -684,7 +713,10 @@
                                                 <br>
                                                 <p>The journey today will take us back to the Moroccan history trough the road of caravans coming from the sub-Saharan countries bringing the ivory; spices and slaves.</p>
                                                 <br>
-                                                <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 95</h5>
+                                                </div>
+                                                <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip&price=95"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                                 <td>
                                         </tr>
@@ -707,6 +739,9 @@
                                                 <br>
                                                 <p>This tour is dedicated to the travelers that are fascinated by the history; culture and diversity which Morocco proudly has to offer trough the</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 721</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Imperial-Cities-Of-Morocco"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -730,6 +765,9 @@
                                                 <br>
                                                 <p>Come with us on an unforgettable adventure across Morocco. You’ll visit age-old imperial cities, mount up and join a camel.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 855</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Northen-Morocco-And-Marrakech"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -753,6 +791,9 @@
                                                 <br>
                                                 <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view ...</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 505</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Follow-The-Nomads-Tracks"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -776,6 +817,9 @@
                                                 <br>
                                                 <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view ...</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 525</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Berber-Villages-Of-Telouet"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -799,6 +843,9 @@
                                                 <br>
                                                 <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout, visiting its rustic vil...</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 495</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=From-Telouet-To-Tassaout"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -822,6 +869,9 @@
                                                 <br>
                                                 <p>The Atlas Mountains of Morocco are the perfect choice for dedicated hikers and trekkers. Our trek takes you through several pretty Berber villages...</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 182</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Toubkal-2–3-Or-4-Days"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                             </td>
@@ -845,6 +895,9 @@
                                                 <br>
                                                 <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
                                                 <br>
+                                                <div class="relative">
+                                                <h5 style="color: blue">$ 595</h5>
+                                                </div>
                                                 <div align="right"><a href="bookNow.php?tour=Southern-Morocco"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                                 <td>

@@ -184,6 +184,10 @@ p {line-height: 2;margin-bottom:20px;font-size: 13px;}
 .tools .breadcrumb a:after {top:0;}
 p.comment-author-about {font-weight: bold;}
 
+p.ex1 {
+    font: 15px arial, sans-serif;
+}
+
 
 .footer-overlay {
     background: url(content/themes/karma/images/_global/overlay-bokeh.png) 50% 50% no-repeat;
@@ -213,7 +217,11 @@ p.comment-author-about {font-weight: bold;}
     outline: rgb(123, 128, 132) none 0px;
     padding-left: 10px;
 
-}/*#DIV_1*/
+}
+
+
+
+/*#DIV_1*/
 </style>
 <script type="text/javascript">function setREVStartSize(e){
                 try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;                   
@@ -359,15 +367,21 @@ p.comment-author-about {font-weight: bold;}
                                     <h3><a title="Southern Morocco" href="Southern-Morocco.php">Southern Morocco</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     <p>An amazing trip that will take you to the real; typical and remote Morocco with it’s Berber villages; Kasbahs; Palm grooves and a camel ride in the golden colour.</p>
-                                    <h5><a title="Southern Morocco Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+
+                                    <h5><a title="Southern Morocco Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 595</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png">
+                                   </a>
+
                                 </div>
+                                <p></p>
                                 <div class="one_third tt-column">
                                     <h3><a title="Ait Ben Haddou Day Trip" href="Ait-Ben-Haddou-Day-Trip.php">Ait Ben Haddou Day Trip</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>The journey today will take us back to the Moroccan history trough the road of caravans coming from the sub-Saharan countries bringing the ivory; spices and slaves.</p>
-                                    <h5><a title="overnight-desert-safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="overnight-desert-safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 95</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Essaouira Day Trip" href="Essaouira-Day-Trip.php">Essaouira Day Trip</a></h3>
@@ -375,7 +389,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/3.jpg" alt='morning desert safari trip' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Today’s journey will take us to the town of Essaouira known as Mogador which is located 2.5h from Marrakech to the west with its relaxed atmosphere.</p>
-                                    <h5><a title="Morning Desert Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Morning Desert Safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 78</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <br class="clear" />
                                 <div class="one_third tt-column">
@@ -384,7 +399,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/4.jpg" alt='Hatta Mountain Safari is one of the best safari trip in Morocco' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas.</p>
-                                    <h5><a title="Hatta Mountain Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Hatta Mountain Safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 52</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="Imlil Day Trip" href="Imlil-Day-Trip.php">Imlil Day Trip</a></h3>
@@ -392,7 +408,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/5.jpg" alt='Hummer Desert Safari is for VIPs' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Located 2 hours from Marrakech in the Atlas Mountains, its a beautiful arrive in this this town that is referred to as the "little Chamonix of Moro.</p>
-                                    <h5><a title="Hummer Desert Safari Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Hummer Desert Safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 62</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Ouzoud Water Falls" href="Ouzoud-Water-Falls.php">Ouzoud Water Falls</a></h3>
@@ -400,7 +417,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/6.jpg" alt='Quad Biking in Morocco desert safari' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Situated 2.5 hours from Marrakech, the Ouzoud Water falls of 110m in height are considered the highest in Morocco and 2nd highest in North Africa.</p>
-                                    <h5><a title="Quad Biking in Morocco desert safari Cont" href="Ouzoud-Water-Falls.php">Continue Reading -></a></h5>
+                                    <h5><a title="Quad Biking in Morocco desert safari Cont" href="Ouzoud-Water-Falls.php" style="text-decoration:none;"><h5 style="color: blue">$ 82</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 
                                 <div class="one_third tt-column">
@@ -409,7 +427,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/8.jpg" alt='The desert safari bring Camel Safari in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and</p>
-                                    <h5><a title="Camel Safari in the Desert Cont" href="Kasbah-And-Sahara-3-Days.php">Continue Reading -></a></h5>
+                                    <h5><a title="Camel Safari in the Desert Cont" href="Kasbah-And-Sahara-3-Days.php" style="text-decoration:none;"><h5 style="color: blue">$ 475</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
 
 								<div class="one_third tt-column">
@@ -418,15 +437,17 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/8.jpg" alt='The desert safari bring Dinner parties' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air.</p>
-                                    <h5><a title="Dinner in the Desert Cont" href="Kasbahs-Sahara-And-Fes.php">Continue Reading -></a></h5>
+                                    <h5><a title="Dinner in the Desert Cont" href="Kasbahs-Sahara-And-Fes.php" style="text-decoration:none;"><h5 style="color: blue">$ 285</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>                                
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Zagora Experience 2 Days" href="Zagora-Experience-2-Days.php">Zagora Experience 2 Days</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/9.jpg" alt='The desert safari bring Iftar parties and Dune bashing in this Ramdan' class="attachment-fadeIn" /></div>
                                     </div>
-                                    <p>Cross the spectacular Tizi n’Tichka pass and travel through Berber villages on the drive to Zagora. Enjoy a camel trek and sleep in Berber tents in</p>
-                                    <h5><a title="Iftar Party and desert safari in Morocco desert Cont" href="Zagora-Experience-2-Days.php">Continue Reading -></a></h5>
+                                    <p>Cross the spectacular Tizi n’Tichka pass and travel through Berber villages on the drive to Zagora. Enjoy a camel trek and sleep in Berber tents in...</p>
+                                    <h5><a title="Iftar Party and desert safari in Morocco desert Cont" href="Zagora-Experience-2-Days.php" style="text-decoration:none;"><h5 style="color: blue">$ 190</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <br class="clear" />
                                 <div class="one_third tt-column">
@@ -435,7 +456,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/10.jpg" alt='Southern Morocco trip only in 160 AED' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>This tour is dedicated to the travelers that are fascinated by the history; culture and diversity which Morocco proudly has to offer trough the</p>
-                                    <h5><a title="Imperial Cities Of Morocco Cont" href="Imperial-Cities-Of-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="Imperial Cities Of Morocco Cont" href="Imperial-Cities-Of-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 721</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="Northen Morocco And Marrakech" href="Northen-Morocco-And-Marrakech.php">Northen Morocco & Marrakech</a></h3>
@@ -443,15 +465,17 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/11.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Come with us on an unforgettable adventure across Morocco. You’ll visit age-old imperial cities, mount up and join a camel.</p>
-                                    <h5><a title="Northen Morocco And Marrakech Cont" href="Northen-Morocco-And-Marrakech.php">Continue Reading -></a></h5>
+                                    <h5><a title="Northen Morocco And Marrakech Cont" href="Northen-Morocco-And-Marrakech.php" style="text-decoration:none;"><h5 style="color: blue">$ 855</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Follow The Nomads Tracks" href="Follow-The-Nomads-Tracks.php">Follow The Nomads Tracks</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/12.jpg" alt='morning desert safari trip' class="attachment-fadeIn" /></div>
                                     </div>
-                                    <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut paths view ...</p>
-                                    <h5><a title="Follow The Nomads Tracks Cont" href="Follow-The-Nomads-Tracks.php">Continue Reading -></a></h5>
+                                    <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people. Following rock cut...</p>
+                                    <h5><a title="Follow The Nomads Tracks Cont" href="Follow-The-Nomads-Tracks.php" style="text-decoration:none;"><h5 style="color: blue">$ 505</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <br class="clear" />
                                 <div class="one_third tt-column">
@@ -460,7 +484,8 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/13.jpg" alt='Southern Morocco trip only in 160 AED' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Experience the beauty of nature in the stunning Ounilla Valley and absorb the fascinating culture of the Berber people.</p>
-                                    <h5><a title="Berber Villages Of Telouet Cont" href="Berber-Villages-Of-Telouet.php">Continue Reading -></a></h5>
+                                    <h5><a title="Berber Villages Of Telouet Cont" href="Berber-Villages-Of-Telouet.php" style="text-decoration:none;"><h5 style="color: blue">$ 525</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third tt-column">
                                     <h3><a title="From Telouet To Tassaout" href="From-Telouet-To-Tassaout.php">From Telouet To Tassaout</a></h3>
@@ -468,15 +493,17 @@ p.comment-author-about {font-weight: bold;}
                                         <div class="img-preload"><img src="images/14.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     <p>Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout.</p>
-                                    <h5><a title="From Telouet To Tassaout Cont" href="Southern-Morocco.php">Continue Reading -></a></h5>
+                                    <h5><a title="From Telouet To Tassaout Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 495</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <div class="one_third_last tt-column">
                                     <h3><a title="Toubkal 2 – 3 Or 4 Days" href="Toubkal-2–3-Or-4-Days.php">Toubkal 2 – 3 Or 4 Days</a></h3>
                                     <div class="modern_img_frame modern_three_col_large tt_">
                                         <div class="img-preload"><img src="images/15.jpg" alt='morning desert safari trip' class="attachment-fadeIn" /></div>
                                     </div>
-                                    <p>The Atlas Mountains of Morocco are the perfect choice for dedicated hikers and trekkers. Our trek takes you through several pretty Berber villages...</p>
-                                    <h5><a title="Toubkal 2 – 3 Or 4 Days Cont" href="Toubkal-2–3-Or-4-Days.php">Continue Reading -></a></h5>
+                                    <p>The Atlas Mountains of Morocco are the perfect choice for dedicated hikers and trekkers. Our trek takes you through several...</p>
+                                    <h5><a title="Toubkal 2 – 3 Or 4 Days Cont" href="Toubkal-2–3-Or-4-Days.php" style="text-decoration:none;"><h5 style="color: blue">$ 182</h5>
+                                    <img style="vertical-align:middle " width="100px" src="images/continue.png"></a>
                                 </div>
                                 <br class="clear" />
                                 <div class="shadow">

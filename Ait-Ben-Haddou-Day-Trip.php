@@ -391,7 +391,7 @@
                     <!-- END karma-header-shadow -->
                     <div class="tt-container">
                         <h1>Ait Ben Haddou Day Trip</h1>
-                        <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip&price=595"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
+                        <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip&price=95"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                         </div>
                     </div>
                     <!-- END tt-container -->
