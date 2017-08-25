@@ -380,7 +380,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/2.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     The journey today will take us back to the Moroccan history trough the road of caravans coming from the sub-Saharan countries bringing the ivory; spices and slaves.
-                                    <h5><a title="overnight-desert-safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 95</h5>
+                                    <h5><a title="overnight-desert-safari Cont" href="Ait-Ben-Haddou-Day-Trip.php" style="text-decoration:none;"><h5 style="color: blue">$ 95</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">
@@ -399,7 +399,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/4.jpg" alt='Hatta Mountain Safari is one of the best safari trip in Morocco' class="attachment-fadeIn" /></div>
                                     </div>
                                     As you leave Marrakesh, the approach to the valley is lined with flat, spiky cactus and eucalyptus trees, before reaching the foothills of the Atlas.
-                                    <h5><a title="Hatta Mountain Safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 52</h5>
+                                    <h5><a title="Hatta Mountain Safari Cont" href="Ourika-Valley-Day-Trip.php" style="text-decoration:none;"><h5 style="color: blue">$ 52</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
 
                                 </div>
@@ -409,7 +409,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/5.jpg" alt='Hummer Desert Safari is for VIPs' class="attachment-fadeIn" /></div>
                                     </div>
                                     Located 2 hours from Marrakech in the Atlas Mountains, its a beautiful arrive in this this town that is referred to as the "little Chamonix of Moro...
-                                    <h5><a title="Hummer Desert Safari Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 62</h5>
+                                    <h5><a title="Hummer Desert Safari Cont" href="Imlil-Day-Trip.php" style="text-decoration:none;"><h5 style="color: blue">$ 62</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">
@@ -428,7 +428,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/8.jpg" alt='The desert safari bring Camel Safari in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air and..
-                                    <h5><a title="Camel Safari in the Desert Cont" href="Kasbah-And-Sahara-3-Days.php" style="text-decoration:none;"><h5 style="color: blue">$ 475</h5>
+                                    <h5><a title="Camel Safari in the Desert Cont" href="Kasbahs-Sahara-And-Fes.php" style="text-decoration:none;"><h5 style="color: blue">$ 475</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
                                 </div>
 
@@ -438,7 +438,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/8.jpg" alt='The desert safari bring Dinner parties' class="attachment-fadeIn" /></div>
                                     </div>
                                     Discover the Moroccan south with its Berber Kasbahs, amazing gorges and remote sand dunes. And experience the Sahara at night, the crisp, clean air.
-                                    <h5><a title="Dinner in the Desert Cont" href="Kasbahs-Sahara-And-Fes.php" style="text-decoration:none;"><h5 style="color: blue">$ 285</h5>
+                                    <h5><a title="Dinner in the Desert Cont" href="Kasbah-And-Sahara-3-Days.php" style="text-decoration:none;"><h5 style="color: blue">$ 285</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
                                 </div>                                
                                 <div class="one_third_last tt-column">
@@ -494,7 +494,7 @@ p.ex1 {
                                         <div class="img-preload"><img src="images/14.jpg" alt='Overnight desert safari trip in Morocco desert' class="attachment-fadeIn" /></div>
                                     </div>
                                     Hiking in the heart of the High Atlas Mountains take the mule tracks from the valley of Ounila through the valley of Tassaout.
-                                    <h5><a title="From Telouet To Tassaout Cont" href="Southern-Morocco.php" style="text-decoration:none;"><h5 style="color: blue">$ 495</h5>
+                                    <h5><a title="From Telouet To Tassaout Cont" href="From-Telouet-To-Tassaout.php" style="text-decoration:none;"><h5 style="color: blue">$ 495</h5>
                                     <img style="vertical-align:middle " width="100px" src="images/continue.png"></a></h5>
                                 </div>
                                 <div class="one_third_last tt-column">

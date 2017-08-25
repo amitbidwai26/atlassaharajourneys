@@ -536,17 +536,17 @@
                                         <br>
                                         <span class="wpcf7-form-control-wrap PickupLocation">
                                     <input type="text" name="pickup" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></p>
-                                    <p>Date of Tour: [DD/MM/YYYY]
+                                    <p>Date of Tour: [MM/DD/YYYY]
                                         <br>
-                                        <span class="wpcf7-form-control-wrap date"><input type="text" name="date" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="31/12/2017"></span></p>
+                                        <span class="wpcf7-form-control-wrap date"><input type="date" name="date" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="12/31/2017"></span></p>
                                     <p>Adults (Age 8+):
                                         <br>
-                                        <span class="wpcf7-form-control-wrap AdultsAge8"><input type="text" name="adult" id="adult" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" onchange="myFunction()"></span> </p>
+                                        <span class="wpcf7-form-control-wrap AdultsAge8"><input type="number" name="adult" id="adult" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" onchange="myFunction()" min="1"></span> </p>
                                     <p>Children(Age 3-7):
                                         <br>
-                                        <span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="text" name="child" id="child" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" onchange="myFunction()"></span></p>
+                                        <span class="wpcf7-form-control-wrap ChildrenAge3-7"><input type="number" name="child" id="child" value="" min="0" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" onchange="myFunction()"></span></p>
                                         <p id="totaltourcost">Total Tour Cost  :  </p>
-                                        <input type="hidden" name="payment1" id="finalcost" value="0">
+                                        <input type="hidden" name="payment1" id="finalcost" value="0" >
                                         <p>Any Special Message
                                             <br>
                                             <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
@@ -691,6 +691,9 @@ function myFunction() {
     }
     var childern = document.getElementById("child").value;
     // alert( tour + adult +childern);
+    if ( tour=="")
+        valuepertour = "0";
+        totaltourcost = valuepertour * adult;
     if ( tour=="Southern-Morocco")
         valuepertour = "595";
         totaltourcost = valuepertour * adult;

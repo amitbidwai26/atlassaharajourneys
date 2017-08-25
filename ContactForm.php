@@ -353,6 +353,7 @@ if(!empty($_POST)){
         } else {
             $from = 'contact@deserttours-morocco.com';
             $to = $email;
+            $to .= ", momo.tourguide@gmail.com";
             $subject = 'Desert Tours Morocco';
             $message =  "\n\nName  : " . $_POST["name"];
             $message .= "\n\nEmail  : " . $_POST["email"];

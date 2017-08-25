@@ -716,7 +716,7 @@ div.relative {
                                                 <div class="relative">
                                                 <h5 style="color: blue">$ 95</h5>
                                                 </div>
-                                                <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip&price=95"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
+                                                <div align="right"><a href="bookNow.php?tour=Ait-Ben-Haddou-Day-Trip"><img src="images/book-now-button.png" width="150px" height="75px" style=" z-index: 1;" ></a>
                                                 </div>
                                                 <td>
                                         </tr>

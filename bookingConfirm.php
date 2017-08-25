@@ -285,7 +285,32 @@ if(!empty($_POST))
 	$msg = 		(isset($_POST["message"]) && !empty($_POST["message"])) ? $_POST["message"]: "No Message";
 	$payment = 	(isset($_POST["payment1"]) && !empty($_POST["payment1"])) ? $_POST["payment1"]: "0";	
 	$callurl= "http://www.paypal.me/MohamedDTM/".$payment;
-?>
+
+    $from = 'contact@deserttours-morocco.com';
+    $to = $email;
+    $to .= ", momo.tourguide@gmail.com";
+    $subject = 'Booking Pre Confirmation - Desert Tours Morocco';
+    $message =  "\n\nName  : " . $name;
+    $message .= "\n\nEmail  : " . $email;
+    $message .= "\n\nPhone Number  : " . $phone;
+    $message .= "\n\nSelected Tour  : " . $tour;
+    $message .= "\n\nPickup Location  : " . $location;
+    $message .= "\n\nTour Date : " . $tourdate;
+    $message .= "\n\nTotal Adults : " . $adults;
+    $message .= "\n\nTotal Children : " . $child;
+    $message .= "\n\nTotal Payment : " . $payment;
+    $message .= "\n\nPayment link  : " . $callurl;
+    $headers = "From:" . $from;
+    // Sender's Email
+    // Message lines should not exceed 70 characters (PHP rule), so wrap it
+    $message = wordwrap($message, 70, "\r\n");
+    // Send Mail By PHP Mail Function
+    if (mail($to, $subject, $message, $headers)) {
+  ?>    <p>Booking enquiry copy sent to mail</p> <?php
+    } else {
+  ?>    <p> Their was an error in sending booking pre confirmation. Please send an mail to contact@deserttours-morocco.com or use chat window from right side</p><?php
+    }
+  ?>
 <h2><u>Booking Details</u></h2>
 <br>
 <table border="1px">
@@ -330,19 +355,17 @@ if(!empty($_POST))
 <td><h5><?php echo $msg ?></h5></td>
 </tr>
 <tr>
-<td><h5>Payment:/h5></td>
+<td><h5>Payment:</h5></td>
 <td></td>
 <td><h5> $<?php echo $payment ?>.00</h5></td>
 </tr>
-
 <tr>
 <td><br></td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
-<td></td>
+<td><a href="bookNow.php"><input type="button" value="   Reset   " class="wpcf7-form-control wpcf7-submit"></a></td>
 <td></td>
 <td><a href="<?php echo $callurl ?>"><input type="submit" value="   Pay   " class="wpcf7-form-control wpcf7-submit"></a></td>
 </tr>
@@ -360,36 +383,28 @@ echo "<H1>Insufficient Parameters<H1>";
 </div>
 <div id="footer-top">&nbsp;</div><!-- END footer-top -->
 </div><!-- END main -->
-
 <footer role="contentinfo" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 <div id="footer-callout" >
 <div id="footer-callout-content">
 <p class="footer-callout-heading">For Booking Call Us : +212662138038</p>
 </div><!-- END footer-callout-content -->
 </div><!-- END footer-callout -->
-
 <div class="footer-overlay">
 <div class="karma-footer-shadow"></div><!-- END karma-footer-shadow --> 
 <br/></div><!-- END footer-overlay -->  
-
 <div id="footer_bottom">
 <div class="info">
 <div id="foot_left">&nbsp;<div class="textwidget"><p>© 2017 Desert Tours Morocco All Rights Reserved <a href="http://www.bidwai.in"> Website designed by Bidwai Technologies</a></p>
 </div>
-
 </div><!-- END foot_left -->
-
 <div id="foot_right">
-
 </div><!-- END foot_right -->
 </div><!-- END info -->
 </div><!-- END footer_bottom -->
 </footer><!-- END footer -->
-
 </div><!-- END wrapper -->
 </div><!-- END tt-layout -->
 <!-- ngg_resource_manager_marker --><script type='text/javascript' src='content/plugins/bbpress/templates/default/js/editor6640.js?ver=2.5.12-6148'></script>
-
 <script type='text/javascript' src='content/plugins/contact-form-7/includes/js/scriptsef15.js?ver=4.8'></script>
 <script type='text/javascript' src='content/plugins/karma_builder/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='content/plugins/karma_builder/js/appear.min.js'></script>
